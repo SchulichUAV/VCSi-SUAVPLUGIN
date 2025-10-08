@@ -1,2 +1,2 @@
 # VCSi-SUAVPLUGIN
-Shulich UAVs cusom VCSi plugin
+Shulich UAVs custom VCSi GCS plugin 
