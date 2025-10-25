@@ -1,8 +1,27 @@
+// main.cxx
 #include <iostream>
 
-using namespace std;
+#ifdef HELLO_WORLD_EXPORTS
+#define HELLO_WORLD_API __declspec(dllexport)
+#else
+#define HELLO_WORLD_API __declspec(dllimport)
+#endif
 
-int main() {
-    cout << "Hello, world!" << endl;
-    return 0;
+// Example exported function
+extern "C" HELLO_WORLD_API void say_hello()
+{
+    std::cout << "Hello from DLL!" << std::endl;
 }
+
+
+// plugincontent
+// {
+//     parametercontainer{
+//         domain
+//         view
+//         qml
+//     }
+//     featureXcontainer
+//     {
+//     }
+// }
