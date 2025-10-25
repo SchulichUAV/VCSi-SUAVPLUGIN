@@ -14,7 +14,7 @@ Parameter::Parameter(
     std::optional<float> increment,
     std::optional<bool> readOnly,
     std::optional<int> calibration,
-    std::optional<std::unordered_map<int, std::string>> values,
+    std::optional<std::unordered_map<std::string, std::string>> values,
     std::optional<std::unordered_map<int, std::string>> bitmask,
     std::optional<Range> range
 )
@@ -78,7 +78,7 @@ const std::optional<int>& Parameter::getCalibration() const noexcept {
     return calibration_;
 }
 
-const std::optional<std::unordered_map<int, std::string>>& Parameter::getValues() const noexcept {
+const std::optional<std::unordered_map<std::string, std::string>>& Parameter::getValues() const noexcept {
     return values_;
 }
 

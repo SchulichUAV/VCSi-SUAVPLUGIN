@@ -46,7 +46,7 @@ public:
         std::optional<float> increment = std::nullopt,
         std::optional<bool> readOnly = std::nullopt,
         std::optional<int> calibration = std::nullopt,
-        std::optional<std::unordered_map<int, std::string>> values = std::nullopt,
+        std::optional<std::unordered_map<std::string, std::string>> values = std::nullopt,
         std::optional<std::unordered_map<int, std::string>> bitmask = std::nullopt,
         std::optional<Range> range = std::nullopt
     );
@@ -63,7 +63,7 @@ public:
     [[nodiscard]] const std::optional<float>& getIncrement() const noexcept;
     [[nodiscard]] const std::optional<bool>& isReadOnly() const noexcept;
     [[nodiscard]] const std::optional<int>& getCalibration() const noexcept;
-    [[nodiscard]] const std::optional<std::unordered_map<int, std::string>>& getValues() const noexcept;
+    [[nodiscard]] const std::optional<std::unordered_map<std::string, std::string>>& getValues() const noexcept;
     [[nodiscard]] const std::optional<std::unordered_map<int, std::string>>& getBitmask() const noexcept;
     [[nodiscard]] const std::optional<Range>& getRange() const noexcept;
     
@@ -80,7 +80,7 @@ private:
     std::optional<float> increment_;
     std::optional<bool> readOnly_;
     std::optional<int> calibration_;
-    std::optional<std::unordered_map<int, std::string>> values_;
+    std::optional<std::unordered_map<std::string, std::string>> values_;
     std::optional<std::unordered_map<int, std::string>> bitmask_;
     std::optional<Range> range_;
 };
