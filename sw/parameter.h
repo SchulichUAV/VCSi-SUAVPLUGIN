@@ -27,6 +27,13 @@ enum class ParameterType : int {
 
 class Parameter {
 public:
+    Parameter() = default;
+    Parameter(const Parameter&) = default;
+    Parameter(Parameter&&) noexcept = default;
+    Parameter& operator=(const Parameter&) = default;
+    Parameter& operator=(Parameter&&) noexcept = default;
+    ~Parameter() = default;
+    
     Parameter(
         std::string id,
         float value,
@@ -77,5 +84,6 @@ private:
     std::optional<std::unordered_map<int, std::string>> bitmask_;
     std::optional<Range> range_;
 };
+
 
 #endif
