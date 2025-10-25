@@ -10,49 +10,94 @@
 using namespace std;
 using json = nlohmann::json;
 
-Parameter makeParameterFromJson(const string& id, const json& j);
+Parameter make_parameter_from_json(const string& id, const json& j);
+void print_parameters(vector<Parameter> parameters);
+vector<Parameter> get_parameters();
 
-int main() {
+vector<Parameter> get_parameters() {
     ifstream file("sw/apm.pdef.json");
     if (!file.is_open()) {
-        cerr << "Error: could not open apm.pdef.json" <<   endl;
-        return 1;  // or handle differently
+        cerr << "Error: could not open apm.pdef.json" << endl;
+        return {};  // return empty vector
     }
+
     json data;
     try {
-        file >> data; 
+        file >> data;
     } catch (const json::parse_error& e) {
-        cerr << "Error parsing JSON: " << e.what() <<   endl;
-        return 1;
+        cerr << "Error parsing JSON: " << e.what() << endl;
+        return {};  // return empty vector
     }
 
-    std::vector<Parameter> parameters;
-    
-    json root;
-    std::string category;
+    vector<Parameter> parameters;
+
     for (auto& [category, param] : data.items()) {
         if (category == "json") {
-             continue;
+            continue;
         }
-        // cout << param;
-        for (auto& [key, value] : data[category].items()) {
-            parameters.push_back(makeParameterFromJson(key, value));
+
+        for (auto& [key, value] : param.items()) {
+            parameters.push_back(make_parameter_from_json(key, value));
         }
-        
     }
 
-    for( int i = 0; i < parameters.size(); i++) {
-        cout << parameters[i].getId() + ": " + parameters[i].getDisplayName() << endl;
-        
-    }
-    cout << parameters.size();
-
-
-    return 0;
+    return parameters; 
 }
+
+void print_parameters(vector<Parameter> parameters) {
+    for (int i = 0; i < parameters.size(); i++) {
+        const Parameter& p = parameters[i];
+
+        // Filter: skip parameters without calibration
+        // if (!p.getCalibration().has_value()) continue;
+
+        cout << p.getId() + ": " + p.getDisplayName() << endl;
+        cout << "\tDescription: " + p.getDescription() << endl;
+
+        if (p.getUser().has_value())
+            cout << "\tUser: " << p.getUser().value() << endl;
+
+        if (p.getUnits().has_value())
+            cout << "\tUnits: " << p.getUnits().value() << endl;
+
+        if (p.isRebootRequired().has_value())
+            cout << "\tReboot required: " << (p.isRebootRequired().value() ? "true" : "false") << endl;
+
+        if (p.getIncrement().has_value())
+            cout << "\tIncrement: " << p.getIncrement().value() << endl;
+
+        if (p.isReadOnly().has_value())
+            cout << "\tRead-only: " << (p.isReadOnly().value() ? "true" : "false") << endl;
+
+        if (p.getCalibration().has_value())
+            cout << "\tCalibration: " << p.getCalibration().value() << endl;
+
+        if (p.getValues().has_value()) {
+            cout << "\tValues:" << endl;
+            for (const auto& [key, val] : p.getValues().value()) {
+                cout << "\t\t" << key << " = " << val << endl;
+            }
+        }
+
+        if (p.getBitmask().has_value()) {
+            cout << "\tBitmask:" << endl;
+            for (const auto& [bit, name] : p.getBitmask().value()) {
+                cout << "\t\t" << bit << " = " << name << endl;
+            }
+        }
+
+        if (p.getRange().has_value()) {
+            const Range& r = p.getRange().value();
+            cout << "\tRange: [" << r.low << ", " << r.high << "]" << endl;
+        }
+
+        cout << endl;
+    }
+}
+
 // It may be convenient to store the “param_type” field from the PARAM_VALUE 
 //message sent by the flight controller for this parameter.
-Parameter makeParameterFromJson(const string& id, const json& j) {
+Parameter make_parameter_from_json(const string& id, const json& j) {
     // auto defines a variable containing a callable object
     // The [&] means to capture all variables from the surrounding scope by reference
     //i.e. "[]"" can see variables made outside of the function, "&" uses the original variables from outside function
@@ -68,21 +113,36 @@ Parameter makeParameterFromJson(const string& id, const json& j) {
     };
 
     auto get_opt_bool = [&](const string& key) -> optional<bool> {
-        if (j.contains(key) && j[key].is_boolean())
-            return j[key].get<bool>();
+        if (!j.contains(key)) return nullopt;
+        if (j[key].is_boolean()) return j[key].get<bool>();
+        if (j[key].is_string()) {
+            string val = j[key].get<string>();
+            if (val == "true" || val == "1") return true;
+            if (val == "false" || val == "0") return false;
+        }
         return nullopt;
     };
 
     auto get_opt_float = [&](const string& key) -> optional<float> {
-        if (j.contains(key) && j[key].is_number())
-            return j[key].get<float>();
+        if (!j.contains(key)) return nullopt;
+        if (j[key].is_number()) return j[key].get<float>();
+        if (j[key].is_string()) {
+            try { return std::stof(j[key].get<string>()); }
+            catch (...) { return nullopt; }
+        }
         return nullopt;
     };
+
     auto get_opt_int = [&](const string& key) -> optional<int> {
-        if (j.contains(key) && j[key].is_number())
-            return j[key].get<int>();
+        if (!j.contains(key)) return nullopt;
+        if (j[key].is_number_integer()) return j[key].get<int>();
+        if (j[key].is_string()) {
+            try { return std::stoi(j[key].get<string>()); }
+            catch (...) { return nullopt; }
+        }
         return nullopt;
     };
+
 
 
     float lowValue = 0.0f;
@@ -101,6 +161,10 @@ Parameter makeParameterFromJson(const string& id, const json& j) {
     }
     optional<Range> range;
     range = Range{lowValue, highValue};
+    
+    if (lowValue == 0 && highValue == 0) {
+        range = nullopt;
+    }
 
     // Optional maps (Values / Bitmask)
     optional<unordered_map<string, string>> values;
@@ -120,7 +184,8 @@ Parameter makeParameterFromJson(const string& id, const json& j) {
     }
     ParameterType type_enum = ParameterType::UNKNOWN;
     
-
+    // cout << get_opt_string("User").value();
+    
 
     // Create and return a Parameter object
     return Parameter(
@@ -134,7 +199,7 @@ Parameter makeParameterFromJson(const string& id, const json& j) {
         get_opt_bool("RebootRequired"),
         get_opt_float("Increment"),
         get_opt_bool("ReadOnly"),
-        get_opt_int("Callibration"),
+        get_opt_int("Calibration"),
         values,
         bitmask,
         range
