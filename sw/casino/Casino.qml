@@ -171,7 +171,7 @@ ApplicationWindow {
                 value: 100
                 editable: true
                 from: 0
-                to: 1000000
+                to: money
             }
         }
         Label {
