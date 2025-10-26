@@ -4,12 +4,14 @@
 #include <LmCdl/UniqueIdentifier.h>
 #include <QObject>
 #include <QScopedPointer>
+#include <memory>
 
+
+class SuavPluginContent;
 namespace LmCdl
 {
+    class I_QmlApi;
     class I_VehicleCollectionApi;
-    class I_RouteApi;
-    class I_VcsiApplicationApi;
 }
 
 class SuavPlugin : public QObject, public LmCdl::I_Plugin
@@ -32,6 +34,8 @@ private:
     void startPluginIfInitialized();
 
 private:
-    LmCdl::I_VehicleCollectionApi *vehicleApi_;
-    LmCdl::I_VcsiApplicationApi *applicationApi_;
+    LmCdl::I_VehicleCollectionApi* collectionApi_;
+    LmCdl::I_QmlApi* qmlApi_;
+
+    std::unique_ptr<SuavPluginContent> content_; 
 };

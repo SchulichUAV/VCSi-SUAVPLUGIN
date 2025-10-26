@@ -1,23 +1,25 @@
 #include <SuavPlugin.h>
 
-#include <LmCdl/I_VcsiApplicationApi.h>
-#include <LmCdl/I_VcsiWidgetExtensionApi.h>
 #include <LmCdl/I_VehicleCollectionApi.h>
+#include <LmCdl/I_QmlApi.h>
+#include <LmCdl/I_VcsiWidgetExtensionApi.h>
 #include <LmCdl/PluginCapabilityIdentifier.h>
 #include <LmCdl/PluginRequirement.h>
+#include <SuavPluginContent.h>
 #include <QList>
 
 SuavPlugin::SuavPlugin()
-    : vehicleApi_(nullptr), applicationApi_(nullptr)
+    : collectionApi_(nullptr)
+    , qmlApi_(nullptr)
 {
 }
 
-SuavPlugin::~SuavPlugin() = default
+SuavPlugin::~SuavPlugin() = default;
 
 QList<LmCdl::PluginRequirement> SuavPlugin::requiredApis() const
 {
     return {LmCdl::PluginRequirement(VEHICLE_COLLECTION_API_CAPABILITY_NAME, 1, 0, 0),
-            LmCdl::PluginRequirement(VCSI_APPLICATION_API_CAPABILITY_NAME, 1, 0, 0)};
+            LmCdl::PluginRequirement(QML_API_CAPABILITY_NAME, 1, 0, 0)};
 }
 
 LmCdl::PluginCapabilityIdentifier SuavPlugin::providedApi() const
@@ -30,12 +32,12 @@ bool SuavPlugin::setRequiredApi(LmCdl::PluginCapabilityIdentifier id, QObject *a
     bool capabilityFound = false;
     if (id.capabilityName() == VEHICLE_COLLECTION_API_CAPABILITY_NAME)
     {
-        vehicleApi_ = dynamic_cast<LmCdl::I_VehicleCollectionApi *>(api);
+        collectionApi_ = dynamic_cast<LmCdl::I_VehicleCollectionApi *>(api);
         capabilityFound = true;
     }
-    if (id.capabilityName() == VCSI_APPLICATION_API_CAPABILITY_NAME)
+    if (id.capabilityName() == QML_API_CAPABILITY_NAME)
     {
-        applicationApi_ = dynamic_cast<LmCdl::I_VcsiApplicationApi *>(api);
+        qmlApi_ = dynamic_cast<LmCdl::I_QmlApi *>(api);
         capabilityFound = true;
     }
 
@@ -45,16 +47,12 @@ bool SuavPlugin::setRequiredApi(LmCdl::PluginCapabilityIdentifier id, QObject *a
 
 QObject *SuavPlugin::getProvidedApi() { return nullptr; }
 
-bool SuavPlugin::isFullyInitialized() const { return (vehicleApi_ && applicationApi_); }
+bool SuavPlugin::isFullyInitialized() const { return (collectionApi_ && qmlApi_); }
 
 void SuavPlugin::startPluginIfInitialized()
 {
     if (isFullyInitialized())
     {
-        // readonlyRoutesCreator_.reset(new ReadonlyRoutesContentCreator(
-        qDebug("hello world");
-        //     *vehicleApi_, *routeApi_, applicationApi_->widgetExtensionApi().vehicleApi()));
-        // waypointEditingContent_.reset(new CustomWaypointEditingContent(*vehicleApi_, *routeApi_));
-        // waypointUploadCreator_.reset(new CustomWaypointUploadContentCreator(*vehicleApi_, *routeApi_));
+        content_ = std::make_unique<SuavPluginContent>(*collectionApi_, *qmlApi_);
     }
 }
