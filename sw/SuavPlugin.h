@@ -3,7 +3,6 @@
 #include <LmCdl/I_Plugin.h>
 #include <LmCdl/UniqueIdentifier.h>
 #include <QObject>
-#include <QScopedPointer>
 #include <memory>
 
 
