@@ -1,22 +1,15 @@
 #include <casino/CasinoModule.h>
+
+#include <casino/CasinoView.h>
 #include <vehicle/Vehicle.h>
 #include <LmCdl/I_QmlApi.h>
-#include <LmCdl/I_VehicleCollectionApi.h>
-#include <QQuickWidget>
-#include <QQmlContext>
-#include <QDebug>
-#include <QDirIterator>
-#include <QFile>
 
 CasinoModule::CasinoModule(LmCdl::I_QmlApi& qmlApi, Vehicle& vehicle)
     : qmlApi_(qmlApi)
     , vehicle_(vehicle)
+    // add domain in here, pass into the view
+    , casinoView_(std::make_unique<CasinoView>(qmlApi, vehicle))
 {
-
-    QQuickWidget* widget = new QQuickWidget(&qmlApi_.qmlEngine(), nullptr);
-    widget->rootContext()->setContextProperty("vehicle", &vehicle);
-    widget->setSource(QUrl("qrc:/suav/casino/Casino.qml"));
-    widget->setResizeMode(QQuickWidget::SizeRootObjectToView);
 }
 
 CasinoModule::~CasinoModule() = default;

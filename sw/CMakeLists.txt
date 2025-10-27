@@ -6,24 +6,18 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_compile_options(/Zc:__cplusplus)
 
-
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTORCC ON)
 
 find_package(Qt6 6.5.3 REQUIRED COMPONENTS Core Widgets Gui Qml QuickWidgets Quick)
 
-set(SOURCES
-    SuavPlugin.cxx
-    SuavPlugin.h
-    SuavPluginContent.cxx
-    SuavPluginContent.h
-    Suav.qrc
-    casino/Casino.qml
-    casino/CasinoModule.cxx
-    casino/CasinoModule.h
-    vehicle/Vehicle.h
-    vehicle/Vehicle.cxx
+file(GLOB_RECURSE SOURCES
+    "${CMAKE_CURRENT_SOURCE_DIR}/*.cxx"
+    "${CMAKE_CURRENT_SOURCE_DIR}/*.cpp"
+    "${CMAKE_CURRENT_SOURCE_DIR}/*.h"
+    "${CMAKE_CURRENT_SOURCE_DIR}/*.qml"
+    "${CMAKE_CURRENT_SOURCE_DIR}/*.qrc"
 )
 
 add_library(SuavPlugin MODULE ${SOURCES})
