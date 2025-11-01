@@ -1,9 +1,9 @@
-#include "parameters/ParametersModule.h"
+#include "parameters/ParameterModule.h"
 
 int main() {
-    ParametersModule parametersModule;
+    ParameterModule parameterModule;
 
-    auto& manager = parametersModule.getManager();
+    auto& manager = parameterModule.getManager();
     manager.print_parameters();
 
     return 0;

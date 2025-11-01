@@ -1,18 +1,17 @@
-#include "ParametersModule.h"
+#include "ParameterModule.h"
 
-ParametersModule::ParametersModule()
+ParameterModule::ParameterModule()
     : parameterManager_(std::make_unique<ParameterManager>("sw/parameters/apm.pdef.json"))
 {
-    // Load parameters when the module initializes
     if (!parameterManager_->load()) {
-        std::cerr << "[ParametersModule] Failed to load parameters." << std::endl;
+        std::cerr << "[ParameterModule] Failed to load parameters (file missing or invalid)." << std::endl;
     } else {
-        std::cout << "[ParametersModule] Parameters loaded successfully." << std::endl;
+        std::cout << "[ParameterModule] Parameters loaded successfully." << std::endl;
     }
 }
 
-ParametersModule::~ParametersModule() = default;
+ParameterModule::~ParameterModule() = default;
 
-ParameterManager& ParametersModule::getManager() {
+ParameterManager& ParameterModule::getManager() {
     return *parameterManager_;
 }

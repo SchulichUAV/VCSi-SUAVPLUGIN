@@ -3,10 +3,10 @@
 #include "param_utils.h"
 #include <memory>
 
-class ParametersModule {
+class ParameterModule {
 public:
-    ParametersModule();
-    ~ParametersModule();
+    ParameterModule();
+    ~ParameterModule();
 
     ParameterManager& getManager();
 
