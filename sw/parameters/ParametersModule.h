@@ -8,7 +8,6 @@ public:
     ParametersModule();
     ~ParametersModule();
 
-    // Accessor to the manager
     ParameterManager& getManager();
 
 private:
