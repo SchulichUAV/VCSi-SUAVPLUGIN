@@ -1,8 +1,10 @@
-#include "parameters/param_utils.h"
+#include "parameters/ParametersModule.h"
 
 int main() {
-    ParameterManager pm;
-    if (pm.load()) {
-        pm.print_parameters();
-    }
+    ParametersModule parametersModule;
+
+    auto& manager = parametersModule.getManager();
+    manager.print_parameters();
+
+    return 0;
 }
