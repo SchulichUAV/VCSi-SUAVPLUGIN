@@ -19,5 +19,6 @@ class ParameterManager {
         explicit ParameterManager(const std::string& path = "sw/parameters/apm.pdef.json");
         bool load();
         void print_parameters() const;
+        std::vector<Parameter> &get_parameters();
 
 };

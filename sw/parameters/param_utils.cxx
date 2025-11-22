@@ -10,6 +10,7 @@
 using namespace std;
 using json = nlohmann::json;
 
+
 ParameterManager::ParameterManager(const string& path)
     : file_path(path) {}
 
@@ -39,6 +40,9 @@ bool ParameterManager::load() {
 
     return true;
 
+}
+std::vector<Parameter> &ParameterManager::get_parameters() {
+    return this->parameters;
 }
 
 void ParameterManager::print_parameters() const {
