@@ -40,6 +40,7 @@ target_include_directories(SuavPlugin PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/../include
     "${LMCDL_SDK_DIR}/include"
 )
+include_directories(${CMAKE_SOURCE_DIR}/json/single_include)
 
 target_link_libraries(SuavPlugin PRIVATE
     Qt6::Core
