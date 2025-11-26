@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/suav">
         <file>casino/Casino.qml</file>
+        <file>actions/Actions.qml</file>
     </qresource>
 </RCC>

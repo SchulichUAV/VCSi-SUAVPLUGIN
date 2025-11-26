@@ -5,6 +5,7 @@
 
 class CasinoModule;
 class Vehicle;
+class ActionsModule;
 
 namespace LmCdl {
 class I_QmlApi;
@@ -25,4 +26,5 @@ private:
 
     std::unique_ptr<Vehicle> vehicle_;
     std::unique_ptr<CasinoModule> casinoModule_;
+    std::unique_ptr<ActionsModule> actionsModule_;
 };
