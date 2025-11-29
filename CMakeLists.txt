@@ -12,3 +12,5 @@ set(CMAKE_AUTORCC ON)
 find_package(Qt6 REQUIRED COMPONENTS Core Widgets Gui Qml QuickWidgets Quick)
 
 add_subdirectory(sw)
+
+
