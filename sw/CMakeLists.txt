@@ -11,8 +11,6 @@ set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTORCC ON)
 
 find_package(Qt6 6.5.3 REQUIRED COMPONENTS Core Widgets Gui Qml QuickWidgets Quick)
-# find_package(mavsdk REQUIRED)
-
 
 file(GLOB_RECURSE SOURCES
     "${CMAKE_CURRENT_SOURCE_DIR}/*.cxx"
