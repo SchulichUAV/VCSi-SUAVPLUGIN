@@ -11,6 +11,8 @@ set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTORCC ON)
 
 find_package(Qt6 6.5.3 REQUIRED COMPONENTS Core Widgets Gui Qml QuickWidgets Quick)
+# find_package(mavsdk REQUIRED)
+
 
 file(GLOB_RECURSE SOURCES
     "${CMAKE_CURRENT_SOURCE_DIR}/*.cxx"
@@ -32,6 +34,12 @@ set(LMCDL_ROOT "C:/Program Files/LMCDL/vcsi" CACHE PATH "LMCDL installation dire
 set(LMCDL_SDK_DIR "${LMCDL_ROOT}/sdk")
 set(LMCDL_LIB_DIR "${LMCDL_SDK_DIR}/lib")
 
+# MAVSDK paths
+#CHANGE ABSOLUTE PATH TO WHERE YOUR mavsdk-windows-x86 EXISTS
+set(MAVSDK_ROOT C:/Dev/SUAV/VCSi-SUAVPLUGIN/mavsdk/mavsdk-windows-x86)
+set(MAVSDK_INCLUDE_DIR "${MAVSDK_ROOT}/include")
+set(MAVSDK_LIB_DIR "${MAVSDK_ROOT}/Release/lib")
+
 target_include_directories(SuavPlugin PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}
     ${CMAKE_CURRENT_SOURCE_DIR}/sw
@@ -39,6 +47,7 @@ target_include_directories(SuavPlugin PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/sw/vehicle
     ${CMAKE_CURRENT_SOURCE_DIR}/../include
     "${LMCDL_SDK_DIR}/include"
+    "${MAVSDK_INCLUDE_DIR}"
 )
 
 target_link_libraries(SuavPlugin PRIVATE
@@ -51,6 +60,7 @@ target_link_libraries(SuavPlugin PRIVATE
     "${LMCDL_LIB_DIR}/vcsiapi.lib"
     "${LMCDL_LIB_DIR}/VcsiPluginApi.lib"
     "${LMCDL_LIB_DIR}/VcsiCoreValuesApi.lib"
+    "${MAVSDK_LIB_DIR}/mavsdk.lib"
 )
 
 # Copy to plugin directory
