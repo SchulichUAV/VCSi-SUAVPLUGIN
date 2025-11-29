@@ -7,7 +7,7 @@ namespace LmCdl {
 class I_QmlApi;
 }
 
-class CasinoView : public QObject {
+class ActionsView : public QObject {
     Q_OBJECT
 public:
     explicit ActionsView(
@@ -16,4 +16,4 @@ public:
 
 private:
     LmCdl::I_QmlApi& qmlApi_;
-}
+};

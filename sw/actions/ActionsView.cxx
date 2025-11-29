@@ -4,7 +4,7 @@
 #include <QQuickWidget>
 #include <QQmlContext>
 
-CasinoView::CasinoView(LmCdl::I_QmlApi& qmlApi, Vehicle& vehicle)
+ActionsView::ActionsView(LmCdl::I_QmlApi& qmlApi)
     : qmlApi_(qmlApi)
 {
     QQuickWidget* widget = new QQuickWidget(&qmlApi_.qmlEngine(), nullptr);
@@ -12,4 +12,4 @@ CasinoView::CasinoView(LmCdl::I_QmlApi& qmlApi, Vehicle& vehicle)
     widget->setResizeMode(QQuickWidget::SizeRootObjectToView);
 }
 
-CasinoView::~CasinoView() = default;
+ActionsView::~ActionsView() = default;

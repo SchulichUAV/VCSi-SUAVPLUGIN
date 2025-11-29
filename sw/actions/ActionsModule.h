@@ -1,6 +1,7 @@
 #pragma once
 
 #include <QObject>
+#include <memory>
 
 class ActionsView;
 
@@ -16,7 +17,7 @@ public:
     virtual ~ActionsModule();
 
 private:
-        LmCdl::I_QmlApi& qmlApi_;
+    LmCdl::I_QmlApi& qmlApi_;
 
-        std::unique_ptr<ActionsView> actionsView_;
-}
+    std::unique_ptr<ActionsView> actionsView_;
+};
