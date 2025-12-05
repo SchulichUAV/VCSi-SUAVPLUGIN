@@ -1,4 +1,5 @@
 #include "ParameterModule.h"
+#include <iostream>
 
 ParameterModule::ParameterModule()
     : parameterManager_(std::make_unique<ParameterManager>("sw/parameters/apm.pdef.json"))
