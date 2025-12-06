@@ -1,44 +1,75 @@
 #include <iostream>
-#include <fstream> // For file operations
-#include <nlohmann/json.hpp> // For JSON parsing
 #include <string>
 #include <optional>
 #include <unordered_map>
+
+#include <QString>
+#include <QFile>
+#include <QJsonDocument>
+#include <QJsonObject>
+#include <QJsonValue>
+#include <QJsonArray>
+#include <QDebug>
+
 #include "parameter.h"
 #include "param_utils.h"
 
 using namespace std;
-using json = nlohmann::json;
+
 
 ParameterManager::ParameterManager(const string& path)
     : file_path(path) {}
 
 bool ParameterManager::load() {
-    ifstream file(file_path);
-    if (!file.is_open()) {
-        cerr << "Error: could not open apm.pdef.json" << endl;
-        return false;
-    }
-    json data;
-    try {
-        file >> data;
-    } catch (const json::parse_error& e) {
-        cerr << "Error parsing JSON: " << e.what() << endl;
+    // Convert std::string path to QString for QFile
+    QFile file(QString::fromStdString(file_path));
+
+    if (!file.open(QIODevice::ReadOnly)) {
+        cerr << "Error: could not open " << file_path << endl;
         return false;
     }
 
+    // Read all data
+    QByteArray fileData = file.readAll();
+    file.close();
+
+    // Parse JSON
+    QJsonParseError parseError;
+    QJsonDocument doc = QJsonDocument::fromJson(fileData, &parseError);
+
+    if (parseError.error != QJsonParseError::NoError) {
+        cerr << "Error parsing JSON: " 
+             << parseError.errorString().toStdString() << endl;
+        return false;
+    }
+
+    if (!doc.isObject()) {
+        cerr << "Error: JSON is not an object." << endl;
+        return false;
+    }
+
+    QJsonObject data = doc.object();
     parameters.clear();
 
-    for (auto& [category, param] : data.items()) {
+    for (auto it = data.constBegin(); it != data.constEnd(); ++it) {
+        QString category = it.key();
+
         if (category == "json") continue;
 
-        for (auto& [key, value] : param.items()) {
-            parameters.push_back(make_parameter_from_json(key, value));
+        if (it.value().isObject()) {
+            QJsonObject paramList = it.value().toObject();
+
+            for (auto paramIt = paramList.constBegin(); paramIt != paramList.constEnd(); ++paramIt) {
+                string key = paramIt.key().toStdString();
+                
+                if (paramIt.value().isObject()) {
+                    parameters.push_back(make_parameter_from_json(key, paramIt.value().toObject()));
+                }
+            }
         }
     }
 
     return true;
-
 }
 
 void ParameterManager::print_parameters() const {
@@ -88,68 +119,77 @@ void ParameterManager::print_parameters() const {
     }
 }
 
-// It may be convenient to store the “param_type” field from the PARAM_VALUE 
-//message sent by the flight controller for this parameter.
-Parameter ParameterManager::make_parameter_from_json(const string& id, const json& j) {
-    // auto defines a variable containing a callable object
-    // The [&] means to capture all variables from the surrounding scope by reference
-    //i.e. "[]"" can see variables made outside of the function, "&" uses the original variables from outside function
-    const string& type_str = "UNKNOWN";
-
-    //creates a mini function with auto
-    //optional<string> is a C type that can contain a string or be empty
-    auto get_opt_string = [&](const string& key) -> optional<string> {
-        //If the JSON object has this key, and its value is a string
-        if (j.contains(key) && j[key].is_string())
-            return j[key].get<string>();
-        return nullopt;
-    };
-
-    auto get_opt_bool = [&](const string& key) -> optional<bool> {
-        if (!j.contains(key)) return nullopt;
-        if (j[key].is_boolean()) return j[key].get<bool>();
-        if (j[key].is_string()) {
-            string val = j[key].get<string>();
-            if (val == "true" || val == "1") return true;
-            if (val == "false" || val == "0") return false;
+Parameter ParameterManager::make_parameter_from_json(const string& id, const QJsonObject& j) {
+    auto get_opt_string = [&](const QString& key) -> optional<string> {
+        if (j.contains(key)) {
+            QJsonValue val = j.value(key);
+            if (val.isString())
+                return val.toString().toStdString();
         }
         return nullopt;
     };
 
-    auto get_opt_float = [&](const string& key) -> optional<float> {
+    auto get_opt_bool = [&](const QString& key) -> optional<bool> {
         if (!j.contains(key)) return nullopt;
-        if (j[key].is_number()) return j[key].get<float>();
-        if (j[key].is_string()) {
-            try { return std::stof(j[key].get<string>()); }
-            catch (...) { return nullopt; }
+        
+        QJsonValue val = j.value(key);
+        if (val.isBool()) return val.toBool();
+        
+        if (val.isString()) {
+            QString s = val.toString().toLower();
+            if (s == "true" || s == "1") return true;
+            if (s == "false" || s == "0") return false;
         }
         return nullopt;
     };
 
-    auto get_opt_int = [&](const string& key) -> optional<int> {
+    auto get_opt_float = [&](const QString& key) -> optional<float> {
         if (!j.contains(key)) return nullopt;
-        if (j[key].is_number_integer()) return j[key].get<int>();
-        if (j[key].is_string()) {
-            try { return std::stoi(j[key].get<string>()); }
-            catch (...) { return nullopt; }
+        
+        QJsonValue val = j.value(key);
+        if (val.isDouble()) return static_cast<float>(val.toDouble());
+        
+        if (val.isString()) {
+            bool ok;
+            float f = val.toString().toFloat(&ok);
+            if (ok) return f;
+        }
+        return nullopt;
+    };
+
+    auto get_opt_int = [&](const QString& key) -> optional<int> {
+        if (!j.contains(key)) return nullopt;
+
+        QJsonValue val = j.value(key);
+        if (val.isDouble()) return static_cast<int>(val.toInt());
+        
+        if (val.isString()) {
+            bool ok;
+            int i = val.toString().toInt(&ok);
+            if (ok) return i;
         }
         return nullopt;
     };
 
     float lowValue = 0.0f;
     float highValue = 0.0f;
-    if (j.contains("Range") && j["Range"].contains("low")) {
-        if(j["Range"]["low"].is_string())
-            lowValue = std::stof(j["Range"]["low"].get<std::string>());
-        else if (j["Range"]["low"].is_number())
-            lowValue = j["Range"]["low"].get<float>();
+    
+    if (j.contains("Range")) {
+        QJsonObject rangeObj = j.value("Range").toObject();
+        
+        auto get_range_val = [&](const QString& k) -> float {
+            if (rangeObj.contains(k)) {
+                QJsonValue v = rangeObj.value(k);
+                if (v.isDouble()) return static_cast<float>(v.toDouble());
+                if (v.isString()) return v.toString().toFloat();
+            }
+            return 0.0f;
+        };
+
+        lowValue = get_range_val("low");
+        highValue = get_range_val("high");
     }
-    if (j.contains("Range") && j["Range"].contains("high")) {
-        if(j["Range"]["high"].is_string())
-            highValue = std::stof(j["Range"]["high"].get<std::string>());
-        else if (j["Range"]["high"].is_number())
-            highValue = j["Range"]["high"].get<float>();
-    }
+
     optional<Range> range;
     range = Range{lowValue, highValue};
     
@@ -157,31 +197,48 @@ Parameter ParameterManager::make_parameter_from_json(const string& id, const jso
         range = nullopt;
     }
 
-    // Optional maps (Values / Bitmask)
     optional<unordered_map<string, string>> values;
-    if (j.contains("Values") && j["Values"].is_object()) {
-         unordered_map<string,string> map;
-        for (auto& [k, v] : j["Values"].items())
-            map[k] = v.get<string>();
+    if (j.contains("Values") && j.value("Values").isObject()) {
+        unordered_map<string, string> map;
+        QJsonObject valuesObj = j.value("Values").toObject();
+        
+        for (auto it = valuesObj.constBegin(); it != valuesObj.constEnd(); ++it) {
+            map[it.key().toStdString()] = it.value().toString().toStdString();
+        }
         values = map;
     }
 
     optional<unordered_map<int, string>> bitmask;
-    if (j.contains("Bitmask") && j["Bitmask"].is_object()) {
-          unordered_map<int,string> map;
-        for (auto& [k, v] : j["Bitmask"].items())
-            map[stoi(k)] = v.get<string>();
+    if (j.contains("Bitmask") && j.value("Bitmask").isObject()) {
+        unordered_map<int, string> map;
+        QJsonObject bitmaskObj = j.value("Bitmask").toObject();
+
+        for (auto it = bitmaskObj.constBegin(); it != bitmaskObj.constEnd(); ++it) {
+            try {
+                int keyInt = std::stoi(it.key().toStdString());
+                map[keyInt] = it.value().toString().toStdString();
+            } catch (...) {
+                // Handle parsing error if key isn't an integer string
+                qDebug("Parsing error");
+            }
+        }
         bitmask = map;
     }
+
     ParameterType type_enum = ParameterType::UNKNOWN;
     
-    // Create and return a Parameter object
+    string desc = "";
+    if (j.contains("Description")) desc = j.value("Description").toString().toStdString();
+
+    string dispName = "";
+    if (j.contains("DisplayName")) dispName = j.value("DisplayName").toString().toStdString();
+
     return Parameter(
         id,
         0,
         type_enum,
-        j.value("Description", ""), //Tries to read the string at key "Description".If it doesn’t exist or isn’t the right type, just uses an empty string
-        j.value("DisplayName", ""),
+        desc,
+        dispName,
         get_opt_string("User"),
         get_opt_string("Units"),
         get_opt_bool("RebootRequired"),
@@ -193,4 +250,3 @@ Parameter ParameterManager::make_parameter_from_json(const string& id, const jso
         range
     );
 }
-
