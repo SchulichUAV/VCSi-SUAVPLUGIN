@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.16)
+
 project(SuavPlugin LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-
 add_compile_options(/Zc:__cplusplus)
 
 set(CMAKE_AUTOMOC ON)
@@ -32,6 +32,15 @@ set(LMCDL_ROOT "C:/Program Files/LMCDL/vcsi" CACHE PATH "LMCDL installation dire
 set(LMCDL_SDK_DIR "${LMCDL_ROOT}/sdk")
 set(LMCDL_LIB_DIR "${LMCDL_SDK_DIR}/lib")
 
+get_filename_component(MAVSDK_ROOT_ABS "${CMAKE_CURRENT_SOURCE_DIR}/../mavsdk/mavsdk-windows-x86" ABSOLUTE)
+set(MAVSDK_INCLUDE_DIR "${MAVSDK_ROOT_ABS}/include")
+set(MAVSDK_LIB_DIR "${MAVSDK_ROOT_ABS}/Release/lib")
+set(MAVSDK_BIN_DIR "${MAVSDK_ROOT_ABS}/Release/bin")
+
+if(NOT EXISTS "${MAVSDK_LIB_DIR}/mavsdk.lib")
+    message(FATAL_ERROR "MAVSDK lib not found at ${MAVSDK_LIB_DIR}/mavsdk.lib")
+endif()
+
 target_include_directories(SuavPlugin PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}
     ${CMAKE_CURRENT_SOURCE_DIR}/sw
@@ -39,8 +48,8 @@ target_include_directories(SuavPlugin PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/sw/vehicle
     ${CMAKE_CURRENT_SOURCE_DIR}/../include
     "${LMCDL_SDK_DIR}/include"
+    "${MAVSDK_INCLUDE_DIR}"
 )
-include_directories(${CMAKE_SOURCE_DIR}/json/single_include)
 
 target_link_libraries(SuavPlugin PRIVATE
     Qt6::Core
@@ -52,14 +61,13 @@ target_link_libraries(SuavPlugin PRIVATE
     "${LMCDL_LIB_DIR}/vcsiapi.lib"
     "${LMCDL_LIB_DIR}/VcsiPluginApi.lib"
     "${LMCDL_LIB_DIR}/VcsiCoreValuesApi.lib"
+    "${MAVSDK_LIB_DIR}/mavsdk.lib"
 )
 
-# Copy to plugin directory
 set(PLUGIN_DIR "${LMCDL_ROOT}/bin/plugins/vcsi")
+
 add_custom_command(TARGET SuavPlugin POST_BUILD
     COMMAND ${CMAKE_COMMAND} -E make_directory "${PLUGIN_DIR}"
-    COMMAND ${CMAKE_COMMAND} -E copy_if_different
-        $<TARGET_FILE:SuavPlugin>
-        "${PLUGIN_DIR}/$<TARGET_FILE_NAME:SuavPlugin>"
-    COMMENT "Copying plugin to ${PLUGIN_DIR}"
+    COMMAND ${CMAKE_COMMAND} -E copy_if_different $<TARGET_FILE:SuavPlugin> "${PLUGIN_DIR}/$<TARGET_FILE_NAME:SuavPlugin>"
+    COMMAND ${CMAKE_COMMAND} -E copy_if_different "${MAVSDK_BIN_DIR}/mavsdk.dll" "${PLUGIN_DIR}/mavsdk.dll"
 )

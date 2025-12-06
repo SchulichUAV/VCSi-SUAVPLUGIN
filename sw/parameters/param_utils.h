@@ -1,11 +1,13 @@
 #pragma once
 
-#include <iostream>
-#include <fstream> // For file operations
-#include <nlohmann/json.hpp> // For JSON parsing
 #include <string>
+#include <vector>
 #include <optional>
 #include <unordered_map>
+
+#include <QJsonObject>
+#include <QString>
+
 #include "parameter.h"
 
 class ParameterManager {
@@ -13,7 +15,8 @@ class ParameterManager {
         std::string file_path;
         std::vector<Parameter> parameters;
 
-        Parameter make_parameter_from_json(const std::string& id, const nlohmann::json& j);
+        // Changed from const nlohmann::json& to const QJsonObject&
+        Parameter make_parameter_from_json(const std::string& id, const QJsonObject& j);
 
     public:
         explicit ParameterManager(const std::string& path = "sw/parameters/apm.pdef.json");

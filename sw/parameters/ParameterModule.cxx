@@ -1,4 +1,5 @@
 #include "ParameterModule.h"
+#include <iostream>
 
 
 ParameterModule::ParameterModule()
