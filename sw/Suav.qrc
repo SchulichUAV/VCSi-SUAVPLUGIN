@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/suav">
         <file>casino/Casino.qml</file>
+        <file>RTK/Rtk.qml</file>
     </qresource>
 </RCC>

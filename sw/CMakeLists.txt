@@ -45,6 +45,7 @@ target_include_directories(SuavPlugin PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}
     ${CMAKE_CURRENT_SOURCE_DIR}/sw
     ${CMAKE_CURRENT_SOURCE_DIR}/sw/casino
+    ${CMAKE_CURRENT_SOURCE_DIR}/sw/RTK
     ${CMAKE_CURRENT_SOURCE_DIR}/sw/vehicle
     ${CMAKE_CURRENT_SOURCE_DIR}/../include
     "${LMCDL_SDK_DIR}/include"
