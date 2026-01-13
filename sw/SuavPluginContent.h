@@ -10,6 +10,7 @@ class ActionsModule;
 namespace LmCdl {
 class I_QmlApi;
 class I_VehicleCollectionApi;
+class I_VcsiApplicationApi;
 }
 
 class SuavPluginContent : public QObject {
@@ -17,7 +18,7 @@ class SuavPluginContent : public QObject {
 
 public:
     explicit SuavPluginContent(
-        LmCdl::I_VehicleCollectionApi& collectionApi, LmCdl::I_QmlApi& qmlApi);
+        LmCdl::I_VehicleCollectionApi& collectionApi, LmCdl::I_QmlApi& qmlApi, LmCdl::I_VcsiApplicationApi& vcsiApplicationApi);
     virtual ~SuavPluginContent();
 
 private:
