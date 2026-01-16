@@ -1,7 +1,7 @@
-#include "RtkConverter.h"
+// #include "RtkConverter.h"
 
-RtkConverter::RtkConverter(QObject* parent)
-    : QObject(parent)
-{
+// RtkConverter::RtkConverter(QObject* parent)
+//     : QObject(parent)
+// {
     
-}
+// }
