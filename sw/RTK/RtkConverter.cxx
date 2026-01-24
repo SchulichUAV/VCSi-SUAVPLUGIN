@@ -14,10 +14,21 @@ RtkConverter::~RtkConverter() = default;
 void RtkConverter::processRawMessage(const QByteArray &rtcmData)
 {
     int len = rtcmData.size();
+
+    // Debug 1: Log incoming data size
+    qDebug() << "RTCM Data Received | Size:" << len << "bytes";
+
     int offset = 0;
     uint8_t sequence = 0;
-
     bool isFragmented = (len > 180);
+
+    // Check if we even have a passthrough available before looping
+    auto passthrough = mavlinkConnection_.mavlinkPassthrough();
+    if (!passthrough)
+    {
+        qWarning() << "RTK Converter: Cannot send. MavlinkPassthrough is NULL (Drone not connected?)";
+        return;
+    }
 
     while (len > 0)
     {
@@ -36,10 +47,11 @@ void RtkConverter::processRawMessage(const QByteArray &rtcmData)
             static_cast<uint8_t>(chunk),
             reinterpret_cast<const uint8_t *>(rtcmData.data() + offset));
 
-        if (mavlinkConnection_.mavlinkPassthrough())
-        {
-            mavlinkConnection_.mavlinkPassthrough()->send_message(msg);
-        }
+        qDebug() << "  -> Sending MAVLink RTCM Fragment | Chunk:" << chunk
+                 << "Seq:" << sequence
+                 << "Flags:" << QString::number(flags, 16);
+
+        passthrough->send_message(msg);
 
         len -= chunk;
         offset += chunk;
