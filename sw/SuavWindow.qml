@@ -20,8 +20,7 @@ ApplicationWindow {
 
             text: "Connect to RTK server"
             onClicked: {
-                console.log("Starting RTK receiver...")
-                // rtkReciever.start()
+                rtkModule.startRtkReciever()
             }
         }
     }

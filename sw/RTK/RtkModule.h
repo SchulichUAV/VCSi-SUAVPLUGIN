@@ -13,6 +13,8 @@ public:
     explicit RtkModule(MavlinkConnection &mavlinkConnection);
     virtual ~RtkModule();
 
+    Q_INVOKABLE void startRtkReciever();
+
 private:
     std::unique_ptr<RtkReciever> rtkReciever_;
     std::unique_ptr<RtkConverter> rtkConverter_;

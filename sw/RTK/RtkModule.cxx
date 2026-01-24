@@ -9,3 +9,8 @@ RtkModule::RtkModule(MavlinkConnection& mavlinkConnection)
 }
 
 RtkModule::~RtkModule() = default;
+
+void RtkModule::startRtkReciever()
+{
+    rtkReciever_->start();
+}
