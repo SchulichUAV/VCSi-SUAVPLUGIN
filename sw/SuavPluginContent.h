@@ -6,10 +6,12 @@
 class CasinoModule;
 class Vehicle;
 class MavlinkConnection;
+class SuavView;
 
-namespace LmCdl {
-class I_QmlApi;
-class I_VehicleCollectionApi;
+ namespace LmCdl
+{
+    class I_QmlApi;
+    class I_VehicleCollectionApi;
 }
 
 class SuavPluginContent : public QObject {
@@ -24,6 +26,8 @@ private:
     LmCdl::I_VehicleCollectionApi& collectionApi_;
     LmCdl::I_QmlApi& qmlApi_;
 
+
+    std::unique_ptr<SuavView> mainView_;
     std::unique_ptr<Vehicle> vehicle_;
     std::unique_ptr<CasinoModule> casinoModule_;
     std::unique_ptr<MavlinkConnection> mavlinkConnection_;
