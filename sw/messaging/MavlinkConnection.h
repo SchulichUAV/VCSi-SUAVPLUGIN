@@ -16,7 +16,7 @@ public:
     explicit MavlinkConnection();
     virtual ~MavlinkConnection();
 
-    void connect_async(const QString& connectionUrl = "udpin://0.0.0.0:14550");
+    Q_INVOKABLE void connect_async(const QString& connectionUrl = "udpin://0.0.0.0:14550");
 
     std::shared_ptr<mavsdk::MavlinkPassthrough> mavlinkPassthrough() { return mavlink_passthrough_; }
     std::shared_ptr<mavsdk::System> system() const { return system_; }

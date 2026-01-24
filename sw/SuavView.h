@@ -4,6 +4,7 @@
 #include <LmCdl/UniqueIdentifier.h>
 
 class RtkModule;
+class MavlinkConnection;
 
 namespace LmCdl
 {
@@ -14,7 +15,7 @@ class SuavView : public QObject
 {
     Q_OBJECT
 public:
-    explicit SuavView(LmCdl::I_QmlApi &qmlApi, RtkModule &rtkModule);
+    explicit SuavView(LmCdl::I_QmlApi &qmlApi, RtkModule &rtkModule, MavlinkConnection &mavlinkConnection);
     virtual ~SuavView();
 
 private:

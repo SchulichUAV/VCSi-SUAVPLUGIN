@@ -15,6 +15,29 @@ ApplicationWindow {
         id: mainLayout
         anchors.fill: parent
 
+
+        RowLayout {
+            id: mavlinkConnectionLayout
+            TextField {
+                id: connectionUrlInput
+                text: "udpin://127.0.0.1:14550"
+                color: "white"
+                placeholderText: "udpin://x.x.x.x:xxxx"
+                Layout.fillWidth: true
+
+            }
+            Button {
+                id: connectMavlinkButton
+
+                Layout.fillWidth: true
+
+                text: "Connect to Vehicle"
+                onClicked: {
+                    mavlinkConnection.connectAsync(connectionUrlInput.text)
+                }
+            }
+        }
+
         Button {
             id: startRtkButton
 

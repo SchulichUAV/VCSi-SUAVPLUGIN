@@ -17,7 +17,7 @@ SuavPluginContent::SuavPluginContent(LmCdl::I_VehicleCollectionApi& collectionAp
     , casinoModule_(std::make_unique<CasinoModule>(qmlApi_, *vehicle_))
     , mavlinkConnection_(std::make_unique<MavlinkConnection>())
     , rtkModule_(std::make_unique<RtkModule>(*mavlinkConnection_))
-    , mainView_(std::make_unique<SuavView>(qmlApi_, *rtkModule_))
+    , mainView_(std::make_unique<SuavView>(qmlApi_, *rtkModule_, *mavlinkConnection_))
     {
 }
 
