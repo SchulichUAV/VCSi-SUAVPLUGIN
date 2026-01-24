@@ -4,7 +4,7 @@
 
 RtkModule::RtkModule(MavlinkConnection& mavlinkConnection)
 : rtkReciever_(std::make_unique<RtkReciever>())
-, rtkConverter_(std::make_unique<RtkConverter>())
+, rtkConverter_(std::make_unique<RtkConverter>(*rtkReciever_, mavlinkConnection))
 {   
 }
 
