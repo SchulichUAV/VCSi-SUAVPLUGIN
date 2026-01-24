@@ -1,61 +1,61 @@
-// #include "RtkReciever.h"
+#include <RTK/RtkReciever.h>
+#include <QHostAddress>
 
-// RtkReciever::RtkReciever(QObject* parent)
-//     : QObject(parent)
-// {
-//     connect(&socket_, &QUdpSocket::readyRead,
-//             this, &RtkReciever::onReadyRead);
+RtkReciever::RtkReciever()
+{
+    connect(&socket_, &QUdpSocket::readyRead,
+            this, &RtkReciever::onReadyRead);
 
-//     // Check activity every 500 ms
-//     connect(&activityTimer_, &QTimer::timeout, this, [this]() {
-//         if (active_ && !isActive()) {
-//             active_ = false;
-//             emit activeChanged(false);
-//         }
-//     });
+    connect(&activityTimer_, &QTimer::timeout, this, [this]() {
+        if (active_ && !isActive()) {
+            active_ = false;
+            emit activeChanged(false);
+        }
+    });
 
-//     activityTimer_.start(500);
-// }
-// void RtkReciever::start()
-// {
-//     quint16 port = 2101; 
+    activityTimer_.start(500);
+}
 
-//     if (socket_.bind(QHostAddress::localhost, port, QUdpSocket::ShareAddress))
-//     {
-//         lastPacketTime_.invalidate();
-//         active_ = false;
-//         emit activeChanged(false);
-//     }
-// }
+RtkReciever::~RtkReciever() = default;
 
-// void RtkReciever::stop()
-// {
-//     socket_.close();
-// }
+void RtkReciever::start()
+{
+    quint16 port = 2101;
+ 
+    if (socket_.bind(QHostAddress::LocalHost, port, QUdpSocket::ShareAddress))
+    {
+        lastPacketTime_.invalidate();
+        active_ = false;
+        emit activeChanged(false);
+    }
+}
 
-// bool RtkReciever::isActive() 
-// {
-//     if (!lastPacketTime_.isValid())
-//         return false;
+void RtkReciever::stop()
+{
+    socket_.close();
+}
 
-//     // Consider dead if no packet in 2 seconds
-//     return lastPacketTime_.elapsed() < 2000;
-// }
+bool RtkReciever::isActive() 
+{
+    if (!lastPacketTime_.isValid())
+        return false;
 
-// void RtkReciever::onReadyRead()
-// {
-//     // Mark receiver as active when data arrives
-//     lastPacketTime_.start();
+    return lastPacketTime_.elapsed() < 2000;
+}
 
-//     if (!active_) {
-//         active_ = true;
-//         emit activeChanged(true);
-//     }
+void RtkReciever::onReadyRead()
+{
+    lastPacketTime_.start();
 
-//     while (socket_.hasPendingDatagrams()) { // Returns true if at least one datagram is waiting to be read
-//         QByteArray datagram; //represents the full information contained in a UDP datagram
-//         datagram.resize(socket_.pendingDatagramSize());
-//         socket_.readDatagram(datagram.data(), datagram.size());
-//         emit rawMessageReceived(datagram);
-//     }
-// }
+    if (!active_) {
+        active_ = true;
+        emit activeChanged(true);
+    }
+
+    while (socket_.hasPendingDatagrams()) {
+        QByteArray datagram;
+        datagram.resize(socket_.pendingDatagramSize());
+        socket_.readDatagram(datagram.data(), datagram.size());
+        emit rawMessageReceived(datagram);
+    }
+}

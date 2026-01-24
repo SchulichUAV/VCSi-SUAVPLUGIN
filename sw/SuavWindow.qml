@@ -1,6 +1,7 @@
 import QtQuick
 import QtQuick.Controls
 import QmlExtension 1.0
+import QtQuick.Layouts
 
 ApplicationWindow {
     id: window
@@ -8,5 +9,21 @@ ApplicationWindow {
     height: 480
     visible: true
     title: "Suav"
+
+
+    ColumnLayout {
+        id: mainLayout
+        anchors.fill: parent
+
+        Button {
+            id: startRtkButton
+
+            text: "Connect to RTK server"
+            onClicked: {
+                console.log("Starting RTK receiver...")
+                // rtkReciever.start()
+            }
+        }
+    }
 
 }

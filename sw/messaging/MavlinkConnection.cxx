@@ -12,6 +12,7 @@ using namespace mavsdk;
 MavlinkConnection::MavlinkConnection()
     : mavsdk_(nullptr)
 {
+    connect_async("udpin://0.0.0.0:14550");
 }
 
 MavlinkConnection::~MavlinkConnection() = default;

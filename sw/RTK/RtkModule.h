@@ -1,25 +1,19 @@
-// #pragma once
+#pragma once
 
-// #include <QObject>
+#include <QObject>
 
-// class RtkReciever;
-// class RtkConverter;
-// namespace LmCdl
-// {
-//     class I_QmlApi;
-// }
+class RtkReciever;
+class RtkConverter;
+class MavlinkConnection;
 
-// class RtkModule : public QObject
-// {
-//     Q_OBJECT
-// public:
-//     explicit RtkModule(
-//         LmCdl::I_QmlApi &qmlApi);
-//     virtual ~RtkModule();
+class RtkModule : public QObject
+{
+    Q_OBJECT
+public:
+    explicit RtkModule(MavlinkConnection &mavlinkConnection);
+    virtual ~RtkModule();
 
-// private:
-//     LmCdl::I_QmlApi &qmlApi_;
-
-//     std::unique_ptr<RtkReciever> rtkReciever_;
-//     std::unique_ptr<RtkConverter> rtkConverter_;
-// };
+private:
+    std::unique_ptr<RtkReciever> rtkReciever_;
+    std::unique_ptr<RtkConverter> rtkConverter_;
+};

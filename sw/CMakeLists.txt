@@ -15,7 +15,7 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTORCC ON)
 
-find_package(Qt6 6.5.3 REQUIRED COMPONENTS Core Widgets Gui Qml QuickWidgets Quick)
+find_package(Qt6 6.5.3 REQUIRED COMPONENTS Core Widgets Gui Qml QuickWidgets Quick QuickLayouts)
 
 # --- MAVSDK CONFIGURATION ---
 set(BUILD_SHARED_LIBS OFF CACHE BOOL "Build static libs" FORCE)
@@ -77,6 +77,7 @@ target_link_libraries(SuavPlugin PRIVATE
     Qt6::Qml
     Qt6::Quick
     Qt6::QuickWidgets
+    Qt6::QuickLayouts
     "${LMCDL_LIB_DIR}/vcsiapi.lib"
     "${LMCDL_LIB_DIR}/VcsiPluginApi.lib"
     "${LMCDL_LIB_DIR}/VcsiCoreValuesApi.lib"

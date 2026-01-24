@@ -7,6 +7,7 @@ class CasinoModule;
 class Vehicle;
 class MavlinkConnection;
 class SuavView;
+class RtkModule;
 
  namespace LmCdl
 {
@@ -27,8 +28,9 @@ private:
     LmCdl::I_QmlApi& qmlApi_;
 
 
-    std::unique_ptr<SuavView> mainView_;
     std::unique_ptr<Vehicle> vehicle_;
     std::unique_ptr<CasinoModule> casinoModule_;
     std::unique_ptr<MavlinkConnection> mavlinkConnection_;
+    std::unique_ptr<RtkModule> rtkModule_;
+    std::unique_ptr<SuavView> mainView_;
 };
