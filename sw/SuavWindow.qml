@@ -46,6 +46,15 @@ ApplicationWindow {
                 rtkModule.startRtkReciever()
             }
         }
+        
+        Row {
+            Repeater {
+                model: parameterModule.parameterListModel()
+                delegate: Rectangle {
+
+                }
+            }
+        }
     }
 
 }

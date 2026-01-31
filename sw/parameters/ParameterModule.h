@@ -12,6 +12,8 @@ public:
 
     ParameterManager& getManager();
 
+    Q_INVOKABLE parameter_item_model& getParameterItemModel();
+
 private:
     std::unique_ptr<ParameterManager> parameterManager_;
     std::unique_ptr<parameter_item_model> parameterItemModule_;

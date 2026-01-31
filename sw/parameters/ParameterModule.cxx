@@ -19,4 +19,8 @@ ParameterManager& ParameterModule::getManager() {
     return *parameterManager_;
 }
 
+parameter_item_model& ParameterModule::getParameterItemModel() {
+    return *parameterItemModule_;
+}
+
 
