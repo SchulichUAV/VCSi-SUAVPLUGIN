@@ -14,7 +14,7 @@ SuavPluginContent::SuavPluginContent(LmCdl::I_VehicleCollectionApi& collectionAp
     , qmlApi_(qmlApi)
     , vehicle_(std::make_unique<Vehicle>(collectionApi_))
     , casinoModule_(std::make_unique<CasinoModule>(qmlApi_, *vehicle_))
-    , actionsModule_(std::make_unique<ActionsModule>(qmlApi_, vcsiApplicationApi))
+    , actionsModule_(std::make_unique<ActionsModule>(qmlApi_, vcsiApplicationApi, *vehicle_))
 {
 }
 

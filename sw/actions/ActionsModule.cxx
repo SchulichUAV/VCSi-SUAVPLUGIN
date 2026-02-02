@@ -4,9 +4,10 @@
 #include <vehicle/Vehicle.h>
 #include <LmCdl/I_QmlApi.h>
 
-ActionsModule::ActionsModule(LmCdl::I_QmlApi& qmlApi, LmCdl::I_VcsiApplicationApi& vcsiApplicationApi)
+ActionsModule::ActionsModule(LmCdl::I_QmlApi& qmlApi, LmCdl::I_VcsiApplicationApi& vcsiApplicationApi, Vehicle& vehicle)
     : qmlApi_(qmlApi)
-    , actionsView_(std::make_unique<ActionsView>(qmlApi, vcsiApplicationApi))
+    , vehicle_(vehicle)
+    , actionsView_(std::make_unique<ActionsView>(qmlApi, vcsiApplicationApi, vehicle))
 {
 }
 
