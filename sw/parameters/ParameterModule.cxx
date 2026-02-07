@@ -7,10 +7,6 @@ ParameterModule::ParameterModule(QObject* parent)
     , parameterManager_(std::make_unique<ParameterManager>(":/suav/parameters/apm.pdef.json"))
     , parameterItemModel_(std::make_unique<parameter_item_model>(parameterManager_->get_parameters()))
 {
-}
-
-void ParameterModule::loadParameters()
-{
     if (!parameterManager_->load()) {
         std::cerr << "[ParameterModule] Failed to load parameters (file missing or invalid)." << std::endl;
     } else {
