@@ -45,67 +45,55 @@ ApplicationWindow {
             onClicked: rtkModule.startRtkReciever()
         }
 
-        ScrollView {
-            id: paramsScroll
+        ListView {
+            id: paramsList
             Layout.fillWidth: true
             Layout.fillHeight: true
-            Layout.minimumHeight: 200
             clip: true
+            spacing: 8
 
-            Column {
-                id: paramsColumn
-                width: paramsScroll.availableWidth
-                spacing: 8
+            model: parameterModule.parameterModel
 
-                Text {
-                    text: "No parameters loaded yet."
-                    color: "white"
-                    visible: paramsRepeater.count === 0
-                }
+            ScrollBar.vertical: ScrollBar { }
 
-                Repeater {
-                    model: parameterModule.parameterModel
+            delegate: Rectangle {
+                width: paramsList.width
+                height: 44
+                radius: 6
+                border.width: 1
+                border.color: "#2a2a2a"
+                color: "transparent"
 
-                    delegate: Rectangle {
-                        width: paramsColumn.width
-                        height: 44
-                        radius: 6
-                        border.width: 1
-                        border.color: "#2a2a2a"
-                        color: "transparent"
+                RowLayout {
+                    anchors.fill: parent
+                    anchors.margins: 8
+                    spacing: 10
 
-                        RowLayout {
-                            anchors.fill: parent
-                            anchors.margins: 8
-                            spacing: 10
+                    Text {
+                        text: name
+                        color: "white"
+                        elide: Text.ElideRight
+                        Layout.preferredWidth: 260
+                        Layout.fillHeight: true
+                        verticalAlignment: Text.AlignVCenter
+                    }
 
-                            Text {
-                                text: name
-                                color: "white"
-                                elide: Text.ElideRight
-                                Layout.preferredWidth: 260
-                                Layout.fillHeight: true
-                                verticalAlignment: Text.AlignVCenter
-                            }
+                    TextField {
+                        id: valueField
+                        text: String(value)
+                        enabled: !readOnly
+                        Layout.fillWidth: true
+                        Layout.fillHeight: true
+                    }
 
-                            TextField {
-                                id: valueField
-                                text: String(value)
-                                enabled: !readOnly
-                                Layout.fillWidth: true
-                                Layout.fillHeight: true
-                            }
-
-                            Button {
-                                text: "Send"
-                                enabled: !readOnly
-                                Layout.preferredWidth: 90
-                                Layout.fillHeight: true
-                                onClicked: {
-                                    parameterModule.setValue(index, Number(valueField.text))
-                                    parameterModule.send(index)
-                                }
-                            }
+                    Button {
+                        text: "Send"
+                        enabled: !readOnly
+                        Layout.preferredWidth: 90
+                        Layout.fillHeight: true
+                        onClicked: {
+                            parameterModule.setValue(index, Number(valueField.text))
+                            parameterModule.send(index)
                         }
                     }
                 }
