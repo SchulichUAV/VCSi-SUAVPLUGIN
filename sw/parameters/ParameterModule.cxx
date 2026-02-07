@@ -4,7 +4,7 @@
 
 ParameterModule::ParameterModule(QObject* parent)
     : QObject(parent)
-    , parameterManager_(std::make_unique<ParameterManager>("sw/parameters/apm.pdef.json"))
+    , parameterManager_(std::make_unique<ParameterManager>(":/suav/parameters/apm.pdef.json"))
     , parameterItemModel_(std::make_unique<parameter_item_model>(parameterManager_->get_parameters()))
 {
     if (!parameterManager_->load()) {

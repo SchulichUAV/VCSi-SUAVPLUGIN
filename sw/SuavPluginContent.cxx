@@ -10,6 +10,13 @@
 #include <RTK/RtkModule.h>
 #include <QQuickWidget>
 
+#include "SuavCrashDiag.h"
+#include <QCoreApplication>
+#include <QDir>
+#include <QFileInfo>
+#include <QDebug>
+
+
 SuavPluginContent::SuavPluginContent(LmCdl::I_VehicleCollectionApi& collectionApi, LmCdl::I_QmlApi& qmlApi)
     // instantiate feature modules in this file
     : collectionApi_(collectionApi)
@@ -21,6 +28,16 @@ SuavPluginContent::SuavPluginContent(LmCdl::I_VehicleCollectionApi& collectionAp
     , rtkModule_(std::make_unique<RtkModule>(*mavlinkConnection_))
     , mainView_(std::make_unique<SuavView>(qmlApi_, *rtkModule_, *mavlinkConnection_, *parameterModule_))
     {
+        installSuavFileLogger();
+        installSuavCrashHandlers();
+
+        qInfo() << "==== SuavPluginContent ctor START ====";
+        qInfo() << "AppDir:" << QCoreApplication::applicationDirPath();
+        qInfo() << "WorkingDir:" << QDir::currentPath();
+
+        qInfo() << "Resource JSON exists?"
+        << QFileInfo(":/suav/parameters/apm.pdef.json").exists();
+        qInfo() << "==== SuavPluginContent ctor END ====";
 }
 
 SuavPluginContent::~SuavPluginContent() = default;
