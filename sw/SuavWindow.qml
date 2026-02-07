@@ -13,11 +13,13 @@ ApplicationWindow {
     ColumnLayout {
         id: mainLayout
         anchors.fill: parent
+        anchors.margins: 10
         spacing: 10
 
         RowLayout {
             id: mavlinkConnectionLayout
             Layout.fillWidth: true
+            spacing: 8
 
             TextField {
                 id: connectionUrlInput
@@ -105,6 +107,13 @@ ApplicationWindow {
                         }
                     }
                 }
+            }
+
+            Text {
+                anchors.centerIn: parent
+                text: "No parameters loaded."
+                color: "white"
+                visible: paramsList.count === 0
             }
         }
     }

@@ -25,6 +25,7 @@ REM ============================================================
 if not exist "%BUILD_DIR%" mkdir "%BUILD_DIR%"
 
 pushd "%BUILD_DIR%" || exit /b 1
+taskkill /F /IM vcsi.exe
 
 echo.
 echo [1/2] Configuring CMake...
