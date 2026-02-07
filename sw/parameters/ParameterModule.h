@@ -1,21 +1,29 @@
 #pragma once
 
-#include "param_utils.h"
+#include <QObject>
+#include <QAbstractItemModel>
 #include <memory>
+
+#include "param_utils.h"
 #include "parameter_item_model.h"
 
-class ParameterModule {
+class ParameterModule : public QObject {
+    Q_OBJECT
+    Q_PROPERTY(QAbstractItemModel* parameterModel READ parameterModel CONSTANT)
+
 public:
-    ParameterModule();
-    ~ParameterModule();
+    explicit ParameterModule(QObject* parent = nullptr);
+    ~ParameterModule() override;
 
+    QAbstractItemModel* parameterModel() const;
 
-    ParameterManager& getManager();
+    Q_INVOKABLE void setValue(int index, double value);
+    Q_INVOKABLE void send(int index);
 
-    Q_INVOKABLE parameter_item_model& getParameterItemModel();
+signals:
+    void parameterSendRequested(QString id, double value);
 
 private:
     std::unique_ptr<ParameterManager> parameterManager_;
-    std::unique_ptr<parameter_item_model> parameterItemModule_;
-
+    std::unique_ptr<parameter_item_model> parameterItemModel_;
 };

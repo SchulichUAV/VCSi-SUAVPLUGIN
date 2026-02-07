@@ -5,7 +5,7 @@
 #include <LmCdl/I_QmlApi.h>
 #include <QQuickWidget>
 #include <QQmlContext>
-#include "ParameterModule.h"
+#include "parameters/ParameterModule.h"
 
 #include <iostream>
 
