@@ -31,6 +31,7 @@ SuavView::SuavView(LmCdl::I_QmlApi &qmlApi, RtkModule &rtkModule, MavlinkConnect
     widget->rootContext()->setContextProperty("parameterModule", &parameterModule);
     widget->rootContext()->setContextProperty("rtkModule", &rtkModule);
     widget->setSource(QUrl("qrc:/suav/SuavWindow.qml"));
+    parameterModule.loadParameters();
     if (widget->status() == QQuickWidget::Error)
     {
         qCritical() << "QML FAILED TO LOAD";

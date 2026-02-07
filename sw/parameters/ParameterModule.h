@@ -17,6 +17,7 @@ public:
 
     QAbstractItemModel* parameterModel() const;
 
+    Q_INVOKABLE void loadParameters();
     Q_INVOKABLE void setValue(int index, double value);
     Q_INVOKABLE void send(int index);
 
