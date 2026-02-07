@@ -47,77 +47,63 @@ ApplicationWindow {
             onClicked: rtkModule.startRtkReciever()
         }
 
-        Rectangle {
-            id: paramsContainer
+        TextField {
+            id: parameterSearch
+            Layout.fillWidth: true
+            Layout.preferredHeight: 34
+            placeholderText: "Search by ID or display name..."
+            color: "white"
+            text: parameterModule.parameterFilter
+            onTextChanged: parameterModule.parameterFilter = text
+        }
+
+        ListView {
+            id: paramsList
             Layout.fillWidth: true
             Layout.fillHeight: true
-            radius: 10
-            border.width: 1
-            border.color: "#2a2a2a"
-            color: "transparent"
+            Layout.minimumHeight: 200
+            clip: true
+            spacing: 8
+            model: parameterModule.parameterModel
 
-            property int pad: 10
-            property int scrollGutter: 18
+            delegate: Rectangle {
+                width: paramsList.width
+                height: 44
+                radius: 6
+                border.width: 1
+                border.color: "#2a2a2a"
+                color: "transparent"
 
-            ListView {
-                id: paramsList
-                anchors.fill: parent
-                anchors.leftMargin: paramsContainer.pad
-                anchors.topMargin: paramsContainer.pad
-                anchors.bottomMargin: paramsContainer.pad
-                anchors.rightMargin: paramsContainer.pad + paramsContainer.scrollGutter
-                clip: true
-                spacing: 8
+                RowLayout {
+                    anchors.fill: parent
+                    anchors.margins: 8
+                    spacing: 10
 
-                model: parameterModule.parameterModel
+                    Text {
+                        text: name
+                        color: "white"
+                        elide: Text.ElideRight
+                        Layout.preferredWidth: 260
+                        Layout.fillHeight: true
+                        verticalAlignment: Text.AlignVCenter
+                    }
 
-                ScrollBar.vertical: ScrollBar {
-                    width: paramsContainer.scrollGutter
-                    x: paramsList.width + paramsContainer.pad
-                    y: 0
-                    height: paramsList.height
-                    policy: ScrollBar.AlwaysOn
-                }
+                    TextField {
+                        id: valueField
+                        text: String(value)
+                        enabled: !readOnly
+                        Layout.fillWidth: true
+                        Layout.fillHeight: true
+                    }
 
-                delegate: Rectangle {
-                    width: paramsList.width
-                    height: 44
-                    radius: 6
-                    border.width: 1
-                    border.color: "#2a2a2a"
-                    color: "transparent"
-
-                    RowLayout {
-                        anchors.fill: parent
-                        anchors.margins: 8
-                        spacing: 10
-
-                        Text {
-                            text: name
-                            color: "white"
-                            elide: Text.ElideRight
-                            Layout.preferredWidth: 260
-                            Layout.fillHeight: true
-                            verticalAlignment: Text.AlignVCenter
-                        }
-
-                        TextField {
-                            id: valueField
-                            text: String(value)
-                            enabled: !readOnly
-                            Layout.fillWidth: true
-                            Layout.fillHeight: true
-                        }
-
-                        Button {
-                            text: "Send"
-                            enabled: !readOnly
-                            Layout.preferredWidth: 90
-                            Layout.fillHeight: true
-                            onClicked: {
-                                parameterModule.setValue(index, Number(valueField.text))
-                                parameterModule.send(index)
-                            }
+                    Button {
+                        text: "Send"
+                        enabled: !readOnly
+                        Layout.preferredWidth: 90
+                        Layout.fillHeight: true
+                        onClicked: {
+                            parameterModule.setValue(index, Number(valueField.text))
+                            parameterModule.send(index)
                         }
                     }
                 }

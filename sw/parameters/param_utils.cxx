@@ -22,7 +22,6 @@ ParameterManager::ParameterManager(const string& path)
     : file_path(path) {}
 
 bool ParameterManager::load() {
-    // Convert std::string path to QString for QFile
     QFile file(QString::fromStdString(file_path));
 
     if (!file.open(QIODevice::ReadOnly)) {
@@ -30,16 +29,14 @@ bool ParameterManager::load() {
         return false;
     }
 
-    // Read all data
-    QByteArray fileData = file.readAll();
+    const QByteArray fileData = file.readAll();
     file.close();
 
-    // Parse JSON
     QJsonParseError parseError;
-    QJsonDocument doc = QJsonDocument::fromJson(fileData, &parseError);
+    const QJsonDocument doc = QJsonDocument::fromJson(fileData, &parseError);
 
     if (parseError.error != QJsonParseError::NoError) {
-        cerr << "Error parsing JSON: " 
+        cerr << "Error parsing JSON: "
              << parseError.errorString().toStdString() << endl;
         return false;
     }
@@ -49,29 +46,35 @@ bool ParameterManager::load() {
         return false;
     }
 
-    QJsonObject data = doc.object();
+    const QJsonObject data = doc.object();
     parameters.clear();
 
-    for (auto it = data.constBegin(); it != data.constEnd(); ++it) {
-        QString category = it.key();
+    constexpr int kMaxParams = 100;
+    int added = 0;
 
+    for (auto it = data.constBegin(); it != data.constEnd(); ++it) {
+        const QString category = it.key();
         if (category == "json") continue;
 
-        if (it.value().isObject()) {
-            QJsonObject paramList = it.value().toObject();
+        if (!it.value().isObject()) continue;
+        const QJsonObject paramList = it.value().toObject();
 
-            for (auto paramIt = paramList.constBegin(); paramIt != paramList.constEnd(); ++paramIt) {
-                string key = paramIt.key().toStdString();
-                
-                if (paramIt.value().isObject()) {
-                    parameters.push_back(make_parameter_from_json(key, paramIt.value().toObject()));
-                }
-            }
+        for (auto paramIt = paramList.constBegin(); paramIt != paramList.constEnd(); ++paramIt) {
+            if (added >= kMaxParams) break;
+
+            if (!paramIt.value().isObject()) continue;
+
+            const string key = paramIt.key().toStdString();
+            parameters.push_back(make_parameter_from_json(key, paramIt.value().toObject()));
+            ++added;
         }
+
+        if (added >= kMaxParams) break;
     }
 
     return true;
 }
+
 std::vector<Parameter> &ParameterManager::get_parameters() {
     return this->parameters;
 }
