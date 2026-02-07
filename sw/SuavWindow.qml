@@ -45,61 +45,53 @@ ApplicationWindow {
             onClicked: rtkModule.startRtkReciever()
         }
 
-        ScrollView {
-            id: paramsScroll
+        ListView {
+            id: paramsList
             Layout.fillWidth: true
             Layout.fillHeight: true
             Layout.minimumHeight: 200
             clip: true
+            spacing: 8
+            model: parameterModule.parameterModel
 
-            Column {
-                id: paramsColumn
-                width: paramsScroll.availableWidth
-                spacing: 8
+            delegate: Rectangle {
+                width: paramsList.width
+                height: 44
+                radius: 6
+                border.width: 1
+                border.color: "#2a2a2a"
+                color: "transparent"
 
-                Repeater {
-                    model: parameterModule.parameterModel
+                RowLayout {
+                    anchors.fill: parent
+                    anchors.margins: 8
+                    spacing: 10
 
-                    delegate: Rectangle {
-                        width: paramsColumn.width
-                        height: 44
-                        radius: 6
-                        border.width: 1
-                        border.color: "#2a2a2a"
-                        color: "transparent"
+                    Text {
+                        text: name
+                        color: "white"
+                        elide: Text.ElideRight
+                        Layout.preferredWidth: 260
+                        Layout.fillHeight: true
+                        verticalAlignment: Text.AlignVCenter
+                    }
 
-                        RowLayout {
-                            anchors.fill: parent
-                            anchors.margins: 8
-                            spacing: 10
+                    TextField {
+                        id: valueField
+                        text: String(value)
+                        enabled: !readOnly
+                        Layout.fillWidth: true
+                        Layout.fillHeight: true
+                    }
 
-                            Text {
-                                text: name
-                                color: "white"
-                                elide: Text.ElideRight
-                                Layout.preferredWidth: 260
-                                Layout.fillHeight: true
-                                verticalAlignment: Text.AlignVCenter
-                            }
-
-                            TextField {
-                                id: valueField
-                                text: String(value)
-                                enabled: !readOnly
-                                Layout.fillWidth: true
-                                Layout.fillHeight: true
-                            }
-
-                            Button {
-                                text: "Send"
-                                enabled: !readOnly
-                                Layout.preferredWidth: 90
-                                Layout.fillHeight: true
-                                onClicked: {
-                                    parameterModule.setValue(index, Number(valueField.text))
-                                    parameterModule.send(index)
-                                }
-                            }
+                    Button {
+                        text: "Send"
+                        enabled: !readOnly
+                        Layout.preferredWidth: 90
+                        Layout.fillHeight: true
+                        onClicked: {
+                            parameterModule.setValue(index, Number(valueField.text))
+                            parameterModule.send(index)
                         }
                     }
                 }
