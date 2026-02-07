@@ -57,12 +57,6 @@ ApplicationWindow {
                 width: paramsScroll.availableWidth
                 spacing: 8
 
-                Text {
-                    text: "No parameters loaded yet."
-                    color: "white"
-                    visible: paramsRepeater.count === 0
-                }
-
                 Repeater {
                     model: parameterModule.parameterModel
 
