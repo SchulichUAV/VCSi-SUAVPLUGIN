@@ -45,6 +45,16 @@ ApplicationWindow {
             onClicked: rtkModule.startRtkReciever()
         }
 
+        TextField {
+            id: parameterSearch
+            Layout.fillWidth: true
+            Layout.preferredHeight: 34
+            placeholderText: "Search by ID or display name..."
+            color: "white"
+            text: parameterModule.parameterFilter
+            onTextChanged: parameterModule.parameterFilter = text
+        }
+
         ListView {
             id: paramsList
             Layout.fillWidth: true
