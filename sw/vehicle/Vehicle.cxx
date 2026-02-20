@@ -20,10 +20,13 @@ QString Vehicle::vehicleId() const {
     return vehicleId_.value();
 }
 
+LmCdl::UniqueIdentifier Vehicle::Uid() const { return vehicleUid_; }
+
 QBindable<QString> Vehicle::bindableVehicleId() {
     return QBindable<QString>(&vehicleId_);
 }
 
 void Vehicle::makeVehicleContent(LmCdl::UniqueIdentifier vehicleId) {
+    vehicleUid_ = vehicleId;
     vehicleId_.setValue(collectionApi_.vehicle(vehicleId).identification().tailNumber());
 }

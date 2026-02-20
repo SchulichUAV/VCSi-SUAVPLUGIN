@@ -23,12 +23,13 @@ public:
 
     QString vehicleId() const;
     QBindable<QString> bindableVehicleId();
-
+    LmCdl::UniqueIdentifier Uid() const;
+    
 private slots:
     void makeVehicleContent(LmCdl::UniqueIdentifier vehicleId);
 
 private:
     LmCdl::I_VehicleCollectionApi& collectionApi_;
-
+    LmCdl::UniqueIdentifier vehicleUid_;
     QProperty<QString> vehicleId_;
 };
