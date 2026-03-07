@@ -4,6 +4,7 @@
 #include <memory>
 
 class CasinoModule;
+class ParameterModule;
 class Vehicle;
 class MavlinkConnection;
 class SuavView;
@@ -30,6 +31,7 @@ private:
 
     std::unique_ptr<Vehicle> vehicle_;
     std::unique_ptr<CasinoModule> casinoModule_;
+    std::unique_ptr<ParameterModule> parameterModule_;
     std::unique_ptr<MavlinkConnection> mavlinkConnection_;
     std::unique_ptr<RtkModule> rtkModule_;
     std::unique_ptr<SuavView> mainView_;

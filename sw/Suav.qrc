@@ -2,5 +2,6 @@
     <qresource prefix="/suav">
         <file>casino/Casino.qml</file>
         <file>SuavWindow.qml</file>
+        <file>parameters/apm.pdef.json</file>
     </qresource>
 </RCC>

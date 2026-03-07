@@ -1,29 +1,41 @@
+// parameter_item_model.h
 #pragma once
 
-#include <QAbstractItemModel>
-#include <QVariant>
-#include <QModelIndex>
+#include <QAbstractListModel>
+#include <QVector>
+#include <QString>
+#include <vector>
+
 #include "parameter.h"
 
-class parameter_item_model : public QAbstractItemModel {
+class parameter_item_model : public QAbstractListModel {
     Q_OBJECT
+
 public:
-    explicit parameter_item_model(std::vector<Parameter> &parameters);
-    virtual ~parameter_item_model();
-    
+    enum Roles : int {
+        IdRole = Qt::UserRole + 1,
+        NameRole,
+        ValueRole,
+        ReadOnlyRole,
+        UnitsRole
+    };
 
-    // Required overrides
-    QModelIndex index(int row, int column, const QModelIndex &parent = QModelIndex()) const override;
-    QModelIndex parent(const QModelIndex &child) const override;
-    int rowCount(const QModelIndex &parent = QModelIndex()) const override;
-    int columnCount(const QModelIndex &parent = QModelIndex()) const override;
-    QVariant data(const QModelIndex &index, int role = Qt::DisplayRole) const override;
+    explicit parameter_item_model(std::vector<Parameter>& parameters, QObject* parent = nullptr);
+    ~parameter_item_model() override;
 
-    // Optional overrides
-    QVariant headerData(int section, Qt::Orientation orientation, int role = Qt::DisplayRole) const override;
+    int rowCount(const QModelIndex& parent = QModelIndex()) const override;
+    QVariant data(const QModelIndex& index, int role = Qt::DisplayRole) const override;
+    bool setData(const QModelIndex& index, const QVariant& value, int role) override;
+    Qt::ItemFlags flags(const QModelIndex& index) const override;
+    QHash<int, QByteArray> roleNames() const override;
+
+    void reload();
+
+    void setPendingValue(int row, float v);
+    float pendingValueAt(int row) const;
+    QString idAt(int row) const;
 
 private:
-    // You can add a data structure here to hold your parameters
-    std::vector<Parameter> &parameters_;
-
+    std::vector<Parameter>& parameters_;
+    QVector<float> pendingValues_;
 };

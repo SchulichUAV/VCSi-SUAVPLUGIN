@@ -16,6 +16,15 @@ ApplicationWindow {
         anchors.fill: parent
         anchors.margins: 16
         spacing: 12
+        TextField {
+                    id: parameterSearch
+                    Layout.fillWidth: true
+                    Layout.preferredHeight: 15
+                    placeholderText: "Search by ID or display name..."
+                    color: "white"
+                    text: parameterModule.parameterFilter
+                    onTextChanged: parameterModule.parameterFilter = text
+                }
 
         RowLayout {
             id: mavlinkConnectionLayout
@@ -36,6 +45,7 @@ ApplicationWindow {
                     radius: 8
                 }
             }
+
 
             Button {
                 id: connectMavlinkButton
@@ -94,7 +104,69 @@ ApplicationWindow {
                         startRtkButton.startServer = true
                     }
                 }
+                
+
+            ListView {
+                id: paramsList
+                Layout.fillWidth: true
+                Layout.fillHeight: true
+                Layout.minimumHeight: 200
+                clip: true
+                spacing: 8
+                model: parameterModule.parameterModel
+
+                delegate: Rectangle {
+                    width: paramsList.width
+                    height: 44
+                    radius: 6
+                    border.width: 1
+                    border.color: "#2a2a2a"
+                    color: "transparent"
+
+                    RowLayout {
+                        anchors.fill: parent
+                        anchors.margins: 8
+                        spacing: 10
+
+                        Text {
+                            text: name
+                            color: "white"
+                            elide: Text.ElideRight
+                            Layout.preferredWidth: 260
+                            Layout.fillHeight: true
+                            verticalAlignment: Text.AlignVCenter
+                        }
+
+                        TextField {
+                            id: valueField
+                            text: String(value)
+                            enabled: !readOnly
+                            Layout.fillWidth: true
+                            Layout.fillHeight: true
+                        }
+
+                        Button {
+                            text: "Send"
+                            enabled: !readOnly
+                            Layout.preferredWidth: 90
+                            Layout.fillHeight: true
+                            onClicked: {
+                                parameterModule.setValue(index, Number(valueField.text))
+                                parameterModule.send(index)
+                            }
+                        }
+                    }
+                }
+
+                Text {
+                    anchors.centerIn: parent
+                    text: "No parameters loaded."
+                    color: "white"
+                    visible: paramsList.count === 0
+                }
+            }
             }
         }
     }
 }
+

@@ -1,88 +1,107 @@
+// parameter_item_model.cxx
 #include "parameter_item_model.h"
 
+parameter_item_model::parameter_item_model(std::vector<Parameter>& parameters, QObject* parent)
+    : QAbstractListModel(parent)
+    , parameters_(parameters)
+{
+    reload();
+}
 
-parameter_item_model::parameter_item_model(std::vector<Parameter> &parameters)
-    : parameters_(parameters)  // initialize reference
-{}
-// Constructor
-// parameter_item_model::parameter_item_model(std::vector<Parameter> &parameters){
-//     // Initialize your data here if needed
-//     parameters_ = parameters;
-// }
-// parameter_item_model::parameter_item_model(std::vector<Parameter>& parameters) 
-//     : QAbstractItemModel(nullptr) {
-//     // Store the reference or copy the data as needed
-//     // For example, you can copy into a member variable:
-//     this->parameters_ = parameters; // assuming you have a member variable
-// }
-// Destructor
 parameter_item_model::~parameter_item_model() = default;
 
-// Return the index for the given row and column under the given parent
-QModelIndex parameter_item_model::index(int row, int column, const QModelIndex &parent) const {
-    if (parent.isValid()) {
-        // Flat list: no children
-        return QModelIndex();
+void parameter_item_model::reload() {
+    beginResetModel();
+
+    pendingValues_.clear();
+    pendingValues_.reserve(static_cast<int>(parameters_.size()));
+    for (const auto& p : parameters_) {
+        pendingValues_.push_back(p.getValue());
     }
 
-    // Create a valid index for the given row and column
-    return createIndex(row, column);
+    endResetModel();
 }
 
-// Return the parent of a given index
-QModelIndex parameter_item_model::parent(const QModelIndex &child) const {
-    Q_UNUSED(child);
-    // Flat list: all items are top-level, so no parent
-    return QModelIndex();
+int parameter_item_model::rowCount(const QModelIndex& parent) const {
+    if (parent.isValid()) return 0;
+    return static_cast<int>(parameters_.size());
 }
 
-// Return the number of rows under the given parent
-int parameter_item_model::rowCount(const QModelIndex &parent) const {
-    if (parent.isValid()) {
-        // Flat list: no children
-        return 0;
-    }
+QVariant parameter_item_model::data(const QModelIndex& index, int role) const {
+    if (!index.isValid()) return {};
+    const int row = index.row();
+    if (row < 0 || row >= rowCount()) return {};
 
-    // Replace 0 with the actual number of parameters you have
-    return 0;
+    const auto& p = parameters_[static_cast<size_t>(row)];
+
+    switch (role) {
+        case IdRole:
+            return QString::fromStdString(p.getId());
+        case NameRole: {
+            const auto& dn = p.getDisplayName();
+            return QString::fromStdString(dn.empty() ? p.getId() : dn);
+        }
+        case ValueRole:
+            return pendingValues_[row];
+        case ReadOnlyRole:
+            return p.isReadOnly().value_or(false);
+        case UnitsRole:
+            return p.getUnits().has_value() ? QString::fromStdString(*p.getUnits()) : QString();
+        default:
+            return {};
+    }
 }
 
-// Return the number of columns for the given parent
-int parameter_item_model::columnCount(const QModelIndex &parent) const {
-    Q_UNUSED(parent);
-    // For simplicity, 1 column
-    return 2;
+bool parameter_item_model::setData(const QModelIndex& index, const QVariant& value, int role) {
+    if (!index.isValid()) return false;
+    const int row = index.row();
+    if (row < 0 || row >= rowCount()) return false;
+
+    if (role == ValueRole) {
+        bool ok = false;
+        const float v = value.toFloat(&ok);
+        if (!ok) return false;
+
+        pendingValues_[row] = v;
+        emit dataChanged(index, index, {ValueRole});
+        return true;
+    }
+
+    return false;
 }
 
-// Return the data for a given index and role
-QVariant parameter_item_model::data(const QModelIndex &index, int role) const {
-    if (!index.isValid()) {
-        return QVariant();
-    }
+Qt::ItemFlags parameter_item_model::flags(const QModelIndex& index) const {
+    if (!index.isValid()) return Qt::NoItemFlags;
 
-    if (role == Qt::DisplayRole) {
-        // Replace with actual parameter data
-        return QString("Parameter %1").arg(index.row());
-    }
-
-    return QVariant();
+    const bool readOnly = data(index, ReadOnlyRole).toBool();
+    auto f = Qt::ItemIsEnabled | Qt::ItemIsSelectable;
+    if (!readOnly) f |= Qt::ItemIsEditable;
+    return f;
 }
 
-// Return the header data for columns or rows
-QVariant parameter_item_model::headerData(int section, Qt::Orientation orientation, int role) const {
-    if (role != Qt::DisplayRole) {
-        return QVariant();
-    }
+QHash<int, QByteArray> parameter_item_model::roleNames() const {
+    return {
+        {IdRole, "id"},
+        {NameRole, "name"},
+        {ValueRole, "value"},
+        {ReadOnlyRole, "readOnly"},
+        {UnitsRole, "units"}
+    };
+}
 
-    if (orientation == Qt::Horizontal) {
-        if (orientation == 0) {
-            return QString("ParameterName");
-    }
-        if (orientation == 1){
-            return QString("Value");
-    }
-    }
-    
+void parameter_item_model::setPendingValue(int row, float v) {
+    if (row < 0 || row >= rowCount()) return;
+    pendingValues_[row] = v;
+    const QModelIndex idx = index(row, 0);
+    emit dataChanged(idx, idx, {ValueRole});
+}
 
-    return QVariant();
+float parameter_item_model::pendingValueAt(int row) const {
+    if (row < 0 || row >= rowCount()) return 0.0f;
+    return pendingValues_[row];
+}
+
+QString parameter_item_model::idAt(int row) const {
+    if (row < 0 || row >= rowCount()) return {};
+    return QString::fromStdString(parameters_[static_cast<size_t>(row)].getId());
 }
