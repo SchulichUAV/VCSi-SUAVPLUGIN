@@ -9,13 +9,14 @@
 class RtkReciever : public QObject
 {
     Q_OBJECT
+    Q_PROPERTY(bool isActive READ isActive NOTIFY activeChanged)
 public:
     explicit RtkReciever();
     virtual ~RtkReciever();
 
     void start();
     void stop();
-    bool isActive();
+    Q_INVOKABLE bool isActive();
 
 signals:
     void rawMessageReceived(const QByteArray& msg);

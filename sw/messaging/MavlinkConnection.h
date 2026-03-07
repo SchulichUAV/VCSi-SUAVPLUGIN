@@ -1,6 +1,8 @@
 #pragma once
 
 #include <QObject>
+#include <QBindable>
+#include <QProperty>
 #include <memory>
 #include <QString>
 
@@ -12,11 +14,19 @@
 class MavlinkConnection : public QObject
 {
     Q_OBJECT
+    Q_PROPERTY(bool vehicleConnected 
+               READ vehicleConnected 
+               BINDABLE bindableVehicleConnected)
+
 public:
     explicit MavlinkConnection();
     virtual ~MavlinkConnection();
 
-    Q_INVOKABLE void connect_async(const QString& connectionUrl = "udpin://0.0.0.0:14550");
+    Q_INVOKABLE void connectAsync(const QString& connectionUrl = "udpin://0.0.0.0:14550");
+    Q_INVOKABLE bool isConnected();
+    
+    bool vehicleConnected() const;
+    QBindable<bool> bindableVehicleConnected();
 
     std::shared_ptr<mavsdk::MavlinkPassthrough> mavlinkPassthrough() { return mavlink_passthrough_; }
     std::shared_ptr<mavsdk::System> system() const { return system_; }
@@ -30,4 +40,5 @@ private:
     std::shared_ptr<mavsdk::Telemetry> telemetry_;
     std::shared_ptr<mavsdk::Action> action_;
     std::shared_ptr<mavsdk::MavlinkPassthrough> mavlink_passthrough_;
+    QProperty<bool> vehicleConnected_{false};
 };
