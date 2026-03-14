@@ -16,15 +16,7 @@ ApplicationWindow {
         anchors.fill: parent
         anchors.margins: 16
         spacing: 12
-        TextField {
-                    id: parameterSearch
-                    Layout.fillWidth: true
-                    Layout.preferredHeight: 15
-                    placeholderText: "Search by ID or display name..."
-                    color: "white"
-                    text: parameterModule.parameterFilter
-                    onTextChanged: parameterModule.parameterFilter = text
-                }
+        
 
         RowLayout {
             id: mavlinkConnectionLayout
@@ -71,7 +63,15 @@ ApplicationWindow {
                 }
             }
         }
-
+        TextField {
+                id: parameterSearch
+                Layout.fillWidth: true
+                Layout.preferredHeight: 40
+                placeholderText: "Search by ID or display name..."
+                color: "white"
+                text: parameterModule.parameterFilter
+                onTextChanged: parameterModule.parameterFilter = text
+            }
         RowLayout {
             spacing: 8
 
@@ -105,8 +105,11 @@ ApplicationWindow {
                     }
                 }
                 
-
-            ListView {
+            
+            
+            }
+        }
+        ListView {
                 id: paramsList
                 Layout.fillWidth: true
                 Layout.fillHeight: true
@@ -117,7 +120,7 @@ ApplicationWindow {
 
                 delegate: Rectangle {
                     width: paramsList.width
-                    height: 44
+                    height: 70
                     radius: 6
                     border.width: 1
                     border.color: "#2a2a2a"
@@ -125,7 +128,7 @@ ApplicationWindow {
 
                     RowLayout {
                         anchors.fill: parent
-                        anchors.margins: 8
+                        anchors.margins: 2
                         spacing: 10
 
                         Text {
@@ -134,7 +137,7 @@ ApplicationWindow {
                             elide: Text.ElideRight
                             Layout.preferredWidth: 260
                             Layout.fillHeight: true
-                            verticalAlignment: Text.AlignVCenter
+                            verticalAlignment: Text.AlignTop
                         }
 
                         TextField {
@@ -164,9 +167,7 @@ ApplicationWindow {
                     color: "white"
                     visible: paramsList.count === 0
                 }
-            }
-            }
-        }
+            } /// end
     }
 }
 
