@@ -16,13 +16,25 @@ MavlinkConnection::MavlinkConnection()
 
 MavlinkConnection::~MavlinkConnection() = default;
 
-void MavlinkConnection::connect_async(const QString& connectionUrl)
+bool MavlinkConnection::isConnected() {
+    return system_->is_connected();
+}
+
+bool MavlinkConnection::vehicleConnected() const {
+    return vehicleConnected_.value();
+}
+
+QBindable<bool> MavlinkConnection::bindableVehicleConnected() {
+    return QBindable<bool>(&vehicleConnected_);
+}
+
+void MavlinkConnection::connectAsync(const QString& connectionUrl)
 {
     qDebug() << "Initializing MAVSDK Connection...";
 
     if (!mavsdk_) {
         Mavsdk::Configuration config{255, 190, true};
-        mavsdk_ = std::make_unique<Mavsdk>(config);
+        mavsdk_ = std::make_shared<Mavsdk>(config);
     }
 
     std::string url = connectionUrl.isEmpty() ? "udpin://0.0.0.0:14550" : connectionUrl.toStdString();
@@ -34,6 +46,11 @@ void MavlinkConnection::connect_async(const QString& connectionUrl)
     if (connection_result != ConnectionResult::Success) {
         qDebug() << "Connection failed code:" << static_cast<int>(connection_result);
         return;
+    }
+
+    else if (connection_result == ConnectionResult::Success)
+    {
+        qDebug() << "Connection success!";
     }
 
     mavsdk_->subscribe_on_new_system([this]() {

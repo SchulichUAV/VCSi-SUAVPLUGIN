@@ -8,113 +8,165 @@ ApplicationWindow {
     width: 640
     height: 480
     visible: true
-    title: "SUAV Plugin"
+    title: "Suav"
+    color: "#0F1117"
 
     ColumnLayout {
         id: mainLayout
         anchors.fill: parent
-        anchors.margins: 10
-        spacing: 10
+        anchors.margins: 16
+        spacing: 12
+        TextField {
+                    id: parameterSearch
+                    Layout.fillWidth: true
+                    Layout.preferredHeight: 15
+                    placeholderText: "Search by ID or display name..."
+                    color: "white"
+                    text: parameterModule.parameterFilter
+                    onTextChanged: parameterModule.parameterFilter = text
+                }
 
         RowLayout {
             id: mavlinkConnectionLayout
-            Layout.fillWidth: true
             spacing: 8
 
             TextField {
                 id: connectionUrlInput
                 text: "udpin://127.0.0.1:14550"
-                color: "white"
+                color: "#E8EAFF"
                 placeholderText: "udpin://x.x.x.x:xxxx"
+                placeholderTextColor: "#6B7299"
                 Layout.fillWidth: true
-                Layout.preferredHeight: 34
-            }
 
-            Button {
-                id: connectMavlinkButton
-                text: "Connect to Vehicle"
-                Layout.preferredHeight: 34
-                Layout.preferredWidth: 180
-                onClicked: mavlinkConnection.connectAsync(connectionUrlInput.text)
-            }
-        }
-
-        Button {
-            id: startRtkButton
-            text: "Connect to RTK server"
-            Layout.preferredHeight: 34
-            Layout.preferredWidth: 200
-            onClicked: rtkModule.startRtkReciever()
-        }
-
-        TextField {
-            id: parameterSearch
-            Layout.fillWidth: true
-            Layout.preferredHeight: 34
-            placeholderText: "Search by ID or display name..."
-            color: "white"
-            text: parameterModule.parameterFilter
-            onTextChanged: parameterModule.parameterFilter = text
-        }
-
-        ListView {
-            id: paramsList
-            Layout.fillWidth: true
-            Layout.fillHeight: true
-            Layout.minimumHeight: 200
-            clip: true
-            spacing: 8
-            model: parameterModule.parameterModel
-
-            delegate: Rectangle {
-                width: paramsList.width
-                height: 44
-                radius: 6
-                border.width: 1
-                border.color: "#2a2a2a"
-                color: "transparent"
-
-                RowLayout {
-                    anchors.fill: parent
-                    anchors.margins: 8
-                    spacing: 10
-
-                    Text {
-                        text: name
-                        color: "white"
-                        elide: Text.ElideRight
-                        Layout.preferredWidth: 260
-                        Layout.fillHeight: true
-                        verticalAlignment: Text.AlignVCenter
-                    }
-
-                    TextField {
-                        id: valueField
-                        text: String(value)
-                        enabled: !readOnly
-                        Layout.fillWidth: true
-                        Layout.fillHeight: true
-                    }
-
-                    Button {
-                        text: "Send"
-                        enabled: !readOnly
-                        Layout.preferredWidth: 90
-                        Layout.fillHeight: true
-                        onClicked: {
-                            parameterModule.setValue(index, Number(valueField.text))
-                            parameterModule.send(index)
-                        }
-                    }
+                background: Rectangle {
+                    color: "#1E2130"
+                    border.color: connectionUrlInput.activeFocus ? "#6366F1" : "#3D4466"
+                    border.width: 1
+                    radius: 8
                 }
             }
 
-            Text {
-                anchors.centerIn: parent
-                text: "No parameters loaded."
-                color: "white"
-                visible: paramsList.count === 0
+
+            Button {
+                id: connectMavlinkButton
+                property bool connected: false
+                Layout.fillWidth: true
+                text: "Connect to Vehicle"
+
+                contentItem: Text {
+                    text: connectMavlinkButton.text
+                    color: "#E8EAFF"
+                    horizontalAlignment: Text.AlignHCenter
+                    verticalAlignment: Text.AlignVCenter
+                }
+
+                background: Rectangle {
+                    color: connectMavlinkButton.connected ? "#22C55E" : "#EF4444"
+                    radius: 12
+                }
+
+                onClicked: {
+                    mavlinkConnection.connectAsync(connectionUrlInput.text)
+                    connected = true
+                }
+            }
+        }
+
+        RowLayout {
+            spacing: 8
+
+            Item {
+                Layout.fillWidth: true
+                Layout.preferredHeight: 40
+
+                Button {
+                    id: startRtkButton
+                    text: "Connect to RTK server"
+                    enabled: connectMavlinkButton.connected
+                    property bool startServer: false
+
+                    contentItem: Text {
+                        text: startRtkButton.text
+                        color: startRtkButton.enabled ? "#E8EAFF" : "#6B7299"
+                        horizontalAlignment: Text.AlignHCenter
+                        verticalAlignment: Text.AlignVCenter
+                    }
+
+                    background: Rectangle {
+                        color: !startRtkButton.enabled
+                            ? "#2D3155"
+                            : startRtkButton.startServer ? "#22C55E" : "#EF4444"
+                        radius: 12
+                    }
+
+                    onClicked: {
+                        rtkModule.startRtkReciever()
+                        startRtkButton.startServer = true
+                    }
+                }
+                
+
+            ListView {
+                id: paramsList
+                Layout.fillWidth: true
+                Layout.fillHeight: true
+                Layout.minimumHeight: 200
+                clip: true
+                spacing: 8
+                model: parameterModule.parameterModel
+
+                delegate: Rectangle {
+                    width: paramsList.width
+                    height: 44
+                    radius: 6
+                    border.width: 1
+                    border.color: "#2a2a2a"
+                    color: "transparent"
+
+                    RowLayout {
+                        anchors.fill: parent
+                        anchors.margins: 8
+                        spacing: 10
+
+                        Text {
+                            text: name
+                            color: "white"
+                            elide: Text.ElideRight
+                            Layout.preferredWidth: 260
+                            Layout.fillHeight: true
+                            verticalAlignment: Text.AlignVCenter
+                        }
+
+                        TextField {
+                            id: valueField
+                            text: String(value)
+                            enabled: !readOnly
+                            Layout.fillWidth: true
+                            Layout.fillHeight: true
+                        }
+
+                        Button {
+                            text: "Send"
+                            enabled: !readOnly
+                            Layout.preferredWidth: 90
+                            Layout.fillHeight: true
+                            onClicked: {
+                                parameterModule.setValue(index, Number(valueField.text))
+                                parameterModule.send(index)
+                            }
+                        }
+                    }
+                }
+
+                Text {
+                    anchors.centerIn: parent
+                    text: "No parameters loaded."
+                    color: "white"
+                    visible: paramsList.count === 0
+                }
+            }
             }
         }
     }
 }
+

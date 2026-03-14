@@ -14,3 +14,6 @@ void RtkModule::startRtkReciever()
 {
     rtkReciever_->start();
 }
+RtkReciever& RtkModule::getRtkReciever() {
+    return *rtkReciever_;
+}

@@ -20,6 +20,7 @@ public:
     explicit Vehicle(
         LmCdl::I_VehicleCollectionApi& collectionApi);
     virtual ~Vehicle();
+    
 
     QString vehicleId() const;
     QBindable<QString> bindableVehicleId();
