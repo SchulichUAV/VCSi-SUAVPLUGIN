@@ -8,6 +8,7 @@
 #include "param_utils.h"
 #include "parameter_filter_proxy.h"
 #include "parameter_item_model.h"
+#include <messaging/MavlinkConnection.h>
 
 class ParameterModule : public QObject {
     Q_OBJECT
@@ -15,9 +16,8 @@ class ParameterModule : public QObject {
     Q_PROPERTY(QString parameterFilter READ parameterFilter WRITE setParameterFilter NOTIFY parameterFilterChanged)
 
 public:
-    explicit ParameterModule(QObject* parent = nullptr);
+    explicit ParameterModule(MavlinkConnection& mavlinkConnection, QObject* parent = nullptr);
     ~ParameterModule() override;
-
     QAbstractItemModel* parameterModel() const;
     QString parameterFilter() const;
     void setParameterFilter(const QString& text);
@@ -33,4 +33,5 @@ private:
     std::unique_ptr<ParameterManager> parameterManager_;
     std::unique_ptr<parameter_item_model> parameterItemModel_;
     std::unique_ptr<ParameterFilterProxy> parameterFilterProxy_;
+    MavlinkConnection& mavlinkConnection_;
 };
