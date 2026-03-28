@@ -1,9 +1,8 @@
 #include "ParameterModule.h"
 
 #include <iostream>
-#include <QDebug>
 
-ParameterModule::ParameterModule(MavlinkConnection& mavlinkConnection, QObject* parent)
+ParameterModule::ParameterModule(QObject* parent)
     : QObject(parent)
     , mavlinkConnection_(mavlinkConnection)
     , parameterManager_(std::make_unique<ParameterManager>(":/suav/parameters/apm.pdef.json"))
@@ -55,7 +54,7 @@ void ParameterModule::send(int index) {
     }
 
     char param_id[16] = {0};
-    const QByteArray idBytes = id.toUtf8();
+    const QByteArray idBytes = idQt.toUtf8();
     std::strncpy(param_id, idBytes.constData(), sizeof(param_id) - 1);
 
     const uint8_t param_type = MAV_PARAM_TYPE_REAL32; //change if mavlink model already contains type info
@@ -76,11 +75,11 @@ void ParameterModule::send(int index) {
     );
 
     qDebug() << "Sending PARAM_SET"
-        << "id:" << id
+        << "id:" << idQt
         << "value:" << value
         << "type:" << param_type;
 
     passthrough->send_message(msg);
 
-    emit parameterSendRequested(id, value);
+    emit parameterSendRequested(idQt, value);
 }
