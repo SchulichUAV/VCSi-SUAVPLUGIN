@@ -38,7 +38,7 @@ void MavlinkConnection::connectAsync(const QString& connectionUrl)
     }
 
     std::string url = connectionUrl.isEmpty() ? "udpin://0.0.0.0:14550" : connectionUrl.toStdString();
-    
+
     qDebug() << "Listening for MAVLink traffic on:" << QString::fromStdString(url);
 
     auto connection_result = mavsdk_->add_any_connection(url);
@@ -59,13 +59,13 @@ void MavlinkConnection::connectAsync(const QString& connectionUrl)
         }
 
         auto sys = mavsdk_->systems().back();
-        
+
         if (!sys->is_connected()) {
             return;
         }
 
         if (system_ && system_->get_system_id() == sys->get_system_id()) {
-            return; 
+            return;
         }
 
         qDebug() << "New System Discovered! ID:" << sys->get_system_id();
@@ -73,9 +73,16 @@ void MavlinkConnection::connectAsync(const QString& connectionUrl)
 
         telemetry_ = std::make_shared<Telemetry>(system_);
         action_ = std::make_shared<Action>(system_);
+        mavlink_passthrough_ = std::make_shared<MavlinkPassthrough>(system_);
+
+        qDebug() << "MavlinkPassthrough initialized. Sending is now available.";
 
         telemetry_->subscribe_position([](Telemetry::Position position) {
              qDebug() << "Altitude:" << position.relative_altitude_m << "m";
         });
+
+        QMetaObject::invokeMethod(this, [this]() {
+            vehicleConnected_ = true;
+        }, Qt::QueuedConnection);
     });
 }

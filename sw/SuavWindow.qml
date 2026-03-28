@@ -120,7 +120,7 @@ ApplicationWindow {
 
                 delegate: Rectangle {
                     width: paramsList.width
-                    height: 70
+                    height: 60
                     radius: 6
                     border.width: 1
                     border.color: "#2a2a2a"
@@ -128,7 +128,7 @@ ApplicationWindow {
 
                     RowLayout {
                         anchors.fill: parent
-                        anchors.margins: 2
+                        anchors.margins: 8
                         spacing: 10
 
                         Text {
@@ -136,8 +136,7 @@ ApplicationWindow {
                             color: "white"
                             elide: Text.ElideRight
                             Layout.preferredWidth: 260
-                            Layout.fillHeight: true
-                            verticalAlignment: Text.AlignTop
+                            verticalAlignment: Text.AlignVCenter
                         }
 
                         TextField {
@@ -145,14 +144,41 @@ ApplicationWindow {
                             text: String(value)
                             enabled: !readOnly
                             Layout.fillWidth: true
-                            Layout.fillHeight: true
+                            Layout.preferredHeight: 36
+                            color: "#E8EAFF"
+                            verticalAlignment: Text.AlignVCenter
+                            topPadding: 6
+                            bottomPadding: 6
+
+                            background: Rectangle {
+                                color: "#1E2130"
+                                border.color: valueField.activeFocus ? "#6366F1" : "#3D4466"
+                                border.width: 1
+                                radius: 6
+                            }
                         }
 
                         Button {
+                            id: sendButton
                             text: "Send"
                             enabled: !readOnly
-                            Layout.preferredWidth: 90
-                            Layout.fillHeight: true
+                            Layout.preferredWidth: 72
+                            Layout.preferredHeight: 36
+
+                            contentItem: Text {
+                                text: sendButton.text
+                                color: sendButton.enabled ? "#E8EAFF" : "#6B7299"
+                                horizontalAlignment: Text.AlignHCenter
+                                verticalAlignment: Text.AlignVCenter
+                            }
+
+                            background: Rectangle {
+                                color: sendButton.enabled
+                                    ? (sendButton.pressed ? "#4F46E5" : "#6366F1")
+                                    : "#2D3155"
+                                radius: 8
+                            }
+
                             onClicked: {
                                 parameterModule.setValue(index, Number(valueField.text))
                                 parameterModule.send(index)
