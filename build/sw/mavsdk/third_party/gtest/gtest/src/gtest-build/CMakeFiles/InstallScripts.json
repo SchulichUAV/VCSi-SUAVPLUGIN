@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/cmake_install.cmake",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/googlemock/cmake_install.cmake",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/googletest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

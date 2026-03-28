@@ -1,0 +1,34 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/CheckCXXCompilerFlag.cmake
+C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake
+C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake
+C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake
+C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake
+C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/Qt6Dependencies.cmake
+C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/Qt6Targets.cmake
+C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake
+C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/QtFeature.cmake
+C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/QtFeatureCommon.cmake
+C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake
+C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake
+C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake
+C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake
+C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake
+C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake
+C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake
+C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake
+C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake
+C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake
+C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake
+C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6QuickLayouts/Qt6QuickLayoutsAdditionalTargetInfo.cmake
+C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6QuickLayouts/Qt6QuickLayoutsConfig.cmake
+C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6QuickLayouts/Qt6QuickLayoutsConfigVersion.cmake
+C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6QuickLayouts/Qt6QuickLayoutsConfigVersionImpl.cmake
+C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6QuickLayouts/Qt6QuickLayoutsDependencies.cmake
+C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6QuickLayouts/Qt6QuickLayoutsTargets-debug.cmake
+C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6QuickLayouts/Qt6QuickLayoutsTargets-relwithdebinfo.cmake
+C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6QuickLayouts/Qt6QuickLayoutsTargets.cmake
+C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6QuickLayouts/Qt6QuickLayoutsVersionlessTargets.cmake
+C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/CMakeLists.txt
+C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/Suav.qrc

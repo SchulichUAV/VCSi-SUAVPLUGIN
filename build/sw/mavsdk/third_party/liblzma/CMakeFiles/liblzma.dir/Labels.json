@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/CMakeFiles/liblzma"
+		},
+		{
+			"file" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/CMakeFiles/d5832383690f7d074759b896e7d3ed66/liblzma.rule"
+		},
+		{
+			"file" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/CMakeFiles/94aa62de18fe9522f803064d93321e71/liblzma-complete.rule"
+		},
+		{
+			"file" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/CMakeFiles/c56bab50eaceb195e82c4b9e475ddac2/liblzma-build.rule"
+		},
+		{
+			"file" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/CMakeFiles/c56bab50eaceb195e82c4b9e475ddac2/liblzma-configure.rule"
+		},
+		{
+			"file" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/CMakeFiles/c56bab50eaceb195e82c4b9e475ddac2/liblzma-download.rule"
+		},
+		{
+			"file" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/CMakeFiles/c56bab50eaceb195e82c4b9e475ddac2/liblzma-install.rule"
+		},
+		{
+			"file" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/CMakeFiles/c56bab50eaceb195e82c4b9e475ddac2/liblzma-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/CMakeFiles/c56bab50eaceb195e82c4b9e475ddac2/liblzma-patch.rule"
+		},
+		{
+			"file" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/CMakeFiles/c56bab50eaceb195e82c4b9e475ddac2/liblzma-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"liblzma"
+		],
+		"name" : "liblzma"
+	}
+}

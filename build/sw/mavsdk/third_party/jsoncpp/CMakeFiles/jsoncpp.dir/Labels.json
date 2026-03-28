@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/CMakeFiles/jsoncpp"
+		},
+		{
+			"file" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/CMakeFiles/1aee98d2fdbd856e752bc4b73e374f6f/jsoncpp.rule"
+		},
+		{
+			"file" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/CMakeFiles/301c93bec3ee727340a7e495381f1738/jsoncpp-complete.rule"
+		},
+		{
+			"file" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/CMakeFiles/f145585e70effc119b9a190058b9555a/jsoncpp-build.rule"
+		},
+		{
+			"file" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/CMakeFiles/f145585e70effc119b9a190058b9555a/jsoncpp-configure.rule"
+		},
+		{
+			"file" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/CMakeFiles/f145585e70effc119b9a190058b9555a/jsoncpp-download.rule"
+		},
+		{
+			"file" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/CMakeFiles/f145585e70effc119b9a190058b9555a/jsoncpp-install.rule"
+		},
+		{
+			"file" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/CMakeFiles/f145585e70effc119b9a190058b9555a/jsoncpp-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/CMakeFiles/f145585e70effc119b9a190058b9555a/jsoncpp-patch.rule"
+		},
+		{
+			"file" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/CMakeFiles/f145585e70effc119b9a190058b9555a/jsoncpp-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"jsoncpp"
+		],
+		"name" : "jsoncpp"
+	}
+}

@@ -1,0 +1,13 @@
+# Target labels
+ gtest
+# Source files and their labels
+C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/CMakeFiles/gtest
+C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/CMakeFiles/c15a92c33aa9a181b9878946f4bd4c90/gtest.rule
+C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/CMakeFiles/6f1632766049ba4177f6bbc4e3d61862/gtest-complete.rule
+C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/CMakeFiles/c68a4a368c83f82286b9c947fbd832d2/gtest-build.rule
+C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/CMakeFiles/c68a4a368c83f82286b9c947fbd832d2/gtest-configure.rule
+C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/CMakeFiles/c68a4a368c83f82286b9c947fbd832d2/gtest-download.rule
+C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/CMakeFiles/c68a4a368c83f82286b9c947fbd832d2/gtest-install.rule
+C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/CMakeFiles/c68a4a368c83f82286b9c947fbd832d2/gtest-mkdir.rule
+C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/CMakeFiles/c68a4a368c83f82286b9c947fbd832d2/gtest-patch.rule
+C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/CMakeFiles/c68a4a368c83f82286b9c947fbd832d2/gtest-update.rule
