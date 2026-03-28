@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\jsoncpp\src\jsoncpp\src\lib_json\json_reader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\jsoncpp\src\jsoncpp\src\lib_json\json_value.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\jsoncpp\src\jsoncpp\src\lib_json\json_writer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\jsoncpp\src\jsoncpp\include\json\config.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\jsoncpp\src\jsoncpp\include\json\forwards.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\jsoncpp\src\jsoncpp\include\json\json_features.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\jsoncpp\src\jsoncpp\include\json\value.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\jsoncpp\src\jsoncpp\include\json\reader.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\jsoncpp\src\jsoncpp\include\json\version.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\jsoncpp\src\jsoncpp\include\json\writer.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\jsoncpp\src\jsoncpp\include\json\assertions.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\jsoncpp\src\jsoncpp\src\lib_json\json_tool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\jsoncpp\src\jsoncpp\src\lib_json\json_valueiterator.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\jsoncpp\src\jsoncpp\src\lib_json\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4C710A1D-B02F-37EE-A8E3-55B9EBE29EDB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public API">
+      <UniqueIdentifier>{1A3A2E02-AF01-374C-AAFE-97E03C7B0268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B967CABD-929A-374D-AFC2-36EEE27EB214}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

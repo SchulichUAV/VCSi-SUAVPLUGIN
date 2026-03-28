@@ -1,0 +1,34 @@
+^C:\USERS\2006L\ONEDRIVE\DESKTOP\SUAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\MAVLINK\MAVLINK\SRC\MAVLINK-BUILD\CMAKEFILES\24427FE4B053775CB706E83F02BF1548\MAVLINK.H.RULE
+setlocal
+cd C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\mavlink\mavlink\src\mavlink
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\2006l\OneDrive\Desktop\SUAV\.venv\Scripts\python.exe -m pip install -r pymavlink/requirements.txt --upgrade -t C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/mavlink/src/mavlink-build/pip-dependencies/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env PYTHONPATH=C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/mavlink/src/mavlink-build/pip-dependencies/ C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/python.exe -m pymavlink.tools.mavgen --lang=C --wire-protocol=2.0 --output C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/mavlink/src/mavlink-build/include/mavlink/ message_definitions/v1.0/common.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\2006L\ONEDRIVE\DESKTOP\SUAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\MAVLINK\MAVLINK\SRC\MAVLINK-BUILD\CMAKEFILES\7AEE0F6BC0F9B38AA81FF6C8CF5DB733\GENERATE_C_HEADERS.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\2006L\ONEDRIVE\DESKTOP\SUAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\MAVLINK\MAVLINK\SRC\MAVLINK\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/mavlink/src/mavlink -BC:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/mavlink/src/mavlink-build --check-stamp-file C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/mavlink/src/mavlink-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
