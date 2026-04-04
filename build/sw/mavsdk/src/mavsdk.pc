@@ -1,0 +1,11 @@
+prefix=C:/Program Files/SuavPlugin
+exec_prefix=C:/Program Files/SuavPlugin/bin
+libdir=C:/Program Files/SuavPlugin/lib
+includedir=C:/Program Files/SuavPlugin/include
+
+Name: MAVSDK
+Description: API and library for MAVLink compatible systems written in C++17
+Version: 3.2.0
+Requires.private: libcurl jsoncpp tinyxml2
+Libs: -L"${libdir}" -lmavsdk
+Cflags: -I"${includedir}" -I"${includedir}/mavsdk"

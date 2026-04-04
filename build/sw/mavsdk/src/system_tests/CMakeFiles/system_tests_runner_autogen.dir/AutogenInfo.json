@@ -1,0 +1,435 @@
+{
+	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
+	"BUILD_DIR" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/system_tests/system_tests_runner_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/system_tests",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/system_tests",
+	"CMAKE_EXECUTABLE" : "C:/Program Files/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/system_tests/CMakeLists.txt",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/FindGTest.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/GoogleTest.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/FindPackageMessage.cmake",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/lib/cmake/GTest/GTestConfigVersion.cmake",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/lib/cmake/GTest/GTestConfig.cmake",
+		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/lib/cmake/GTest/GTestTargets.cmake",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/lib/cmake/GTest/GTestTargets-release.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/system_tests/fs_helpers.h",
+			"MU",
+			"EWIEGA46WW/moc_fs_helpers.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/system_tests/system_tests_runner_autogen/include",
+	"INCLUDE_DIR_Debug" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/system_tests/system_tests_runner_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/system_tests/system_tests_runner_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/system_tests/system_tests_runner_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/system_tests/system_tests_runner_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/system_tests/system_tests_runner_autogen/mocs_compilation.cpp",
+	"MOC_COMPILATION_FILE_Debug" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/system_tests/system_tests_runner_autogen/mocs_compilation_Debug.cpp",
+	"MOC_COMPILATION_FILE_MinSizeRel" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/system_tests/system_tests_runner_autogen/mocs_compilation_MinSizeRel.cpp",
+	"MOC_COMPILATION_FILE_RelWithDebInfo" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/system_tests/system_tests_runner_autogen/mocs_compilation_RelWithDebInfo.cpp",
+	"MOC_COMPILATION_FILE_Release" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/system_tests/system_tests_runner_autogen/mocs_compilation_Release.cpp",
+	"MOC_DEFINITIONS" : [],
+	"MOC_DEFINITIONS_Debug" : 
+	[
+		"CURL_STATICLIB",
+		"NOMINMAX",
+		"WIN32",
+		"WIN32_LEAN_AND_MEAN",
+		"WINDOWS",
+		"_USE_MATH_DEFINES",
+		"_WIN32_WINNT=0x0600"
+	],
+	"MOC_DEFINITIONS_MinSizeRel" : 
+	[
+		"CURL_STATICLIB",
+		"NOMINMAX",
+		"WIN32",
+		"WIN32_LEAN_AND_MEAN",
+		"WINDOWS",
+		"_USE_MATH_DEFINES",
+		"_WIN32_WINNT=0x0600"
+	],
+	"MOC_DEFINITIONS_RelWithDebInfo" : 
+	[
+		"CURL_STATICLIB",
+		"NOMINMAX",
+		"WIN32",
+		"WIN32_LEAN_AND_MEAN",
+		"WINDOWS",
+		"_USE_MATH_DEFINES",
+		"_WIN32_WINNT=0x0600"
+	],
+	"MOC_DEFINITIONS_Release" : 
+	[
+		"CURL_STATICLIB",
+		"NOMINMAX",
+		"WIN32",
+		"WIN32_LEAN_AND_MEAN",
+		"WINDOWS",
+		"_USE_MATH_DEFINES",
+		"_WIN32_WINNT=0x0600"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : [],
+	"MOC_INCLUDES_Debug" : 
+	[
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/core",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/core/include/mavsdk",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/mavsdk/core/include/mavsdk",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/action/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/action_server/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/arm_authorizer_server/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/calibration/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/camera/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/camera_server/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/component_metadata/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/component_metadata_server/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/events/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/failure/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/follow_me/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/ftp/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/ftp_server/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/geofence/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/gimbal/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/gripper/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/info/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/log_files/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/log_streaming/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/manual_control/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/mission/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/mission_raw/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/mission_raw_server/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/mocap/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/offboard/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/param/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/param_server/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/rtk/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/server_utility/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/shell/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/telemetry/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/telemetry_server/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/transponder/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/tune/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/winch/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/mavlink_passthrough/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/include"
+	],
+	"MOC_INCLUDES_MinSizeRel" : 
+	[
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/core",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/core/include/mavsdk",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/mavsdk/core/include/mavsdk",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/action/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/action_server/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/arm_authorizer_server/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/calibration/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/camera/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/camera_server/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/component_metadata/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/component_metadata_server/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/events/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/failure/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/follow_me/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/ftp/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/ftp_server/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/geofence/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/gimbal/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/gripper/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/info/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/log_files/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/log_streaming/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/manual_control/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/mission/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/mission_raw/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/mission_raw_server/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/mocap/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/offboard/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/param/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/param_server/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/rtk/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/server_utility/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/shell/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/telemetry/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/telemetry_server/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/transponder/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/tune/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/winch/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/mavlink_passthrough/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/include"
+	],
+	"MOC_INCLUDES_RelWithDebInfo" : 
+	[
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/core",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/core/include/mavsdk",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/mavsdk/core/include/mavsdk",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/action/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/action_server/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/arm_authorizer_server/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/calibration/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/camera/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/camera_server/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/component_metadata/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/component_metadata_server/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/events/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/failure/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/follow_me/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/ftp/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/ftp_server/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/geofence/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/gimbal/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/gripper/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/info/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/log_files/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/log_streaming/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/manual_control/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/mission/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/mission_raw/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/mission_raw_server/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/mocap/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/offboard/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/param/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/param_server/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/rtk/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/server_utility/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/shell/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/telemetry/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/telemetry_server/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/transponder/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/tune/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/winch/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/mavlink_passthrough/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/include"
+	],
+	"MOC_INCLUDES_Release" : 
+	[
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/core",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/core/include/mavsdk",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/mavsdk/core/include/mavsdk",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/action/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/action_server/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/arm_authorizer_server/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/calibration/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/camera/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/camera_server/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/component_metadata/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/component_metadata_server/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/events/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/failure/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/follow_me/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/ftp/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/ftp_server/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/geofence/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/gimbal/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/gripper/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/info/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/log_files/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/log_streaming/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/manual_control/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/mission/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/mission_raw/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/mission_raw_server/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/mocap/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/offboard/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/param/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/param_server/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/rtk/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/server_utility/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/shell/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/telemetry/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/telemetry_server/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/transponder/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/tune/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/winch/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/mavlink_passthrough/include",
+		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : true,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/system_tests/CMakeFiles/system_tests_runner_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/system_tests/CMakeFiles/system_tests_runner_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_MinSizeRel" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/system_tests/CMakeFiles/system_tests_runner_autogen.dir/ParseCache_MinSizeRel.txt",
+	"PARSE_CACHE_FILE_RelWithDebInfo" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/system_tests/CMakeFiles/system_tests_runner_autogen.dir/ParseCache_RelWithDebInfo.txt",
+	"PARSE_CACHE_FILE_Release" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/system_tests/CMakeFiles/system_tests_runner_autogen.dir/ParseCache_Release.txt",
+	"QT_MOC_EXECUTABLE" : "C:/Qt/6.5.3/msvc2019_64/./bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "C:/Qt/6.5.3/msvc2019_64/./bin/uic.exe",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 5,
+	"SETTINGS_FILE" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/system_tests/CMakeFiles/system_tests_runner_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/system_tests/CMakeFiles/system_tests_runner_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/system_tests/CMakeFiles/system_tests_runner_autogen.dir/AutogenUsed_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/system_tests/CMakeFiles/system_tests_runner_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/system_tests/CMakeFiles/system_tests_runner_autogen.dir/AutogenUsed_Release.txt",
+	"SOURCES" : 
+	[
+		[
+			"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/system_tests/action_arm_disarm.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/system_tests/camera_format_storage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/system_tests/camera_list_cameras.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/system_tests/camera_mode.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/system_tests/camera_settings.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/system_tests/camera_storage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/system_tests/camera_take_photo.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/system_tests/camera_take_photo_interval.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/system_tests/camera_video_stream.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/system_tests/component_metadata.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/system_tests/fs_helpers.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/system_tests/ftp_compare_files.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/system_tests/ftp_create_dir.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/system_tests/ftp_download_file.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/system_tests/ftp_download_file_burst.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/system_tests/ftp_list_dir.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/system_tests/ftp_remove_dir.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/system_tests/ftp_remove_file.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/system_tests/ftp_rename_file.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/system_tests/ftp_upload_file.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/system_tests/mission_raw_upload.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/system_tests/param_custom_set_and_get.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/system_tests/param_get_all.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/system_tests/param_set_and_get.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/system_tests/system_tests_runner.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/system_tests/telemetry_subscription.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

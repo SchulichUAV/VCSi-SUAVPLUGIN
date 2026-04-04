@@ -115,12 +115,12 @@ ApplicationWindow {
                 Layout.fillHeight: true
                 Layout.minimumHeight: 200
                 clip: true
-                spacing: 8
+                spacing: 4
                 model: parameterModule.parameterModel
 
                 delegate: Rectangle {
                     width: paramsList.width
-                    height: 70
+                    height: 48
                     radius: 6
                     border.width: 1
                     border.color: "#2a2a2a"
@@ -128,16 +128,15 @@ ApplicationWindow {
 
                     RowLayout {
                         anchors.fill: parent
-                        anchors.margins: 2
-                        spacing: 10
+                        anchors.margins: 6
+                        spacing: 8
 
                         Text {
                             text: name
                             color: "white"
                             elide: Text.ElideRight
                             Layout.preferredWidth: 260
-                            Layout.fillHeight: true
-                            verticalAlignment: Text.AlignTop
+                            verticalAlignment: Text.AlignVCenter
                         }
 
                         TextField {
@@ -145,14 +144,14 @@ ApplicationWindow {
                             text: String(value)
                             enabled: !readOnly
                             Layout.fillWidth: true
-                            Layout.fillHeight: true
+                            Layout.preferredHeight: 36
                         }
 
                         Button {
                             text: "Send"
                             enabled: !readOnly
                             Layout.preferredWidth: 90
-                            Layout.fillHeight: true
+                            Layout.preferredHeight: 36
                             onClicked: {
                                 parameterModule.setValue(index, Number(valueField.text))
                                 parameterModule.send(index)

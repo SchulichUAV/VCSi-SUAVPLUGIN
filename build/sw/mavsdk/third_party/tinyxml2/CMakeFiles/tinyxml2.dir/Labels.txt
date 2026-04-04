@@ -1,0 +1,13 @@
+# Target labels
+ tinyxml2
+# Source files and their labels
+C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/CMakeFiles/tinyxml2
+C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/CMakeFiles/205dad821126597adcf666abcfb7c6bd/tinyxml2.rule
+C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/CMakeFiles/b23f965a26b588291c3e3e55970b8dda/tinyxml2-complete.rule
+C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/CMakeFiles/246bc85be089600f195d0b5d62967995/tinyxml2-build.rule
+C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/CMakeFiles/246bc85be089600f195d0b5d62967995/tinyxml2-configure.rule
+C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/CMakeFiles/246bc85be089600f195d0b5d62967995/tinyxml2-download.rule
+C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/CMakeFiles/246bc85be089600f195d0b5d62967995/tinyxml2-install.rule
+C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/CMakeFiles/246bc85be089600f195d0b5d62967995/tinyxml2-mkdir.rule
+C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/CMakeFiles/246bc85be089600f195d0b5d62967995/tinyxml2-patch.rule
+C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/CMakeFiles/246bc85be089600f195d0b5d62967995/tinyxml2-update.rule
