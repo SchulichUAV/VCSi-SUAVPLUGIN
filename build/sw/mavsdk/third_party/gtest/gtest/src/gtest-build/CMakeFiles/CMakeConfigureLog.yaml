@@ -4,97 +4,16 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
       - "CMakeLists.txt:6 (project)"
     message: |
-      The system is: Windows - 10.0.26100 - AMD64
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:6 (project)"
-    mode: "file"
-    variable: "src_in"
-    description: "Path to a file."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "CMakeCCompilerId.c.in"
-    candidate_directories:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
-    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-      ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\tools"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\ide"
-        - "C:\\Program Files (x86)\\HTML Help Workshop"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\.venv\\Scripts"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\Memurai\\"
-        - "C:\\yt dlp"
-        - "C:\\ffmpeg\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Launcher\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\MinGW64\\bin"
-        - "C:\\Users\\2006l\\AppData\\Roaming\\npm"
-        - "C:\\Users\\2006l\\.dotnet\\tools"
-        - "C:\\cygwin64\\bin"
-        - "c:\\Users\\2006l\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-      CMAKE_INSTALL_PREFIX: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-      ENV{INCLUDE}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\include"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Auxiliary\\VS\\include"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Auxiliary\\VS\\UnitTest\\include"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt"
-        - "Include\\um"
+      The system is: Windows - 10.0.26200 - AMD64
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:6 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
@@ -104,11 +23,11 @@ events:
       
       The output was:
       0
-      Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+      Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
       Copyright (C) Microsoft Corporation. All rights reserved.
       
-      Build started 3/7/2026 4:27:50 PM.
-      Project "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\4.3.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      Build started 2026-04-27 8:08:19 PM.
+      Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Creating directory "Debug\\CompilerIdC.tlog\\".
@@ -119,7 +38,7 @@ events:
         CMakeCCompilerId.c
       Link:
         C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\4.3.0-rc2\\CompilerIdC\\CompilerIdC.exe
+        CompilerIdC.vcxproj -> C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
@@ -127,13 +46,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Done Building Project "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\4.3.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.27
+      Time Elapsed 00:00:00.39
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -141,745 +60,14 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/4.3.0-rc2/CompilerIdC/CompilerIdC.exe
+        C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/4.0.2/CompilerIdC/CompilerIdC.exe
       
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:6 (project)"
-    mode: "program"
-    variable: "_CMAKE_TOOL_WITH_PATH"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "link"
-    candidate_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/Tools/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/"
-      - "C:/Program Files (x86)/HTML Help Workshop/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
-      - "C:/ProgramData/Oracle/Java/javapath/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files/Docker/Docker/resources/bin/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/nodejs/"
-      - "C:/Program Files/Memurai/"
-      - "C:/yt dlp/"
-      - "C:/ffmpeg/bin/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/Scripts/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Launcher/"
-      - "C:/Users/2006l/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/2006l/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/MinGW64/bin/"
-      - "C:/Users/2006l/AppData/Roaming/npm/"
-      - "C:/Users/2006l/.dotnet/tools/"
-      - "C:/cygwin64/bin/"
-      - "C:/Users/2006l/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-    searched_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/link.com"
-    found: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/link.exe"
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-      ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\tools"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\ide"
-        - "C:\\Program Files (x86)\\HTML Help Workshop"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\.venv\\Scripts"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\Memurai\\"
-        - "C:\\yt dlp"
-        - "C:\\ffmpeg\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Launcher\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\MinGW64\\bin"
-        - "C:\\Users\\2006l\\AppData\\Roaming\\npm"
-        - "C:\\Users\\2006l\\.dotnet\\tools"
-        - "C:\\cygwin64\\bin"
-        - "c:\\Users\\2006l\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-      CMAKE_INSTALL_PREFIX: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:6 (project)"
-    mode: "program"
-    variable: "_CMAKE_TOOL_WITH_PATH"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "lld-link"
-    candidate_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/Tools/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/"
-      - "C:/Program Files (x86)/HTML Help Workshop/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
-      - "C:/ProgramData/Oracle/Java/javapath/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files/Docker/Docker/resources/bin/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/nodejs/"
-      - "C:/Program Files/Memurai/"
-      - "C:/yt dlp/"
-      - "C:/ffmpeg/bin/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/Scripts/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Launcher/"
-      - "C:/Users/2006l/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/2006l/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/MinGW64/bin/"
-      - "C:/Users/2006l/AppData/Roaming/npm/"
-      - "C:/Users/2006l/.dotnet/tools/"
-      - "C:/cygwin64/bin/"
-      - "C:/Users/2006l/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-    searched_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/lld-link.com"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/lld-link.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/lld-link"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x86/lld-link.com"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x86/lld-link.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x86/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/Tools/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/Tools/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/Tools/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/lld-link"
-      - "C:/Program Files (x86)/HTML Help Workshop/lld-link.com"
-      - "C:/Program Files (x86)/HTML Help Workshop/lld-link.exe"
-      - "C:/Program Files (x86)/HTML Help Workshop/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/lld-link"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.com"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.exe"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.com"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.exe"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/lld-link.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/lld-link.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/lld-link"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.com"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.exe"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.com"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.exe"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
-      - "C:/ProgramData/Oracle/Java/javapath/lld-link.com"
-      - "C:/ProgramData/Oracle/Java/javapath/lld-link.exe"
-      - "C:/ProgramData/Oracle/Java/javapath/lld-link"
-      - "C:/Windows/System32/lld-link.com"
-      - "C:/Windows/System32/lld-link.exe"
-      - "C:/Windows/System32/lld-link"
-      - "C:/Windows/lld-link.com"
-      - "C:/Windows/lld-link.exe"
-      - "C:/Windows/lld-link"
-      - "C:/Windows/System32/wbem/lld-link.com"
-      - "C:/Windows/System32/wbem/lld-link.exe"
-      - "C:/Windows/System32/wbem/lld-link"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
-      - "C:/Windows/System32/OpenSSH/lld-link.com"
-      - "C:/Windows/System32/OpenSSH/lld-link.exe"
-      - "C:/Windows/System32/OpenSSH/lld-link"
-      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.com"
-      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.exe"
-      - "C:/Program Files/Docker/Docker/resources/bin/lld-link"
-      - "C:/Program Files/Git/cmd/lld-link.com"
-      - "C:/Program Files/Git/cmd/lld-link.exe"
-      - "C:/Program Files/Git/cmd/lld-link"
-      - "C:/ProgramData/chocolatey/bin/lld-link.com"
-      - "C:/ProgramData/chocolatey/bin/lld-link.exe"
-      - "C:/ProgramData/chocolatey/bin/lld-link"
-      - "C:/Program Files/CMake/bin/lld-link.com"
-      - "C:/Program Files/CMake/bin/lld-link.exe"
-      - "C:/Program Files/CMake/bin/lld-link"
-      - "C:/Program Files/nodejs/lld-link.com"
-      - "C:/Program Files/nodejs/lld-link.exe"
-      - "C:/Program Files/nodejs/lld-link"
-      - "C:/Program Files/Memurai/lld-link.com"
-      - "C:/Program Files/Memurai/lld-link.exe"
-      - "C:/Program Files/Memurai/lld-link"
-      - "C:/yt dlp/lld-link.com"
-      - "C:/yt dlp/lld-link.exe"
-      - "C:/yt dlp/lld-link"
-      - "C:/ffmpeg/bin/lld-link.com"
-      - "C:/ffmpeg/bin/lld-link.exe"
-      - "C:/ffmpeg/bin/lld-link"
-      - "C:/Program Files/dotnet/lld-link.com"
-      - "C:/Program Files/dotnet/lld-link.exe"
-      - "C:/Program Files/dotnet/lld-link"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/Scripts/lld-link.com"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/Scripts/lld-link.exe"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/Scripts/lld-link"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/lld-link.com"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/lld-link.exe"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/lld-link"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Launcher/lld-link.com"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Launcher/lld-link.exe"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Launcher/lld-link"
-      - "C:/Users/2006l/AppData/Local/Microsoft/WindowsApps/lld-link.com"
-      - "C:/Users/2006l/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
-      - "C:/Users/2006l/AppData/Local/Microsoft/WindowsApps/lld-link"
-      - "C:/Users/2006l/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
-      - "C:/Users/2006l/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
-      - "C:/Users/2006l/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
-      - "C:/MinGW64/bin/lld-link.com"
-      - "C:/MinGW64/bin/lld-link.exe"
-      - "C:/MinGW64/bin/lld-link"
-      - "C:/Users/2006l/AppData/Roaming/npm/lld-link.com"
-      - "C:/Users/2006l/AppData/Roaming/npm/lld-link.exe"
-      - "C:/Users/2006l/AppData/Roaming/npm/lld-link"
-      - "C:/Users/2006l/.dotnet/tools/lld-link.com"
-      - "C:/Users/2006l/.dotnet/tools/lld-link.exe"
-      - "C:/Users/2006l/.dotnet/tools/lld-link"
-      - "C:/cygwin64/bin/lld-link.com"
-      - "C:/cygwin64/bin/lld-link.exe"
-      - "C:/cygwin64/bin/lld-link"
-      - "C:/Users/2006l/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.com"
-      - "C:/Users/2006l/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.exe"
-      - "C:/Users/2006l/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link"
-    found: false
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-      ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\tools"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\ide"
-        - "C:\\Program Files (x86)\\HTML Help Workshop"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\.venv\\Scripts"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\Memurai\\"
-        - "C:\\yt dlp"
-        - "C:\\ffmpeg\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Launcher\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\MinGW64\\bin"
-        - "C:\\Users\\2006l\\AppData\\Roaming\\npm"
-        - "C:\\Users\\2006l\\.dotnet\\tools"
-        - "C:\\cygwin64\\bin"
-        - "c:\\Users\\2006l\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-      CMAKE_INSTALL_PREFIX: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:6 (project)"
-    mode: "program"
-    variable: "CMAKE_LINKER"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "link"
-    candidate_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/Tools/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/"
-      - "C:/Program Files (x86)/HTML Help Workshop/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
-      - "C:/ProgramData/Oracle/Java/javapath/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files/Docker/Docker/resources/bin/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/nodejs/"
-      - "C:/Program Files/Memurai/"
-      - "C:/yt dlp/"
-      - "C:/ffmpeg/bin/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/Scripts/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Launcher/"
-      - "C:/Users/2006l/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/2006l/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/MinGW64/bin/"
-      - "C:/Users/2006l/AppData/Roaming/npm/"
-      - "C:/Users/2006l/.dotnet/tools/"
-      - "C:/cygwin64/bin/"
-      - "C:/Users/2006l/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-    searched_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/link.com"
-    found: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/link.exe"
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-      ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\tools"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\ide"
-        - "C:\\Program Files (x86)\\HTML Help Workshop"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\.venv\\Scripts"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\Memurai\\"
-        - "C:\\yt dlp"
-        - "C:\\ffmpeg\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Launcher\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\MinGW64\\bin"
-        - "C:\\Users\\2006l\\AppData\\Roaming\\npm"
-        - "C:\\Users\\2006l\\.dotnet\\tools"
-        - "C:\\cygwin64\\bin"
-        - "c:\\Users\\2006l\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-      CMAKE_INSTALL_PREFIX: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:6 (project)"
-    mode: "program"
-    variable: "CMAKE_MT"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "mt"
-    candidate_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/Tools/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/"
-      - "C:/Program Files (x86)/HTML Help Workshop/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
-      - "C:/ProgramData/Oracle/Java/javapath/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files/Docker/Docker/resources/bin/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/nodejs/"
-      - "C:/Program Files/Memurai/"
-      - "C:/yt dlp/"
-      - "C:/ffmpeg/bin/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/Scripts/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Launcher/"
-      - "C:/Users/2006l/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/2006l/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/MinGW64/bin/"
-      - "C:/Users/2006l/AppData/Roaming/npm/"
-      - "C:/Users/2006l/.dotnet/tools/"
-      - "C:/cygwin64/bin/"
-      - "C:/Users/2006l/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-    searched_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/mt.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/mt.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/mt"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/mt.com"
-    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/mt.exe"
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-      ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\tools"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\ide"
-        - "C:\\Program Files (x86)\\HTML Help Workshop"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\.venv\\Scripts"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\Memurai\\"
-        - "C:\\yt dlp"
-        - "C:\\ffmpeg\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Launcher\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\MinGW64\\bin"
-        - "C:\\Users\\2006l\\AppData\\Roaming\\npm"
-        - "C:\\Users\\2006l\\.dotnet\\tools"
-        - "C:\\cygwin64\\bin"
-        - "c:\\Users\\2006l\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-      CMAKE_INSTALL_PREFIX: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:6 (project)"
-    mode: "program"
-    variable: "CMAKE_AR"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "lib"
-    candidate_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/Tools/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/"
-      - "C:/Program Files (x86)/HTML Help Workshop/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
-      - "C:/ProgramData/Oracle/Java/javapath/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files/Docker/Docker/resources/bin/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/nodejs/"
-      - "C:/Program Files/Memurai/"
-      - "C:/yt dlp/"
-      - "C:/ffmpeg/bin/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/Scripts/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Launcher/"
-      - "C:/Users/2006l/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/2006l/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/MinGW64/bin/"
-      - "C:/Users/2006l/AppData/Roaming/npm/"
-      - "C:/Users/2006l/.dotnet/tools/"
-      - "C:/cygwin64/bin/"
-      - "C:/Users/2006l/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-    searched_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lib.com"
-    found: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lib.exe"
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-      ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\tools"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\ide"
-        - "C:\\Program Files (x86)\\HTML Help Workshop"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\.venv\\Scripts"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\Memurai\\"
-        - "C:\\yt dlp"
-        - "C:\\ffmpeg\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Launcher\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\MinGW64\\bin"
-        - "C:\\Users\\2006l\\AppData\\Roaming\\npm"
-        - "C:\\Users\\2006l\\.dotnet\\tools"
-        - "C:\\cygwin64\\bin"
-        - "c:\\Users\\2006l\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-      CMAKE_INSTALL_PREFIX: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:6 (project)"
-    mode: "file"
-    variable: "src_in"
-    description: "Path to a file."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "CMakeCXXCompilerId.cpp.in"
-    candidate_directories:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
-    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-      ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\tools"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\ide"
-        - "C:\\Program Files (x86)\\HTML Help Workshop"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\.venv\\Scripts"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\Memurai\\"
-        - "C:\\yt dlp"
-        - "C:\\ffmpeg\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Launcher\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\MinGW64\\bin"
-        - "C:\\Users\\2006l\\AppData\\Roaming\\npm"
-        - "C:\\Users\\2006l\\.dotnet\\tools"
-        - "C:\\cygwin64\\bin"
-        - "c:\\Users\\2006l\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-      CMAKE_INSTALL_PREFIX: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-      ENV{INCLUDE}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\include"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Auxiliary\\VS\\include"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Auxiliary\\VS\\UnitTest\\include"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt"
-        - "Include\\um"
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:6 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
@@ -889,11 +77,11 @@ events:
       
       The output was:
       0
-      Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+      Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
       Copyright (C) Microsoft Corporation. All rights reserved.
       
-      Build started 3/7/2026 4:27:52 PM.
-      Project "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\4.3.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      Build started 2026-04-27 8:08:20 PM.
+      Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Creating directory "Debug\\CompilerIdCXX.tlog\\".
@@ -904,7 +92,7 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\4.3.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -912,13 +100,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Done Building Project "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\4.3.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.13
+      Time Elapsed 00:00:00.41
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -926,380 +114,20 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/4.3.0-rc2/CompilerIdCXX/CompilerIdCXX.exe
+        C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/4.0.2/CompilerIdCXX/CompilerIdCXX.exe
       
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:6 (project)"
-    mode: "program"
-    variable: "_CMAKE_TOOL_WITH_PATH"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "lld-link"
-    candidate_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/Tools/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/"
-      - "C:/Program Files (x86)/HTML Help Workshop/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
-      - "C:/ProgramData/Oracle/Java/javapath/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files/Docker/Docker/resources/bin/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/nodejs/"
-      - "C:/Program Files/Memurai/"
-      - "C:/yt dlp/"
-      - "C:/ffmpeg/bin/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/Scripts/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Launcher/"
-      - "C:/Users/2006l/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/2006l/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/MinGW64/bin/"
-      - "C:/Users/2006l/AppData/Roaming/npm/"
-      - "C:/Users/2006l/.dotnet/tools/"
-      - "C:/cygwin64/bin/"
-      - "C:/Users/2006l/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-    searched_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/lld-link.com"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/lld-link.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/lld-link"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x86/lld-link.com"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x86/lld-link.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x86/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/Tools/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/Tools/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/Tools/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/lld-link"
-      - "C:/Program Files (x86)/HTML Help Workshop/lld-link.com"
-      - "C:/Program Files (x86)/HTML Help Workshop/lld-link.exe"
-      - "C:/Program Files (x86)/HTML Help Workshop/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/lld-link"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.com"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.exe"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.com"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.exe"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/lld-link.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/lld-link.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/lld-link"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.com"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.exe"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.com"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.exe"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
-      - "C:/ProgramData/Oracle/Java/javapath/lld-link.com"
-      - "C:/ProgramData/Oracle/Java/javapath/lld-link.exe"
-      - "C:/ProgramData/Oracle/Java/javapath/lld-link"
-      - "C:/Windows/System32/lld-link.com"
-      - "C:/Windows/System32/lld-link.exe"
-      - "C:/Windows/System32/lld-link"
-      - "C:/Windows/lld-link.com"
-      - "C:/Windows/lld-link.exe"
-      - "C:/Windows/lld-link"
-      - "C:/Windows/System32/wbem/lld-link.com"
-      - "C:/Windows/System32/wbem/lld-link.exe"
-      - "C:/Windows/System32/wbem/lld-link"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
-      - "C:/Windows/System32/OpenSSH/lld-link.com"
-      - "C:/Windows/System32/OpenSSH/lld-link.exe"
-      - "C:/Windows/System32/OpenSSH/lld-link"
-      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.com"
-      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.exe"
-      - "C:/Program Files/Docker/Docker/resources/bin/lld-link"
-      - "C:/Program Files/Git/cmd/lld-link.com"
-      - "C:/Program Files/Git/cmd/lld-link.exe"
-      - "C:/Program Files/Git/cmd/lld-link"
-      - "C:/ProgramData/chocolatey/bin/lld-link.com"
-      - "C:/ProgramData/chocolatey/bin/lld-link.exe"
-      - "C:/ProgramData/chocolatey/bin/lld-link"
-      - "C:/Program Files/CMake/bin/lld-link.com"
-      - "C:/Program Files/CMake/bin/lld-link.exe"
-      - "C:/Program Files/CMake/bin/lld-link"
-      - "C:/Program Files/nodejs/lld-link.com"
-      - "C:/Program Files/nodejs/lld-link.exe"
-      - "C:/Program Files/nodejs/lld-link"
-      - "C:/Program Files/Memurai/lld-link.com"
-      - "C:/Program Files/Memurai/lld-link.exe"
-      - "C:/Program Files/Memurai/lld-link"
-      - "C:/yt dlp/lld-link.com"
-      - "C:/yt dlp/lld-link.exe"
-      - "C:/yt dlp/lld-link"
-      - "C:/ffmpeg/bin/lld-link.com"
-      - "C:/ffmpeg/bin/lld-link.exe"
-      - "C:/ffmpeg/bin/lld-link"
-      - "C:/Program Files/dotnet/lld-link.com"
-      - "C:/Program Files/dotnet/lld-link.exe"
-      - "C:/Program Files/dotnet/lld-link"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/Scripts/lld-link.com"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/Scripts/lld-link.exe"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/Scripts/lld-link"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/lld-link.com"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/lld-link.exe"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/lld-link"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Launcher/lld-link.com"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Launcher/lld-link.exe"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Launcher/lld-link"
-      - "C:/Users/2006l/AppData/Local/Microsoft/WindowsApps/lld-link.com"
-      - "C:/Users/2006l/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
-      - "C:/Users/2006l/AppData/Local/Microsoft/WindowsApps/lld-link"
-      - "C:/Users/2006l/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
-      - "C:/Users/2006l/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
-      - "C:/Users/2006l/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
-      - "C:/MinGW64/bin/lld-link.com"
-      - "C:/MinGW64/bin/lld-link.exe"
-      - "C:/MinGW64/bin/lld-link"
-      - "C:/Users/2006l/AppData/Roaming/npm/lld-link.com"
-      - "C:/Users/2006l/AppData/Roaming/npm/lld-link.exe"
-      - "C:/Users/2006l/AppData/Roaming/npm/lld-link"
-      - "C:/Users/2006l/.dotnet/tools/lld-link.com"
-      - "C:/Users/2006l/.dotnet/tools/lld-link.exe"
-      - "C:/Users/2006l/.dotnet/tools/lld-link"
-      - "C:/cygwin64/bin/lld-link.com"
-      - "C:/cygwin64/bin/lld-link.exe"
-      - "C:/cygwin64/bin/lld-link"
-      - "C:/Users/2006l/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.com"
-      - "C:/Users/2006l/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.exe"
-      - "C:/Users/2006l/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link"
-    found: false
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-      ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\tools"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\ide"
-        - "C:\\Program Files (x86)\\HTML Help Workshop"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\.venv\\Scripts"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\Memurai\\"
-        - "C:\\yt dlp"
-        - "C:\\ffmpeg\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Launcher\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\MinGW64\\bin"
-        - "C:\\Users\\2006l\\AppData\\Roaming\\npm"
-        - "C:\\Users\\2006l\\.dotnet\\tools"
-        - "C:\\cygwin64\\bin"
-        - "c:\\Users\\2006l\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-      CMAKE_INSTALL_PREFIX: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:583 (enable_language)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:556 (__windows_compiler_msvc_enable_rc)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCInformation.cmake:48 (include)"
-      - "CMakeLists.txt:6 (project)"
-    mode: "program"
-    variable: "CMAKE_RC_COMPILER"
-    description: "RC compiler"
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "rc"
-    candidate_directories:
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/bin/"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/sbin/"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/Tools/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/"
-      - "C:/Program Files (x86)/HTML Help Workshop/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
-      - "C:/ProgramData/Oracle/Java/javapath/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files/Docker/Docker/resources/bin/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/nodejs/"
-      - "C:/Program Files/Memurai/"
-      - "C:/yt dlp/"
-      - "C:/ffmpeg/bin/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/Scripts/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Launcher/"
-      - "C:/Users/2006l/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/2006l/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/MinGW64/bin/"
-      - "C:/Users/2006l/AppData/Roaming/npm/"
-      - "C:/Users/2006l/.dotnet/tools/"
-      - "C:/cygwin64/bin/"
-      - "C:/Users/2006l/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-      - "C:/Program Files/bin/"
-      - "C:/Program Files/sbin/"
-      - "C:/Program Files/"
-      - "C:/Program Files (x86)/bin/"
-      - "C:/Program Files (x86)/sbin/"
-      - "C:/Program Files (x86)/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/CMake/sbin/"
-      - "C:/Program Files/CMake/"
-    searched_directories:
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/bin/rc.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/bin/rc.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/bin/rc"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/sbin/rc.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/sbin/rc.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/sbin/rc"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/rc.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/rc.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/rc"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/rc.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/rc.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/rc"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/rc.com"
-    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/rc.exe"
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-      ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\tools"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\ide"
-        - "C:\\Program Files (x86)\\HTML Help Workshop"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\.venv\\Scripts"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\Memurai\\"
-        - "C:\\yt dlp"
-        - "C:\\ffmpeg\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Launcher\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\MinGW64\\bin"
-        - "C:\\Users\\2006l\\AppData\\Roaming\\npm"
-        - "C:\\Users\\2006l\\.dotnet\\tools"
-        - "C:\\cygwin64\\bin"
-        - "c:\\Users\\2006l\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-      CMAKE_INSTALL_PREFIX: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "C:/Program Files/CMake"
-        - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:6 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-vg0pov"
-      binary: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-vg0pov"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-tqslfi"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-tqslfi"
     cmakeVariables:
-      CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -1308,50 +136,51 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-vg0pov'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-tqslfi'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_6d0a8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
-        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_29446.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 3/7/2026 4:27:53 PM.
-        Project "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-vg0pov\\cmTC_6d0a8.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:08:20 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-tqslfi\\cmTC_29446.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-vg0pov\\Debug\\".
-          Creating directory "cmTC_6d0a8.dir\\Debug\\cmTC_6d0a8.tlog\\".
+          Creating directory "cmTC_29446.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-tqslfi\\Debug\\".
+          Creating directory "cmTC_29446.dir\\Debug\\cmTC_29446.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_6d0a8.dir\\Debug\\cmTC_6d0a8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_29446.dir\\Debug\\cmTC_29446.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_6d0a8.dir\\Debug\\\\" /Fd"cmTC_6d0a8.dir\\Debug\\vc142.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_29446.dir\\Debug\\\\" /Fd"cmTC_29446.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
           CMakeCCompilerABI.c
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_6d0a8.dir\\Debug\\\\" /Fd"cmTC_6d0a8.dir\\Debug\\vc142.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_29446.dir\\Debug\\\\" /Fd"cmTC_29446.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-vg0pov\\Debug\\cmTC_6d0a8.exe" /INCREMENTAL /ILK:"cmTC_6d0a8.dir\\Debug\\cmTC_6d0a8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-vg0pov/Debug/cmTC_6d0a8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-vg0pov/Debug/cmTC_6d0a8.lib" /MACHINE:X64  /machine:x64 cmTC_6d0a8.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_6d0a8.vcxproj -> C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-vg0pov\\Debug\\cmTC_6d0a8.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-tqslfi\\Debug\\cmTC_29446.exe" /INCREMENTAL /ILK:"cmTC_29446.dir\\Debug\\cmTC_29446.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-tqslfi/Debug/cmTC_29446.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-tqslfi/Debug/cmTC_29446.lib" /MACHINE:X64  /machine:x64 cmTC_29446.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_29446.vcxproj -> C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-tqslfi\\Debug\\cmTC_29446.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_6d0a8.dir\\Debug\\cmTC_6d0a8.tlog\\unsuccessfulbuild".
-          Touching "cmTC_6d0a8.dir\\Debug\\cmTC_6d0a8.tlog\\cmTC_6d0a8.lastbuildstate".
-        Done Building Project "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-vg0pov\\cmTC_6d0a8.vcxproj" (default targets).
+          Deleting file "cmTC_29446.dir\\Debug\\cmTC_29446.tlog\\unsuccessfulbuild".
+          Touching "cmTC_29446.dir\\Debug\\cmTC_29446.tlog\\cmTC_29446.lastbuildstate".
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-tqslfi\\cmTC_29446.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.94
+        Time Elapsed 00:00:00.40
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:6 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
         linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
         implicit libs: []
         implicit objs: []
@@ -1362,9 +191,9 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:6 (project)"
     message: |
       Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
@@ -1373,69 +202,69 @@ events:
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:6 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-yjzh92"
-      binary: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-yjzh92"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-iyfzj4"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-iyfzj4"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
-      CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
       CMAKE_POSITION_INDEPENDENT_CODE: "ON"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-yjzh92'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-iyfzj4'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_92e75.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
-        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_67124.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 3/7/2026 4:27:55 PM.
-        Project "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-yjzh92\\cmTC_92e75.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:08:21 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-iyfzj4\\cmTC_67124.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-yjzh92\\Debug\\".
-          Creating directory "cmTC_92e75.dir\\Debug\\cmTC_92e75.tlog\\".
+          Creating directory "cmTC_67124.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-iyfzj4\\Debug\\".
+          Creating directory "cmTC_67124.dir\\Debug\\cmTC_67124.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_92e75.dir\\Debug\\cmTC_92e75.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_67124.dir\\Debug\\cmTC_67124.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_92e75.dir\\Debug\\\\" /Fd"cmTC_92e75.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_67124.dir\\Debug\\\\" /Fd"cmTC_67124.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
           CMakeCXXCompilerABI.cpp
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_92e75.dir\\Debug\\\\" /Fd"cmTC_92e75.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_67124.dir\\Debug\\\\" /Fd"cmTC_67124.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-yjzh92\\Debug\\cmTC_92e75.exe" /INCREMENTAL /ILK:"cmTC_92e75.dir\\Debug\\cmTC_92e75.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-yjzh92/Debug/cmTC_92e75.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-yjzh92/Debug/cmTC_92e75.lib" /MACHINE:X64  /machine:x64 cmTC_92e75.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_92e75.vcxproj -> C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-yjzh92\\Debug\\cmTC_92e75.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-iyfzj4\\Debug\\cmTC_67124.exe" /INCREMENTAL /ILK:"cmTC_67124.dir\\Debug\\cmTC_67124.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-iyfzj4/Debug/cmTC_67124.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-iyfzj4/Debug/cmTC_67124.lib" /MACHINE:X64  /machine:x64 cmTC_67124.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_67124.vcxproj -> C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-iyfzj4\\Debug\\cmTC_67124.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_92e75.dir\\Debug\\cmTC_92e75.tlog\\unsuccessfulbuild".
-          Touching "cmTC_92e75.dir\\Debug\\cmTC_92e75.tlog\\cmTC_92e75.lastbuildstate".
-        Done Building Project "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-yjzh92\\cmTC_92e75.vcxproj" (default targets).
+          Deleting file "cmTC_67124.dir\\Debug\\cmTC_67124.tlog\\unsuccessfulbuild".
+          Touching "cmTC_67124.dir\\Debug\\cmTC_67124.tlog\\cmTC_67124.lastbuildstate".
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-iyfzj4\\cmTC_67124.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.00
+        Time Elapsed 00:00:00.41
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:6 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
         linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
         implicit libs: []
         implicit objs: []
@@ -1446,478 +275,29 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:6 (project)"
     message: |
       Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.29.30159.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
   -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPython/Support.cmake:2249 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPython3.cmake:671 (include)"
-      - "googletest/cmake/internal_utils.cmake:250 (find_package)"
-      - "googletest/CMakeLists.txt:81 (include)"
-    mode: "program"
-    variable: "_Python3_EXECUTABLE"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "python3.15"
-      - "python3"
-      - "python"
-      - "ipy3.15"
-      - "ipy3"
-      - "ipy64"
-      - "ipy32"
-      - "ipy"
-      - "ipy.exe"
-    candidate_directories:
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/share/ironpython3.15/"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net45/"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net40/"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/"
-    searched_directories:
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/python3.15.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/python3.15.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/python3.15"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/python3.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/python3.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/python3"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/python.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/python.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/python"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/ipy3.15.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/ipy3.15.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/ipy3.15"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/ipy3.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/ipy3.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/ipy3"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/ipy64.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/ipy64.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/ipy64"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/ipy32.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/ipy32.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/ipy32"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/ipy.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/ipy.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/ipy"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/ipy.exe.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/ipy.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/python3.15.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/python3.15.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/python3.15"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/python3.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/python3.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/python3"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/python.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/python.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/python"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/ipy3.15.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/ipy3.15.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/ipy3.15"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/ipy3.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/ipy3.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/ipy3"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/ipy64.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/ipy64.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/ipy64"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/ipy32.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/ipy32.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/ipy32"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/ipy.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/ipy.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/ipy"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/ipy.exe.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/ipy.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/share/ironpython3.15/python3.15.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/share/ironpython3.15/python3.15.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/share/ironpython3.15/python3.15"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/share/ironpython3.15/python3.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/share/ironpython3.15/python3.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/share/ironpython3.15/python3"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/share/ironpython3.15/python.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/share/ironpython3.15/python.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/share/ironpython3.15/python"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/share/ironpython3.15/ipy3.15.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/share/ironpython3.15/ipy3.15.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/share/ironpython3.15/ipy3.15"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/share/ironpython3.15/ipy3.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/share/ironpython3.15/ipy3.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/share/ironpython3.15/ipy3"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/share/ironpython3.15/ipy64.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/share/ironpython3.15/ipy64.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/share/ironpython3.15/ipy64"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/share/ironpython3.15/ipy32.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/share/ironpython3.15/ipy32.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/share/ironpython3.15/ipy32"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/share/ironpython3.15/ipy.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/share/ironpython3.15/ipy.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/share/ironpython3.15/ipy"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/share/ironpython3.15/ipy.exe.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/share/ironpython3.15/ipy.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net45/python3.15.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net45/python3.15.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net45/python3.15"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net45/python3.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net45/python3.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net45/python3"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net45/python.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net45/python.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net45/python"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net45/ipy3.15.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net45/ipy3.15.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net45/ipy3.15"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net45/ipy3.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net45/ipy3.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net45/ipy3"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net45/ipy64.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net45/ipy64.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net45/ipy64"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net45/ipy32.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net45/ipy32.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net45/ipy32"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net45/ipy.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net45/ipy.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net45/ipy"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net45/ipy.exe.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net45/ipy.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net40/python3.15.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net40/python3.15.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net40/python3.15"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net40/python3.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net40/python3.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net40/python3"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net40/python.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net40/python.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net40/python"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net40/ipy3.15.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net40/ipy3.15.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net40/ipy3.15"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net40/ipy3.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net40/ipy3.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net40/ipy3"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net40/ipy64.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net40/ipy64.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net40/ipy64"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net40/ipy32.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net40/ipy32.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net40/ipy32"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net40/ipy.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net40/ipy.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net40/ipy"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net40/ipy.exe.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net40/ipy.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/python3.15.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/python3.15.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/python3.15"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/python3.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/python3.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/python3"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/python.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/python.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/python"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/ipy3.15.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/ipy3.15.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/ipy3.15"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/ipy3.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/ipy3.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/ipy3"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/ipy64.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/ipy64.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/ipy64"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/ipy32.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/ipy32.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/ipy32"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/ipy.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/ipy.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/ipy"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/ipy.exe.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/ipy.exe"
-    found: false
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-      ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\tools"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\ide"
-        - "C:\\Program Files (x86)\\HTML Help Workshop"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\.venv\\Scripts"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\Memurai\\"
-        - "C:\\yt dlp"
-        - "C:\\ffmpeg\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Launcher\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\MinGW64\\bin"
-        - "C:\\Users\\2006l\\AppData\\Roaming\\npm"
-        - "C:\\Users\\2006l\\.dotnet\\tools"
-        - "C:\\cygwin64\\bin"
-        - "c:\\Users\\2006l\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-      CMAKE_INSTALL_PREFIX: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "C:/Program Files/CMake"
-        - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPython/Support.cmake:2249 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPython3.cmake:671 (include)"
-      - "googletest/cmake/internal_utils.cmake:250 (find_package)"
-      - "googletest/CMakeLists.txt:81 (include)"
-    mode: "program"
-    variable: "_Python3_EXECUTABLE"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "python3.13"
-      - "python3"
-      - "python"
-      - "ipy3.13"
-      - "ipy3"
-      - "ipy64"
-      - "ipy32"
-      - "ipy"
-      - "ipy.exe"
-    candidate_directories:
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/share/ironpython3.13/"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net45/"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/net40/"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/"
-    searched_directories:
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/python3.13.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/python3.13.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/python3.13"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/python3.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/python3.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/python3"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/python.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/python.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/python"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/ipy3.13.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/ipy3.13.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/ipy3.13"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/ipy3.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/ipy3.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/ipy3"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/ipy64.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/ipy64.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/ipy64"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/ipy32.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/ipy32.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/ipy32"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/ipy.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/ipy.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/ipy"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/ipy.exe.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/bin/ipy.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/python3.13.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/python3.13.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/python3.13"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/python3.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/python3.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/python3"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/python.com"
-    found: "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/python.exe"
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-      ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\tools"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\ide"
-        - "C:\\Program Files (x86)\\HTML Help Workshop"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\.venv\\Scripts"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\Memurai\\"
-        - "C:\\yt dlp"
-        - "C:\\ffmpeg\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Launcher\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\MinGW64\\bin"
-        - "C:\\Users\\2006l\\AppData\\Roaming\\npm"
-        - "C:\\Users\\2006l\\.dotnet\\tools"
-        - "C:\\cygwin64\\bin"
-        - "c:\\Users\\2006l\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-      CMAKE_INSTALL_PREFIX: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "C:/Program Files/CMake"
-        - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPython/Support.cmake:2563 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPython3.cmake:671 (include)"
-      - "googletest/cmake/internal_utils.cmake:250 (find_package)"
-      - "googletest/CMakeLists.txt:81 (include)"
-    mode: "program"
-    variable: "_Python3_EXECUTABLE_DEBUG"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "python3.13_d"
-      - "python3_d"
-      - "python_d"
-    candidate_directories:
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/"
-    searched_directories:
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/python3.13_d.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/python3.13_d.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/python3.13_d"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/python3_d.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/python3_d.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/python3_d"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/python_d.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/python_d.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/python_d"
-    found: false
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-      ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\tools"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\ide"
-        - "C:\\Program Files (x86)\\HTML Help Workshop"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\.venv\\Scripts"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\Memurai\\"
-        - "C:\\yt dlp"
-        - "C:\\ffmpeg\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Launcher\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\MinGW64\\bin"
-        - "C:\\Users\\2006l\\AppData\\Roaming\\npm"
-        - "C:\\Users\\2006l\\.dotnet\\tools"
-        - "C:\\cygwin64\\bin"
-        - "c:\\Users\\2006l\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-      CMAKE_INSTALL_PREFIX: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "C:/Program Files/CMake"
-        - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-  -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:97 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:163 (_threads_check_libc)"
       - "googletest/cmake/internal_utils.cmake:66 (find_package)"
       - "googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-wrk3dz"
-      binary: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-wrk3dz"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-lzmbrw"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-lzmbrw"
     cmakeVariables:
-      CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -1926,55 +306,55 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-wrk3dz'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-lzmbrw'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_d2cd1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
-        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_57a60.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 3/7/2026 4:28:06 PM.
-        Project "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-wrk3dz\\cmTC_d2cd1.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:08:23 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-lzmbrw\\cmTC_57a60.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-wrk3dz\\Debug\\".
-          Creating directory "cmTC_d2cd1.dir\\Debug\\cmTC_d2cd1.tlog\\".
+          Creating directory "cmTC_57a60.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-lzmbrw\\Debug\\".
+          Creating directory "cmTC_57a60.dir\\Debug\\cmTC_57a60.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_d2cd1.dir\\Debug\\cmTC_d2cd1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_57a60.dir\\Debug\\cmTC_57a60.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_d2cd1.dir\\Debug\\\\" /Fd"cmTC_d2cd1.dir\\Debug\\vc142.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-wrk3dz\\src.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_57a60.dir\\Debug\\\\" /Fd"cmTC_57a60.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-lzmbrw\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
           src.c
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_d2cd1.dir\\Debug\\\\" /Fd"cmTC_d2cd1.dir\\Debug\\vc142.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-wrk3dz\\src.c"
-        C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-wrk3dz\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-wrk3dz\\cmTC_d2cd1.vcxproj]
-        Done Building Project "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-wrk3dz\\cmTC_d2cd1.vcxproj" (default targets) -- FAILED.
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_57a60.dir\\Debug\\\\" /Fd"cmTC_57a60.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-lzmbrw\\src.c"
+        C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-lzmbrw\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-lzmbrw\\cmTC_57a60.vcxproj]
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-lzmbrw\\cmTC_57a60.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-wrk3dz\\cmTC_d2cd1.vcxproj" (default target) (1) ->
+        "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-lzmbrw\\cmTC_57a60.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-wrk3dz\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-wrk3dz\\cmTC_d2cd1.vcxproj]
+          C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-lzmbrw\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-lzmbrw\\cmTC_57a60.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.89
+        Time Elapsed 00:00:00.26
         
       exitCode: 1
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckLibraryExists.cmake:154 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:175 (check_library_exists)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:238 (_threads_check_lib)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckLibraryExists.cmake:112 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:175 (_threads_check_lib)"
       - "googletest/cmake/internal_utils.cmake:66 (find_package)"
       - "googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-3tlc2e"
-      binary: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-3tlc2e"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-67veve"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-67veve"
     cmakeVariables:
-      CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -1983,57 +363,57 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-3tlc2e'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-67veve'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_33a53.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
-        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_d6a93.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 3/7/2026 4:28:08 PM.
-        Project "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-3tlc2e\\cmTC_33a53.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:08:23 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-67veve\\cmTC_d6a93.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-3tlc2e\\Debug\\".
-          Creating directory "cmTC_33a53.dir\\Debug\\cmTC_33a53.tlog\\".
+          Creating directory "cmTC_d6a93.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-67veve\\Debug\\".
+          Creating directory "cmTC_d6a93.dir\\Debug\\cmTC_d6a93.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_33a53.dir\\Debug\\cmTC_33a53.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_d6a93.dir\\Debug\\cmTC_d6a93.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_33a53.dir\\Debug\\\\" /Fd"cmTC_33a53.dir\\Debug\\vc142.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-3tlc2e\\CheckFunctionExists.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d6a93.dir\\Debug\\\\" /Fd"cmTC_d6a93.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-67veve\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
           CheckFunctionExists.c
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_33a53.dir\\Debug\\\\" /Fd"cmTC_33a53.dir\\Debug\\vc142.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-3tlc2e\\CheckFunctionExists.c"
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d6a93.dir\\Debug\\\\" /Fd"cmTC_d6a93.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-67veve\\CheckFunctionExists.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-3tlc2e\\Debug\\cmTC_33a53.exe" /INCREMENTAL /ILK:"cmTC_33a53.dir\\Debug\\cmTC_33a53.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-3tlc2e/Debug/cmTC_33a53.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-3tlc2e/Debug/cmTC_33a53.lib" /MACHINE:X64  /machine:x64 cmTC_33a53.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-3tlc2e\\cmTC_33a53.vcxproj]
-        Done Building Project "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-3tlc2e\\cmTC_33a53.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-67veve\\Debug\\cmTC_d6a93.exe" /INCREMENTAL /ILK:"cmTC_d6a93.dir\\Debug\\cmTC_d6a93.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-67veve/Debug/cmTC_d6a93.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-67veve/Debug/cmTC_d6a93.lib" /MACHINE:X64  /machine:x64 cmTC_d6a93.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-67veve\\cmTC_d6a93.vcxproj]
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-67veve\\cmTC_d6a93.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-3tlc2e\\cmTC_33a53.vcxproj" (default target) (1) ->
+        "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-67veve\\cmTC_d6a93.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-3tlc2e\\cmTC_33a53.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-67veve\\cmTC_d6a93.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:01.15
+        Time Elapsed 00:00:00.32
         
       exitCode: 1
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckLibraryExists.cmake:154 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:175 (check_library_exists)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:239 (_threads_check_lib)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckLibraryExists.cmake:112 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:176 (_threads_check_lib)"
       - "googletest/cmake/internal_utils.cmake:66 (find_package)"
       - "googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-exh75s"
-      binary: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-exh75s"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-62yojd"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-62yojd"
     cmakeVariables:
-      CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -2042,40 +422,41 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-exh75s'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-62yojd'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_19566.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
-        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_f205b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 3/7/2026 4:28:10 PM.
-        Project "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-exh75s\\cmTC_19566.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:08:24 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-62yojd\\cmTC_f205b.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-exh75s\\Debug\\".
-          Creating directory "cmTC_19566.dir\\Debug\\cmTC_19566.tlog\\".
+          Creating directory "cmTC_f205b.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-62yojd\\Debug\\".
+          Creating directory "cmTC_f205b.dir\\Debug\\cmTC_f205b.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_19566.dir\\Debug\\cmTC_19566.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_f205b.dir\\Debug\\cmTC_f205b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_19566.dir\\Debug\\\\" /Fd"cmTC_19566.dir\\Debug\\vc142.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-exh75s\\CheckFunctionExists.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f205b.dir\\Debug\\\\" /Fd"cmTC_f205b.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-62yojd\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
           CheckFunctionExists.c
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_19566.dir\\Debug\\\\" /Fd"cmTC_19566.dir\\Debug\\vc142.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-exh75s\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f205b.dir\\Debug\\\\" /Fd"cmTC_f205b.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-62yojd\\CheckFunctionExists.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-exh75s\\Debug\\cmTC_19566.exe" /INCREMENTAL /ILK:"cmTC_19566.dir\\Debug\\cmTC_19566.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-exh75s/Debug/cmTC_19566.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-exh75s/Debug/cmTC_19566.lib" /MACHINE:X64  /machine:x64 cmTC_19566.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-exh75s\\cmTC_19566.vcxproj]
-        Done Building Project "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-exh75s\\cmTC_19566.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-62yojd\\Debug\\cmTC_f205b.exe" /INCREMENTAL /ILK:"cmTC_f205b.dir\\Debug\\cmTC_f205b.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-62yojd/Debug/cmTC_f205b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/CMakeFiles/CMakeScratch/TryCompile-62yojd/Debug/cmTC_f205b.lib" /MACHINE:X64  /machine:x64 cmTC_f205b.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-62yojd\\cmTC_f205b.vcxproj]
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-62yojd\\cmTC_f205b.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-exh75s\\cmTC_19566.vcxproj" (default target) (1) ->
+        "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-62yojd\\cmTC_f205b.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-exh75s\\cmTC_19566.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\gtest\\gtest\\src\\gtest-build\\CMakeFiles\\CMakeScratch\\TryCompile-62yojd\\cmTC_f205b.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:01.19
+        Time Elapsed 00:00:00.31
         
       exitCode: 1
 ...

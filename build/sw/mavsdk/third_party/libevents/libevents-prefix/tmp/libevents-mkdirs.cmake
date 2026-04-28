@@ -6,22 +6,22 @@ cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 # If CMAKE_DISABLE_SOURCE_CHANGES is set to true and the source directory is an
 # existing directory in our source tree, calling file(MAKE_DIRECTORY) on it
 # would cause a fatal error, even though it would be a no-op.
-if(NOT EXISTS "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents")
-  file(MAKE_DIRECTORY "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents")
+if(NOT EXISTS "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents")
+  file(MAKE_DIRECTORY "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents")
 endif()
 file(MAKE_DIRECTORY
-  "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-build"
-  "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix"
-  "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/tmp"
-  "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-stamp"
-  "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src"
-  "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-stamp"
+  "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-build"
+  "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix"
+  "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/tmp"
+  "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-stamp"
+  "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src"
+  "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-stamp"
 )
 
 set(configSubDirs Debug;Release;MinSizeRel;RelWithDebInfo)
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-stamp${cfgdir}") # cfgdir has leading slash
 endif()

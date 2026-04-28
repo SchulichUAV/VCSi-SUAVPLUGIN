@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\tinyxml2\tinyxml2\src\tinyxml2-build\x64\Release\ZERO_CHECK</FullPath>
+      <FullPath>C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\tinyxml2\tinyxml2\src\tinyxml2-build\x64\Release\ZERO_CHECK</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

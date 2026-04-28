@@ -1,8 +1,8 @@
-^C:\USERS\2006L\ONEDRIVE\DESKTOP\SUAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\TINYXML2\CMAKEFILES\246BC85BE089600F195D0B5D62967995\TINYXML2-MKDIR.RULE
+^C:\USERS\THOMA\WORK\UAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\TINYXML2\CMAKEFILES\D8B4CF088AB75F86AFFC70AAE23263BB\TINYXML2-MKDIR.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Release -P C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/tmp/tinyxml2-mkdirs.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Release -P C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/tmp/tinyxml2-mkdirs.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2-stamp/Release/tinyxml2-mkdir
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2-stamp/Release/tinyxml2-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -10,15 +10,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\2006L\ONEDRIVE\DESKTOP\SUAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\TINYXML2\CMAKEFILES\246BC85BE089600F195D0B5D62967995\TINYXML2-DOWNLOAD.RULE
+^C:\USERS\THOMA\WORK\UAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\TINYXML2\CMAKEFILES\D8B4CF088AB75F86AFFC70AAE23263BB\TINYXML2-DOWNLOAD.RULE
 setlocal
-cd C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\tinyxml2\tinyxml2\src
+cd C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\tinyxml2\tinyxml2\src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/tmp/tinyxml2-gitclone.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/tmp/tinyxml2-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2-stamp/Release/tinyxml2-download
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2-stamp/Release/tinyxml2-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -26,13 +26,13 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\2006L\ONEDRIVE\DESKTOP\SUAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\TINYXML2\CMAKEFILES\246BC85BE089600F195D0B5D62967995\TINYXML2-UPDATE.RULE
+^C:\USERS\THOMA\WORK\UAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\TINYXML2\CMAKEFILES\D8B4CF088AB75F86AFFC70AAE23263BB\TINYXML2-UPDATE.RULE
 setlocal
-cd C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\tinyxml2\tinyxml2\src\tinyxml2
+cd C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\tinyxml2\tinyxml2\src\tinyxml2
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/tmp/tinyxml2-gitupdate.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/tmp/tinyxml2-gitupdate.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -40,31 +40,27 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\2006L\ONEDRIVE\DESKTOP\SUAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\TINYXML2\CMAKEFILES\246BC85BE089600F195D0B5D62967995\TINYXML2-PATCH.RULE
+^C:\USERS\THOMA\WORK\UAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\TINYXML2\CMAKEFILES\D8B4CF088AB75F86AFFC70AAE23263BB\TINYXML2-PATCH.RULE
 setlocal
-cd C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\tinyxml2\tinyxml2\src\tinyxml2
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2-stamp/Release/tinyxml2-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\THOMA\WORK\UAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\TINYXML2\CMAKEFILES\D8B4CF088AB75F86AFFC70AAE23263BB\TINYXML2-CONFIGURE.RULE
+setlocal
+cd C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\tinyxml2\tinyxml2\src\tinyxml2-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-git checkout . && git apply C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/third_party/tinyxml2/cmake-3.10.2.patch && git apply C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/third_party/tinyxml2/no-lfs64.patch
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_PREFIX_PATH:PATH=C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install -DCMAKE_INSTALL_PREFIX:PATH=C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install -DCMAKE_TOOLCHAIN_FILE:PATH= -DCMAKE_BUILD_TYPE=Release -DCMAKE_POSITION_INDEPENDENT_CODE=ON -DBUILD_SHARED_LIBS=OFF -Dtinyxml2_BUILD_TESTING=OFF "-GVisual Studio 16 2019" -Ax64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools" -S C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2 -B C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2-stamp/Release/tinyxml2-patch
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\2006L\ONEDRIVE\DESKTOP\SUAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\TINYXML2\CMAKEFILES\246BC85BE089600F195D0B5D62967995\TINYXML2-CONFIGURE.RULE
-setlocal
-cd C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\tinyxml2\tinyxml2\src\tinyxml2-build
-if %errorlevel% neq 0 goto :cmEnd
-C:
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_PREFIX_PATH:PATH=C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install -DCMAKE_INSTALL_PREFIX:PATH=C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install -DCMAKE_TOOLCHAIN_FILE:PATH= -DCMAKE_BUILD_TYPE=Release -DCMAKE_POSITION_INDEPENDENT_CODE=ON -DBUILD_SHARED_LIBS=OFF -DBUILD_TESTS=OFF "-GVisual Studio 16 2019" -Ax64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools" -S C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2 -B C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2-build
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2-stamp/Release/tinyxml2-configure
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2-stamp/Release/tinyxml2-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -72,15 +68,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\2006L\ONEDRIVE\DESKTOP\SUAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\TINYXML2\CMAKEFILES\246BC85BE089600F195D0B5D62967995\TINYXML2-BUILD.RULE
+^C:\USERS\THOMA\WORK\UAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\TINYXML2\CMAKEFILES\D8B4CF088AB75F86AFFC70AAE23263BB\TINYXML2-BUILD.RULE
 setlocal
-cd C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\tinyxml2\tinyxml2\src\tinyxml2-build
+cd C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\tinyxml2\tinyxml2\src\tinyxml2-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config Release
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2-stamp/Release/tinyxml2-build
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2-stamp/Release/tinyxml2-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -88,15 +84,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\2006L\ONEDRIVE\DESKTOP\SUAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\TINYXML2\CMAKEFILES\246BC85BE089600F195D0B5D62967995\TINYXML2-INSTALL.RULE
+^C:\USERS\THOMA\WORK\UAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\TINYXML2\CMAKEFILES\D8B4CF088AB75F86AFFC70AAE23263BB\TINYXML2-INSTALL.RULE
 setlocal
-cd C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\tinyxml2\tinyxml2\src\tinyxml2-build
+cd C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\tinyxml2\tinyxml2\src\tinyxml2-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config Release --target install
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2-stamp/Release/tinyxml2-install
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2-stamp/Release/tinyxml2-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -104,13 +100,13 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\2006L\ONEDRIVE\DESKTOP\SUAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\TINYXML2\CMAKEFILES\B23F965A26B588291C3E3E55970B8DDA\TINYXML2-COMPLETE.RULE
+^C:\USERS\THOMA\WORK\UAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\TINYXML2\CMAKEFILES\1CC55F82BACCEF449558409959337F86\TINYXML2-COMPLETE.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/CMakeFiles/Release
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/CMakeFiles/Release
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/CMakeFiles/Release/tinyxml2-complete
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/CMakeFiles/Release/tinyxml2-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2-stamp/Release/tinyxml2-done
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2-stamp/Release/tinyxml2-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -118,7 +114,7 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\2006L\ONEDRIVE\DESKTOP\SUAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\TINYXML2\CMAKEFILES\205DAD821126597ADCF666ABCFB7C6BD\TINYXML2.RULE
+^C:\USERS\THOMA\WORK\UAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\TINYXML2\CMAKEFILES\7A67E1B11FE8F9114AB47E273A59A2D1\TINYXML2.RULE
 setlocal
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -126,9 +122,9 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\2006L\ONEDRIVE\DESKTOP\SUAV\VCSI-SUAVPLUGIN\SW\MAVSDK\THIRD_PARTY\TINYXML2\CMAKELISTS.TXT
+^C:\USERS\THOMA\WORK\UAV\VCSI-SUAVPLUGIN\SW\MAVSDK\THIRD_PARTY\TINYXML2\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/third_party/tinyxml2 -BC:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2 --check-stamp-file C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/sw/mavsdk/third_party/tinyxml2 -BC:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2 --check-stamp-file C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

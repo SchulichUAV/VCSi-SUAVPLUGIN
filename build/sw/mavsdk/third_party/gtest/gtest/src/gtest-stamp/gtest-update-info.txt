@@ -2,6 +2,6 @@
 # The patch step will be re-executed if anything in this file changes.
 # No other meaning or use of this file is supported.
 
-command (connected)=C:/Program Files/CMake/bin/cmake.exe;-Dcan_fetch=YES;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/tmp/gtest-gitupdate.cmake
-command (disconnected)=C:/Program Files/CMake/bin/cmake.exe;-Dcan_fetch=NO;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/tmp/gtest-gitupdate.cmake
-work_dir=C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest
+command (connected)=C:/Program Files/CMake/bin/cmake.exe;-Dcan_fetch=YES;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/tmp/gtest-gitupdate.cmake
+command (disconnected)=C:/Program Files/CMake/bin/cmake.exe;-Dcan_fetch=NO;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/tmp/gtest-gitupdate.cmake
+work_dir=C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest

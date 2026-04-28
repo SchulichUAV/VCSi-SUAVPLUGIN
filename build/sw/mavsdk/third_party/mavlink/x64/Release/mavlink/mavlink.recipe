@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\mavlink\x64\Release\ZERO_CHECK</FullPath>
+      <FullPath>C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\mavlink\x64\Release\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\mavlink\x64\Release\mavlink</FullPath>
+      <FullPath>C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\mavlink\x64\Release\mavlink</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

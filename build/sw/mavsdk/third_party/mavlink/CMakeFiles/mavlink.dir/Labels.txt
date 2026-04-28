@@ -1,13 +1,13 @@
 # Target labels
  mavlink
 # Source files and their labels
-C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/CMakeFiles/mavlink
-C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/CMakeFiles/bdd981b2ae5e4f27559a0246895efab3/mavlink.rule
-C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/CMakeFiles/b6f10afcf51f620eee9a86882637ec1f/mavlink-complete.rule
-C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/CMakeFiles/f7d957152b046441bf0032e7b85065a7/mavlink-build.rule
-C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/CMakeFiles/f7d957152b046441bf0032e7b85065a7/mavlink-configure.rule
-C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/CMakeFiles/f7d957152b046441bf0032e7b85065a7/mavlink-download.rule
-C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/CMakeFiles/f7d957152b046441bf0032e7b85065a7/mavlink-install.rule
-C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/CMakeFiles/f7d957152b046441bf0032e7b85065a7/mavlink-mkdir.rule
-C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/CMakeFiles/f7d957152b046441bf0032e7b85065a7/mavlink-patch.rule
-C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/CMakeFiles/f7d957152b046441bf0032e7b85065a7/mavlink-update.rule
+C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/CMakeFiles/mavlink
+C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/CMakeFiles/3db9276145e048eb40f9c3dd74ef8803/mavlink.rule
+C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/CMakeFiles/c6befe2cd39533a96182133c27d5aa25/mavlink-complete.rule
+C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/CMakeFiles/e0588244821016dd9ef880152041b053/mavlink-build.rule
+C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/CMakeFiles/e0588244821016dd9ef880152041b053/mavlink-configure.rule
+C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/CMakeFiles/e0588244821016dd9ef880152041b053/mavlink-download.rule
+C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/CMakeFiles/e0588244821016dd9ef880152041b053/mavlink-install.rule
+C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/CMakeFiles/e0588244821016dd9ef880152041b053/mavlink-mkdir.rule
+C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/CMakeFiles/e0588244821016dd9ef880152041b053/mavlink-patch.rule
+C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/CMakeFiles/e0588244821016dd9ef880152041b053/mavlink-update.rule

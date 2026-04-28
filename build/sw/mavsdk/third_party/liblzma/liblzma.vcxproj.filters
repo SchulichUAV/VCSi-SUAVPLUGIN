@@ -1,41 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\liblzma\CMakeFiles\c56bab50eaceb195e82c4b9e475ddac2\liblzma-mkdir.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\liblzma\CMakeFiles\f6de9a79859e88316e3dcbb9cdc7521a\liblzma-mkdir.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\liblzma\CMakeFiles\c56bab50eaceb195e82c4b9e475ddac2\liblzma-download.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\liblzma\CMakeFiles\f6de9a79859e88316e3dcbb9cdc7521a\liblzma-download.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\liblzma\CMakeFiles\c56bab50eaceb195e82c4b9e475ddac2\liblzma-update.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\liblzma\CMakeFiles\f6de9a79859e88316e3dcbb9cdc7521a\liblzma-update.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\liblzma\CMakeFiles\c56bab50eaceb195e82c4b9e475ddac2\liblzma-patch.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\liblzma\CMakeFiles\f6de9a79859e88316e3dcbb9cdc7521a\liblzma-patch.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\liblzma\CMakeFiles\c56bab50eaceb195e82c4b9e475ddac2\liblzma-configure.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\liblzma\CMakeFiles\f6de9a79859e88316e3dcbb9cdc7521a\liblzma-configure.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\liblzma\CMakeFiles\c56bab50eaceb195e82c4b9e475ddac2\liblzma-build.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\liblzma\CMakeFiles\f6de9a79859e88316e3dcbb9cdc7521a\liblzma-build.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\liblzma\CMakeFiles\c56bab50eaceb195e82c4b9e475ddac2\liblzma-install.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\liblzma\CMakeFiles\f6de9a79859e88316e3dcbb9cdc7521a\liblzma-install.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\liblzma\CMakeFiles\94aa62de18fe9522f803064d93321e71\liblzma-complete.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\liblzma\CMakeFiles\f34e86e6ba9fe6fe9d2ab49dca0e24d5\liblzma-complete.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\liblzma\CMakeFiles\d5832383690f7d074759b896e7d3ed66\liblzma.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\liblzma\CMakeFiles\133b1cce0ce3fd056ce4268ddea996e3\liblzma.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\mavsdk\third_party\liblzma\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\mavsdk\third_party\liblzma\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\liblzma\CMakeFiles\liblzma" />
+    <None Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\liblzma\CMakeFiles\liblzma" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{2C2D7FCE-7FDE-3EC6-ADEB-C28C6B7DE540}</UniqueIdentifier>
+      <UniqueIdentifier>{AD528684-1178-3C23-AC1F-F3F42DD6DAF1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

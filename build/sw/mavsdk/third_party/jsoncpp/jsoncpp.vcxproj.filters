@@ -1,41 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\CMakeFiles\f145585e70effc119b9a190058b9555a\jsoncpp-mkdir.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\CMakeFiles\508c815621a7a93af7f2d0ba4a5fffbe\jsoncpp-mkdir.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\CMakeFiles\f145585e70effc119b9a190058b9555a\jsoncpp-download.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\CMakeFiles\508c815621a7a93af7f2d0ba4a5fffbe\jsoncpp-download.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\CMakeFiles\f145585e70effc119b9a190058b9555a\jsoncpp-update.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\CMakeFiles\508c815621a7a93af7f2d0ba4a5fffbe\jsoncpp-update.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\CMakeFiles\f145585e70effc119b9a190058b9555a\jsoncpp-patch.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\CMakeFiles\508c815621a7a93af7f2d0ba4a5fffbe\jsoncpp-patch.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\CMakeFiles\f145585e70effc119b9a190058b9555a\jsoncpp-configure.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\CMakeFiles\508c815621a7a93af7f2d0ba4a5fffbe\jsoncpp-configure.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\CMakeFiles\f145585e70effc119b9a190058b9555a\jsoncpp-build.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\CMakeFiles\508c815621a7a93af7f2d0ba4a5fffbe\jsoncpp-build.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\CMakeFiles\f145585e70effc119b9a190058b9555a\jsoncpp-install.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\CMakeFiles\508c815621a7a93af7f2d0ba4a5fffbe\jsoncpp-install.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\CMakeFiles\301c93bec3ee727340a7e495381f1738\jsoncpp-complete.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\CMakeFiles\42fb27aeb3b02eb8ad75ff991d78fd72\jsoncpp-complete.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\CMakeFiles\1aee98d2fdbd856e752bc4b73e374f6f\jsoncpp.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\CMakeFiles\028243f2626c9b310623918ef0b5527b\jsoncpp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\mavsdk\third_party\jsoncpp\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\mavsdk\third_party\jsoncpp\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\CMakeFiles\jsoncpp" />
+    <None Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\CMakeFiles\jsoncpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{2BE23A89-1C6A-345C-A84F-ACDFC23F041C}</UniqueIdentifier>
+      <UniqueIdentifier>{21ECCD83-ADC4-33E7-A32B-A1EB51FF64C8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,20 +1,18 @@
 # CMake generation dependency list for this directory.
-C:/Program Files/CMake/share/cmake-4.3/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
-C:/Program Files/CMake/share/cmake-4.3/Modules/CMakePackageConfigHelpers.cmake
-C:/Program Files/CMake/share/cmake-4.3/Modules/CheckCSourceCompiles.cmake
-C:/Program Files/CMake/share/cmake-4.3/Modules/CheckIncludeFile.cmake
-C:/Program Files/CMake/share/cmake-4.3/Modules/CheckLibraryExists.cmake
-C:/Program Files/CMake/share/cmake-4.3/Modules/FindLibLZMA.cmake
-C:/Program Files/CMake/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake
-C:/Program Files/CMake/share/cmake-4.3/Modules/FindPackageMessage.cmake
-C:/Program Files/CMake/share/cmake-4.3/Modules/FindPkgConfig.cmake
-C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake
-C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake
-C:/Program Files/CMake/share/cmake-4.3/Modules/SelectLibraryConfigurations.cmake
-C:/Program Files/CMake/share/cmake-4.3/Modules/WriteBasicConfigVersionFile.cmake
-C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/cmake/Modules/common/FindCURL.cmake
-C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/cmake/compiler_flags.cmake
-C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/cmake/static_analyzers.cmake
-C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/CMakeLists.txt
-C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/MAVSDKConfig.cmake.in
-C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk.pc.in
+C:/Program Files/CMake/share/cmake-4.0/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-4.0/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/FindLibLZMA.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/SelectLibraryConfigurations.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/sw/mavsdk/cmake/compiler_flags.cmake
+C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/sw/mavsdk/cmake/static_analyzers.cmake
+C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/sw/mavsdk/src/CMakeLists.txt
+C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/sw/mavsdk/src/MAVSDKConfig.cmake.in
+C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk.pc.in

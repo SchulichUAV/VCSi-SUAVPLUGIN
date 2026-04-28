@@ -1,41 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\mavlink\CMakeFiles\f7d957152b046441bf0032e7b85065a7\mavlink-mkdir.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\mavlink\CMakeFiles\e0588244821016dd9ef880152041b053\mavlink-mkdir.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\mavlink\CMakeFiles\f7d957152b046441bf0032e7b85065a7\mavlink-download.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\mavlink\CMakeFiles\e0588244821016dd9ef880152041b053\mavlink-download.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\mavlink\CMakeFiles\f7d957152b046441bf0032e7b85065a7\mavlink-update.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\mavlink\CMakeFiles\e0588244821016dd9ef880152041b053\mavlink-update.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\mavlink\CMakeFiles\f7d957152b046441bf0032e7b85065a7\mavlink-patch.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\mavlink\CMakeFiles\e0588244821016dd9ef880152041b053\mavlink-patch.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\mavlink\CMakeFiles\f7d957152b046441bf0032e7b85065a7\mavlink-configure.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\mavlink\CMakeFiles\e0588244821016dd9ef880152041b053\mavlink-configure.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\mavlink\CMakeFiles\f7d957152b046441bf0032e7b85065a7\mavlink-build.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\mavlink\CMakeFiles\e0588244821016dd9ef880152041b053\mavlink-build.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\mavlink\CMakeFiles\f7d957152b046441bf0032e7b85065a7\mavlink-install.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\mavlink\CMakeFiles\e0588244821016dd9ef880152041b053\mavlink-install.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\mavlink\CMakeFiles\b6f10afcf51f620eee9a86882637ec1f\mavlink-complete.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\mavlink\CMakeFiles\c6befe2cd39533a96182133c27d5aa25\mavlink-complete.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\mavlink\CMakeFiles\bdd981b2ae5e4f27559a0246895efab3\mavlink.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\mavlink\CMakeFiles\3db9276145e048eb40f9c3dd74ef8803\mavlink.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\mavsdk\third_party\mavlink\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\mavsdk\third_party\mavlink\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\mavlink\CMakeFiles\mavlink" />
+    <None Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\mavlink\CMakeFiles\mavlink" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{497E2646-3EC0-37E0-9E8F-E516DB99A327}</UniqueIdentifier>
+      <UniqueIdentifier>{DA1A5C71-A449-300A-97AA-20B4CF355A35}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

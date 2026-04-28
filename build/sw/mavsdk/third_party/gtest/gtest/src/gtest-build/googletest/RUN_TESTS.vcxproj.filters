@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\gtest\gtest\src\gtest-build\CMakeFiles\f1a7d47a64e51fe75be8436f2301114f\RUN_TESTS_force.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\gtest\gtest\src\gtest-build\CMakeFiles\ba450391f6410b244ba70597740f5633\RUN_TESTS_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{27E5AC36-D893-3772-BA55-203D29205D86}</UniqueIdentifier>
+      <UniqueIdentifier>{7ABAEF0E-6D2E-36E2-9261-05576B17359A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

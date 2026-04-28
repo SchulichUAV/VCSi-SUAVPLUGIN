@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\CMakeFiles\f825f9f027cad646b6962d71a3d864af\INSTALL_force.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\CMakeFiles\52a30f476703341941447b0291e3a095\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{8081663F-28F9-37B5-928B-7F94CF445D5E}</UniqueIdentifier>
+      <UniqueIdentifier>{D5BE000C-CCD2-3578-BE95-8C0C750DDB88}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

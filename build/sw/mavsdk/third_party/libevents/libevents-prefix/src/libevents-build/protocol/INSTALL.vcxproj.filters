@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\libevents\libevents-prefix\src\libevents-build\CMakeFiles\9987b0a36fa04a72088ff8673f1d2a23\INSTALL_force.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\libevents\libevents-prefix\src\libevents-build\CMakeFiles\b1cb50b6cdfc8bd7df9616e3c3430399\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{5CBFF58F-ABF6-3C85-B28F-11218EF0CF0B}</UniqueIdentifier>
+      <UniqueIdentifier>{295BBF29-8A71-38F8-828E-EB3C27992809}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

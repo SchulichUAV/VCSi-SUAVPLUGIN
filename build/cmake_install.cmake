@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN
+# Install script for directory: C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,13 +34,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/cmake_install.cmake")
+  include("C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/install_local_manifest.txt"
+  file(WRITE "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -56,6 +56,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

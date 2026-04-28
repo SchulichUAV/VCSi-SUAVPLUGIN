@@ -25,9 +25,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{1436146B-0039-30FD-AE55-66832C7DAD95}</ProjectGuid>
+    <ProjectGuid>{DE68A7D5-14A4-31B1-994C-F19B0F415687}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>ALL_BUILD</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -108,11 +108,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\mavsdk\src\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\mavsdk\src\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/sw/mavsdk/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN -BC:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build --check-stamp-file C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/thoma/work/uav/VCSi-SUAVPLUGIN -BC:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build --check-stamp-file C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -120,12 +120,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindLibLZMA.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\mavsdk\cmake\Modules\common\FindCURL.cmake;C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\mavsdk\cmake\compiler_flags.cmake;C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\mavsdk\cmake\static_analyzers.cmake;C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\mavsdk\src\MAVSDKConfig.cmake.in;C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\mavsdk\src\mavsdk.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindLibLZMA.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\mavsdk\cmake\compiler_flags.cmake;C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\mavsdk\cmake\static_analyzers.cmake;C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\mavsdk\src\MAVSDKConfig.cmake.in;C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\mavsdk\src\mavsdk.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/sw/mavsdk/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN -BC:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build --check-stamp-file C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/thoma/work/uav/VCSi-SUAVPLUGIN -BC:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build --check-stamp-file C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -133,12 +133,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindLibLZMA.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\mavsdk\cmake\Modules\common\FindCURL.cmake;C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\mavsdk\cmake\compiler_flags.cmake;C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\mavsdk\cmake\static_analyzers.cmake;C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\mavsdk\src\MAVSDKConfig.cmake.in;C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\mavsdk\src\mavsdk.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindLibLZMA.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\mavsdk\cmake\compiler_flags.cmake;C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\mavsdk\cmake\static_analyzers.cmake;C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\mavsdk\src\MAVSDKConfig.cmake.in;C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\mavsdk\src\mavsdk.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/sw/mavsdk/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN -BC:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build --check-stamp-file C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/thoma/work/uav/VCSi-SUAVPLUGIN -BC:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build --check-stamp-file C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -146,12 +146,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindLibLZMA.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\mavsdk\cmake\Modules\common\FindCURL.cmake;C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\mavsdk\cmake\compiler_flags.cmake;C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\mavsdk\cmake\static_analyzers.cmake;C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\mavsdk\src\MAVSDKConfig.cmake.in;C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\mavsdk\src\mavsdk.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindLibLZMA.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\mavsdk\cmake\compiler_flags.cmake;C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\mavsdk\cmake\static_analyzers.cmake;C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\mavsdk\src\MAVSDKConfig.cmake.in;C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\mavsdk\src\mavsdk.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/sw/mavsdk/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN -BC:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build --check-stamp-file C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/thoma/work/uav/VCSi-SUAVPLUGIN -BC:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build --check-stamp-file C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -159,8 +159,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindLibLZMA.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\mavsdk\cmake\Modules\common\FindCURL.cmake;C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\mavsdk\cmake\compiler_flags.cmake;C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\mavsdk\cmake\static_analyzers.cmake;C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\mavsdk\src\MAVSDKConfig.cmake.in;C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\mavsdk\src\mavsdk.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindLibLZMA.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\mavsdk\cmake\compiler_flags.cmake;C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\mavsdk\cmake\static_analyzers.cmake;C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\mavsdk\src\MAVSDKConfig.cmake.in;C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\mavsdk\src\mavsdk.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
@@ -168,26 +168,26 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\ZERO_CHECK.vcxproj">
-      <Project>{843D867A-EC1A-31CC-891F-CC9299C5BFEA}</Project>
+    <ProjectReference Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\ZERO_CHECK.vcxproj">
+      <Project>{EBA938D9-C4DE-3C09-B60B-D4F52D5863FC}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\src\integration_tests\integration_tests_runner.vcxproj">
-      <Project>{433AD18C-EA91-3ED3-AA3B-84A99C091B5E}</Project>
+    <ProjectReference Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\src\integration_tests\integration_tests_runner.vcxproj">
+      <Project>{0E3E1DAB-EEF3-3836-9260-E1D2A41C6157}</Project>
       <Name>integration_tests_runner</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\src\mavsdk\mavsdk.vcxproj">
-      <Project>{DD52DAC2-46CE-3FA0-B1F6-B8D855DE82E4}</Project>
+    <ProjectReference Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\src\mavsdk\mavsdk.vcxproj">
+      <Project>{1A374091-FCE4-31CF-A07B-78B32963BB02}</Project>
       <Name>mavsdk</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\src\system_tests\system_tests_runner.vcxproj">
-      <Project>{2A396FF4-006D-3F80-947F-A8DB2F977B5D}</Project>
+    <ProjectReference Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\src\system_tests\system_tests_runner.vcxproj">
+      <Project>{3F529A69-11F3-39FC-B700-3F8FBA7A6E9F}</Project>
       <Name>system_tests_runner</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\src\unit_tests\unit_tests_runner.vcxproj">
-      <Project>{810706E1-DD44-3535-9658-94E9DBDE3139}</Project>
+    <ProjectReference Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\src\unit_tests\unit_tests_runner.vcxproj">
+      <Project>{681BB644-5272-3A86-B49E-733A09165A0F}</Project>
       <Name>unit_tests_runner</Name>
     </ProjectReference>
   </ItemGroup>

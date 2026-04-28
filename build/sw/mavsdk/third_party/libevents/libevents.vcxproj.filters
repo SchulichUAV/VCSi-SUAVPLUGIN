@@ -1,41 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\libevents\CMakeFiles\a2406bcb899cfafbe7382fa0af9437d1\libevents-mkdir.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\libevents\CMakeFiles\79323d2c29472c307069d230e03612df\libevents-mkdir.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\libevents\CMakeFiles\a2406bcb899cfafbe7382fa0af9437d1\libevents-download.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\libevents\CMakeFiles\79323d2c29472c307069d230e03612df\libevents-download.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\libevents\CMakeFiles\a2406bcb899cfafbe7382fa0af9437d1\libevents-update.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\libevents\CMakeFiles\79323d2c29472c307069d230e03612df\libevents-update.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\libevents\CMakeFiles\a2406bcb899cfafbe7382fa0af9437d1\libevents-patch.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\libevents\CMakeFiles\79323d2c29472c307069d230e03612df\libevents-patch.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\libevents\CMakeFiles\a2406bcb899cfafbe7382fa0af9437d1\libevents-configure.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\libevents\CMakeFiles\79323d2c29472c307069d230e03612df\libevents-configure.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\libevents\CMakeFiles\a2406bcb899cfafbe7382fa0af9437d1\libevents-build.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\libevents\CMakeFiles\79323d2c29472c307069d230e03612df\libevents-build.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\libevents\CMakeFiles\a2406bcb899cfafbe7382fa0af9437d1\libevents-install.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\libevents\CMakeFiles\79323d2c29472c307069d230e03612df\libevents-install.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\libevents\CMakeFiles\15c3e2f2cc16abb6606f5605a7cf9381\libevents-complete.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\libevents\CMakeFiles\0b9b53d3fafa72816be081a70adcdc79\libevents-complete.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\libevents\CMakeFiles\8286f214826acbc978b4e6fde7dcda52\libevents.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\libevents\CMakeFiles\1bae1b76912ff4be91ab1d53bfd17915\libevents.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\mavsdk\third_party\libevents\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\mavsdk\third_party\libevents\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\libevents\CMakeFiles\libevents" />
+    <None Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\libevents\CMakeFiles\libevents" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{DF22A3DB-9FE3-3A3D-9F56-28D4FE8CB3CA}</UniqueIdentifier>
+      <UniqueIdentifier>{895C57CA-5554-377C-A12B-13724A9ACA12}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

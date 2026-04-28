@@ -1,3 +1,3 @@
 #pragma once
 
-#include "mavlink/common/mavlink.h"
+#include "mavlink/ardupilotmega/mavlink.h"

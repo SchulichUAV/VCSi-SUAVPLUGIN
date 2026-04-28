@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\jsoncpp\src\jsoncpp-build\CMakeFiles\75f7a167ee851e142f144dc3311ca5f2\INSTALL_force.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\jsoncpp\src\jsoncpp-build\CMakeFiles\9e0fca24341f830adf671795b428cbf0\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{4841291A-56C0-36D2-A643-8157A87ABC10}</UniqueIdentifier>
+      <UniqueIdentifier>{165FF404-08E2-345E-8C1B-5DE1562E40BB}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

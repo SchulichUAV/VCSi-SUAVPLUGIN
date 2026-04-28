@@ -6,22 +6,22 @@ cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 # If CMAKE_DISABLE_SOURCE_CHANGES is set to true and the source directory is an
 # existing directory in our source tree, calling file(MAKE_DIRECTORY) on it
 # would cause a fatal error, even though it would be a no-op.
-if(NOT EXISTS "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp")
-  file(MAKE_DIRECTORY "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp")
+if(NOT EXISTS "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp")
+  file(MAKE_DIRECTORY "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp")
 endif()
 file(MAKE_DIRECTORY
-  "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build"
-  "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp"
-  "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/tmp"
-  "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-stamp"
-  "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src"
-  "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-stamp"
+  "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build"
+  "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp"
+  "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/tmp"
+  "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-stamp"
+  "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src"
+  "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-stamp"
 )
 
 set(configSubDirs Debug;Release;MinSizeRel;RelWithDebInfo)
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-stamp${cfgdir}") # cfgdir has leading slash
 endif()

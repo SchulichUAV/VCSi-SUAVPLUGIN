@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\mavlink\mavlink\src\mavlink-build\CMakeFiles\7aee0f6bc0f9b38aa81ff6c8cf5db733\INSTALL_force.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\mavlink\mavlink\src\mavlink-build\CMakeFiles\ac2f5a71ea267db99ed0478be365cdbb\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{036A32D2-F4AD-37F5-A6A8-8835F49BE59D}</UniqueIdentifier>
+      <UniqueIdentifier>{7597F09F-628F-3E54-8B42-B68C737FDCEA}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,8 +1,8 @@
-^C:\USERS\2006L\ONEDRIVE\DESKTOP\SUAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\JSONCPP\CMAKEFILES\F145585E70EFFC119B9A190058B9555A\JSONCPP-MKDIR.RULE
+^C:\USERS\THOMA\WORK\UAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\JSONCPP\CMAKEFILES\508C815621A7A93AF7F2D0BA4A5FFFBE\JSONCPP-MKDIR.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Release -P C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/tmp/jsoncpp-mkdirs.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Release -P C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/tmp/jsoncpp-mkdirs.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-stamp/Release/jsoncpp-mkdir
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-stamp/Release/jsoncpp-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -10,15 +10,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\2006L\ONEDRIVE\DESKTOP\SUAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\JSONCPP\CMAKEFILES\F145585E70EFFC119B9A190058B9555A\JSONCPP-DOWNLOAD.RULE
+^C:\USERS\THOMA\WORK\UAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\JSONCPP\CMAKEFILES\508C815621A7A93AF7F2D0BA4A5FFFBE\JSONCPP-DOWNLOAD.RULE
 setlocal
-cd C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\jsoncpp\src
+cd C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\jsoncpp\src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/tmp/jsoncpp-gitclone.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/tmp/jsoncpp-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-stamp/Release/jsoncpp-download
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-stamp/Release/jsoncpp-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -26,13 +26,13 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\2006L\ONEDRIVE\DESKTOP\SUAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\JSONCPP\CMAKEFILES\F145585E70EFFC119B9A190058B9555A\JSONCPP-UPDATE.RULE
+^C:\USERS\THOMA\WORK\UAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\JSONCPP\CMAKEFILES\508C815621A7A93AF7F2D0BA4A5FFFBE\JSONCPP-UPDATE.RULE
 setlocal
-cd C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\jsoncpp\src\jsoncpp
+cd C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\jsoncpp\src\jsoncpp
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/tmp/jsoncpp-gitupdate.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/tmp/jsoncpp-gitupdate.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -40,11 +40,11 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\2006L\ONEDRIVE\DESKTOP\SUAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\JSONCPP\CMAKEFILES\F145585E70EFFC119B9A190058B9555A\JSONCPP-PATCH.RULE
+^C:\USERS\THOMA\WORK\UAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\JSONCPP\CMAKEFILES\508C815621A7A93AF7F2D0BA4A5FFFBE\JSONCPP-PATCH.RULE
 setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-stamp/Release/jsoncpp-patch
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-stamp/Release/jsoncpp-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -52,15 +52,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\2006L\ONEDRIVE\DESKTOP\SUAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\JSONCPP\CMAKEFILES\F145585E70EFFC119B9A190058B9555A\JSONCPP-CONFIGURE.RULE
+^C:\USERS\THOMA\WORK\UAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\JSONCPP\CMAKEFILES\508C815621A7A93AF7F2D0BA4A5FFFBE\JSONCPP-CONFIGURE.RULE
 setlocal
-cd C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\jsoncpp\src\jsoncpp-build
+cd C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\jsoncpp\src\jsoncpp-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_PREFIX_PATH:PATH=C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install -DCMAKE_INSTALL_PREFIX:PATH=C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install -DCMAKE_TOOLCHAIN_FILE:PATH= -DCMAKE_POSITION_INDEPENDENT_CODE=ON -DCMAKE_BUILD_TYPE=Release -DBUILD_SHARED_LIBS=OFF -DJSONCPP_WITH_CMAKE_PACKAGE=ON -DJSONCPP_WITH_TESTS=OFF "-GVisual Studio 16 2019" -Ax64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools" -S C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp -B C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_PREFIX_PATH:PATH=C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install -DCMAKE_INSTALL_PREFIX:PATH=C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install -DCMAKE_TOOLCHAIN_FILE:PATH= -DCMAKE_POSITION_INDEPENDENT_CODE=ON -DCMAKE_BUILD_TYPE=Release -DBUILD_SHARED_LIBS=OFF -DJSONCPP_WITH_CMAKE_PACKAGE=ON -DJSONCPP_WITH_TESTS=OFF "-GVisual Studio 16 2019" -Ax64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools" -S C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp -B C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-stamp/Release/jsoncpp-configure
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-stamp/Release/jsoncpp-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -68,15 +68,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\2006L\ONEDRIVE\DESKTOP\SUAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\JSONCPP\CMAKEFILES\F145585E70EFFC119B9A190058B9555A\JSONCPP-BUILD.RULE
+^C:\USERS\THOMA\WORK\UAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\JSONCPP\CMAKEFILES\508C815621A7A93AF7F2D0BA4A5FFFBE\JSONCPP-BUILD.RULE
 setlocal
-cd C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\jsoncpp\src\jsoncpp-build
+cd C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\jsoncpp\src\jsoncpp-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config Release
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-stamp/Release/jsoncpp-build
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-stamp/Release/jsoncpp-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -84,15 +84,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\2006L\ONEDRIVE\DESKTOP\SUAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\JSONCPP\CMAKEFILES\F145585E70EFFC119B9A190058B9555A\JSONCPP-INSTALL.RULE
+^C:\USERS\THOMA\WORK\UAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\JSONCPP\CMAKEFILES\508C815621A7A93AF7F2D0BA4A5FFFBE\JSONCPP-INSTALL.RULE
 setlocal
-cd C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\jsoncpp\src\jsoncpp-build
+cd C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\jsoncpp\jsoncpp\src\jsoncpp-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config Release --target install
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-stamp/Release/jsoncpp-install
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-stamp/Release/jsoncpp-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -100,13 +100,13 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\2006L\ONEDRIVE\DESKTOP\SUAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\JSONCPP\CMAKEFILES\301C93BEC3EE727340A7E495381F1738\JSONCPP-COMPLETE.RULE
+^C:\USERS\THOMA\WORK\UAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\JSONCPP\CMAKEFILES\42FB27AEB3B02EB8AD75FF991D78FD72\JSONCPP-COMPLETE.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/CMakeFiles/Release
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/CMakeFiles/Release
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/CMakeFiles/Release/jsoncpp-complete
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/CMakeFiles/Release/jsoncpp-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-stamp/Release/jsoncpp-done
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-stamp/Release/jsoncpp-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -114,7 +114,7 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\2006L\ONEDRIVE\DESKTOP\SUAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\JSONCPP\CMAKEFILES\1AEE98D2FDBD856E752BC4B73E374F6F\JSONCPP.RULE
+^C:\USERS\THOMA\WORK\UAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\JSONCPP\CMAKEFILES\028243F2626C9B310623918EF0B5527B\JSONCPP.RULE
 setlocal
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -122,9 +122,9 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\2006L\ONEDRIVE\DESKTOP\SUAV\VCSI-SUAVPLUGIN\SW\MAVSDK\THIRD_PARTY\JSONCPP\CMAKELISTS.TXT
+^C:\USERS\THOMA\WORK\UAV\VCSI-SUAVPLUGIN\SW\MAVSDK\THIRD_PARTY\JSONCPP\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/third_party/jsoncpp -BC:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp --check-stamp-file C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/sw/mavsdk/third_party/jsoncpp -BC:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp --check-stamp-file C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp/src/lib_json
+# Install script for directory: C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp/src/lib_json
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,39 +34,47 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/lib/Debug/jsoncpp.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/lib/Debug/jsoncpp.lib")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/lib/Release/jsoncpp.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/lib/Release/jsoncpp.lib")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/lib/MinSizeRel/jsoncpp.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/lib/MinSizeRel/jsoncpp.lib")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/lib/RelWithDebInfo/jsoncpp.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/lib/RelWithDebInfo/jsoncpp.lib")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/objects-Debug/jsoncpp_object" TYPE FILE RENAME "json_reader.obj" FILES "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/src/lib_json/jsoncpp_object.dir/Debug//json_reader.obj")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/objects-Debug/jsoncpp_object" TYPE FILE RENAME "json_value.obj" FILES "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/src/lib_json/jsoncpp_object.dir/Debug//json_value.obj")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/objects-Debug/jsoncpp_object" TYPE FILE RENAME "json_writer.obj" FILES "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/src/lib_json/jsoncpp_object.dir/Debug//json_writer.obj")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/objects-Debug/jsoncpp_object" TYPE FILE FILES
+      "json_reader.obj"
+      "json_value.obj"
+      "json_writer.obj"
+      FILES_FROM_DIR "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/src/lib_json/jsoncpp_object.dir/Debug/")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/objects-Release/jsoncpp_object" TYPE FILE RENAME "json_reader.obj" FILES "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/src/lib_json/jsoncpp_object.dir/Release//json_reader.obj")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/objects-Release/jsoncpp_object" TYPE FILE RENAME "json_value.obj" FILES "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/src/lib_json/jsoncpp_object.dir/Release//json_value.obj")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/objects-Release/jsoncpp_object" TYPE FILE RENAME "json_writer.obj" FILES "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/src/lib_json/jsoncpp_object.dir/Release//json_writer.obj")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/objects-Release/jsoncpp_object" TYPE FILE FILES
+      "json_reader.obj"
+      "json_value.obj"
+      "json_writer.obj"
+      FILES_FROM_DIR "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/src/lib_json/jsoncpp_object.dir/Release/")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/objects-MinSizeRel/jsoncpp_object" TYPE FILE RENAME "json_reader.obj" FILES "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/src/lib_json/jsoncpp_object.dir/MinSizeRel//json_reader.obj")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/objects-MinSizeRel/jsoncpp_object" TYPE FILE RENAME "json_value.obj" FILES "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/src/lib_json/jsoncpp_object.dir/MinSizeRel//json_value.obj")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/objects-MinSizeRel/jsoncpp_object" TYPE FILE RENAME "json_writer.obj" FILES "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/src/lib_json/jsoncpp_object.dir/MinSizeRel//json_writer.obj")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/objects-MinSizeRel/jsoncpp_object" TYPE FILE FILES
+      "json_reader.obj"
+      "json_value.obj"
+      "json_writer.obj"
+      FILES_FROM_DIR "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/src/lib_json/jsoncpp_object.dir/MinSizeRel/")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/objects-RelWithDebInfo/jsoncpp_object" TYPE FILE RENAME "json_reader.obj" FILES "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/src/lib_json/jsoncpp_object.dir/RelWithDebInfo//json_reader.obj")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/objects-RelWithDebInfo/jsoncpp_object" TYPE FILE RENAME "json_value.obj" FILES "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/src/lib_json/jsoncpp_object.dir/RelWithDebInfo//json_value.obj")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/objects-RelWithDebInfo/jsoncpp_object" TYPE FILE RENAME "json_writer.obj" FILES "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/src/lib_json/jsoncpp_object.dir/RelWithDebInfo//json_writer.obj")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/objects-RelWithDebInfo/jsoncpp_object" TYPE FILE FILES
+      "json_reader.obj"
+      "json_value.obj"
+      "json_writer.obj"
+      FILES_FROM_DIR "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/src/lib_json/jsoncpp_object.dir/RelWithDebInfo/")
   endif()
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/src/lib_json/install_local_manifest.txt"
+  file(WRITE "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/src/lib_json/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

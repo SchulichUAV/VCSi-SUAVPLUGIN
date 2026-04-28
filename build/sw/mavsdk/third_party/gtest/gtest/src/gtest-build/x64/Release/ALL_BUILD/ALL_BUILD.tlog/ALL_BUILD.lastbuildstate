@@ -1,2 +1,2 @@
-PlatformToolSet=v142:VCToolArchitecture=Native64Bit:VCToolsVersion=14.29.30133:TargetPlatformVersion=10.0.19041.0:
-Release|x64|C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\gtest\gtest\src\gtest-build\|
+PlatformToolSet=v142:VCToolArchitecture=Native64Bit:VCToolsVersion=14.29.30133:TargetPlatformVersion=10.0.22621.0:
+Release|x64|C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\gtest\gtest\src\gtest-build\|

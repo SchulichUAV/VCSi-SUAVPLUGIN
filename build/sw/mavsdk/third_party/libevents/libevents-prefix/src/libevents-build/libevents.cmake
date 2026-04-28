@@ -7,7 +7,7 @@ if(CMAKE_VERSION VERSION_LESS "3.0.0")
    message(FATAL_ERROR "CMake >= 3.0.0 required")
 endif()
 cmake_policy(PUSH)
-cmake_policy(VERSION 3.0.0...4.1)
+cmake_policy(VERSION 3.0.0...3.30)
 #----------------------------------------------------------------
 # Generated CMake target import file.
 #----------------------------------------------------------------
@@ -69,84 +69,84 @@ set_target_properties(libevents PROPERTIES
 set_property(TARGET libevents_parser APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(libevents_parser PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-build/parse/Debug/libevents_parserd.lib"
+  IMPORTED_LOCATION_DEBUG "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-build/parse/Debug/libevents_parserd.lib"
   )
 
 # Import target "libevents_health_and_arming_checks" for configuration "Debug"
 set_property(TARGET libevents_health_and_arming_checks APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(libevents_health_and_arming_checks PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-build/parse/Debug/libevents_health_and_arming_checksd.lib"
+  IMPORTED_LOCATION_DEBUG "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-build/parse/Debug/libevents_health_and_arming_checksd.lib"
   )
 
 # Import target "libevents" for configuration "Debug"
 set_property(TARGET libevents APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(libevents PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-build/Debug/libeventsd.lib"
+  IMPORTED_LOCATION_DEBUG "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-build/Debug/libeventsd.lib"
   )
 
 # Import target "libevents_parser" for configuration "Release"
 set_property(TARGET libevents_parser APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(libevents_parser PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-build/parse/Release/libevents_parser.lib"
+  IMPORTED_LOCATION_RELEASE "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-build/parse/Release/libevents_parser.lib"
   )
 
 # Import target "libevents_health_and_arming_checks" for configuration "Release"
 set_property(TARGET libevents_health_and_arming_checks APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(libevents_health_and_arming_checks PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-build/parse/Release/libevents_health_and_arming_checks.lib"
+  IMPORTED_LOCATION_RELEASE "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-build/parse/Release/libevents_health_and_arming_checks.lib"
   )
 
 # Import target "libevents" for configuration "Release"
 set_property(TARGET libevents APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(libevents PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-build/Release/libevents.lib"
+  IMPORTED_LOCATION_RELEASE "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-build/Release/libevents.lib"
   )
 
 # Import target "libevents_parser" for configuration "MinSizeRel"
 set_property(TARGET libevents_parser APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(libevents_parser PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "CXX"
-  IMPORTED_LOCATION_MINSIZEREL "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-build/parse/MinSizeRel/libevents_parser.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-build/parse/MinSizeRel/libevents_parser.lib"
   )
 
 # Import target "libevents_health_and_arming_checks" for configuration "MinSizeRel"
 set_property(TARGET libevents_health_and_arming_checks APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(libevents_health_and_arming_checks PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "CXX"
-  IMPORTED_LOCATION_MINSIZEREL "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-build/parse/MinSizeRel/libevents_health_and_arming_checks.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-build/parse/MinSizeRel/libevents_health_and_arming_checks.lib"
   )
 
 # Import target "libevents" for configuration "MinSizeRel"
 set_property(TARGET libevents APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(libevents PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "CXX"
-  IMPORTED_LOCATION_MINSIZEREL "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-build/MinSizeRel/libevents.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-build/MinSizeRel/libevents.lib"
   )
 
 # Import target "libevents_parser" for configuration "RelWithDebInfo"
 set_property(TARGET libevents_parser APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(libevents_parser PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-build/parse/RelWithDebInfo/libevents_parser.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-build/parse/RelWithDebInfo/libevents_parser.lib"
   )
 
 # Import target "libevents_health_and_arming_checks" for configuration "RelWithDebInfo"
 set_property(TARGET libevents_health_and_arming_checks APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(libevents_health_and_arming_checks PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-build/parse/RelWithDebInfo/libevents_health_and_arming_checks.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-build/parse/RelWithDebInfo/libevents_health_and_arming_checks.lib"
   )
 
 # Import target "libevents" for configuration "RelWithDebInfo"
 set_property(TARGET libevents APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(libevents PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-build/RelWithDebInfo/libevents.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-build/RelWithDebInfo/libevents.lib"
   )
 
 # This file does not depend on other imported targets which have

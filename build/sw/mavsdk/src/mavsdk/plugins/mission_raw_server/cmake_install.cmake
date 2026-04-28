@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/mission_raw_server
+# Install script for directory: C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/mission_raw_server
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,12 +33,12 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/mavsdk/plugins/mission_raw_server" TYPE FILE FILES "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/mission_raw_server/include/plugins/mission_raw_server/mission_raw_server.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/mavsdk/plugins/mission_raw_server" TYPE FILE FILES "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/sw/mavsdk/src/mavsdk/plugins/mission_raw_server/include/plugins/mission_raw_server/mission_raw_server.h")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/mavsdk/plugins/mission_raw_server/install_local_manifest.txt"
+  file(WRITE "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/src/mavsdk/plugins/mission_raw_server/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

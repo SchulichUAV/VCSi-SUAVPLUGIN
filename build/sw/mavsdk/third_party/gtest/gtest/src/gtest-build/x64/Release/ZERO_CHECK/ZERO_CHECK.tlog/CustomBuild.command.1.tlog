@@ -1,6 +1,6 @@
-^C:\USERS\2006L\ONEDRIVE\DESKTOP\SUAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\GTEST\GTEST\SRC\GTEST-BUILD\CMAKEFILES\64C0A36D33F5AFF0B794B33258013802\GENERATE.STAMP.RULE
+^C:\USERS\THOMA\WORK\UAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\GTEST\GTEST\SRC\GTEST-BUILD\CMAKEFILES\B3E2384ED30E1A6C01C7B8B0DE200656\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest -BC:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/googletest-distribution.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest -BC:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/gtest/gtest/src/gtest-build/googletest-distribution.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

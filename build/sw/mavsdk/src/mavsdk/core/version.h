@@ -2,6 +2,6 @@
 
 namespace mavsdk {
 
-constexpr auto mavsdk_version = "v3.2.0-dirty";
+constexpr auto mavsdk_version = "0.0.0";
 
 } // namespace mavsdk

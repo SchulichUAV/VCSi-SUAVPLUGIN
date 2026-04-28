@@ -7,7 +7,7 @@ if(CMAKE_VERSION VERSION_LESS "2.8.12")
    message(FATAL_ERROR "CMake >= 2.8.12 required")
 endif()
 cmake_policy(PUSH)
-cmake_policy(VERSION 2.8.12...4.1)
+cmake_policy(VERSION 2.8.12...3.30)
 #----------------------------------------------------------------
 # Generated CMake target import file.
 #----------------------------------------------------------------
@@ -59,8 +59,8 @@ endif()
 add_library(MAVSDK::mavsdk STATIC IMPORTED)
 
 set_target_properties(MAVSDK::mavsdk PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk"
-  INTERFACE_LINK_LIBRARIES "\$<LINK_ONLY:Threads::Threads>;\$<LINK_ONLY:LibLZMA::LibLZMA>;\$<LINK_ONLY:ws2_32>;\$<LINK_ONLY:JsonCpp::JsonCpp>;\$<LINK_ONLY:tinyxml2::tinyxml2>;\$<LINK_ONLY:LibEvents::LibEvents>"
+  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk;${_IMPORT_PREFIX}/include/mavsdk"
+  INTERFACE_LINK_LIBRARIES "\$<LINK_ONLY:Threads::Threads>;\$<LINK_ONLY:LibLZMA::LibLZMA>;\$<LINK_ONLY:ws2_32>;\$<LINK_ONLY:JsonCpp::JsonCpp>;\$<LINK_ONLY:tinyxml2::tinyxml2>;\$<LINK_ONLY:LibEvents::LibEvents>;\$<LINK_ONLY:mav::mav>"
 )
 
 # Load information for each installed configuration.

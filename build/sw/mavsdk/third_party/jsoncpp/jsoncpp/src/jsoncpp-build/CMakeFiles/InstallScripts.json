@@ -1,10 +1,10 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/cmake_install.cmake",
-		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/src/cmake_install.cmake",
-		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/src/lib_json/cmake_install.cmake",
-		"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/include/cmake_install.cmake"
+		"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/cmake_install.cmake",
+		"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/src/cmake_install.cmake",
+		"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/src/lib_json/cmake_install.cmake",
+		"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/include/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

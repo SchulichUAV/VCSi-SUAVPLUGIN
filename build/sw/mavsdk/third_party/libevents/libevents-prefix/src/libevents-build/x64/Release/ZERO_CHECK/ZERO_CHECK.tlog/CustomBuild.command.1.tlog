@@ -1,6 +1,6 @@
-^C:\USERS\2006L\ONEDRIVE\DESKTOP\SUAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\LIBEVENTS\LIBEVENTS-PREFIX\SRC\LIBEVENTS-BUILD\CMAKEFILES\0CE18BFA8C7316F6B1FDA61830BFD553\GENERATE.STAMP.RULE
+^C:\USERS\THOMA\WORK\UAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\LIBEVENTS\LIBEVENTS-PREFIX\SRC\LIBEVENTS-BUILD\CMAKEFILES\BB51C2FD25229ABCBE693BDE25F43860\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents/libs/cpp -BC:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-build/libevents.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents/libs/cpp -BC:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/libevents-prefix/src/libevents-build/libevents.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\liblzma\liblzma-prefix\src\liblzma-build\CMakeFiles\ad6ba8b3d53b1c1b62038e029c6a3b1a\Continuous.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\liblzma\liblzma-prefix\src\liblzma-build\CMakeFiles\3c84be5735571c22fb6dab0da15bdcea\Continuous.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\liblzma\liblzma-prefix\src\liblzma\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\liblzma\liblzma-prefix\src\liblzma\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\liblzma\liblzma-prefix\src\liblzma-build\CMakeFiles\Continuous" />
+    <None Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\liblzma\liblzma-prefix\src\liblzma-build\CMakeFiles\Continuous" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{E5362209-94E5-3B82-B6DC-519788962A40}</UniqueIdentifier>
+      <UniqueIdentifier>{33087A63-5E73-391D-8441-4944B6BBF5E2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

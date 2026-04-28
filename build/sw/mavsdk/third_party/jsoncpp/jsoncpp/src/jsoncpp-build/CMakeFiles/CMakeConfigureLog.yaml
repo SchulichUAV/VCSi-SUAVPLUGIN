@@ -2,338 +2,19 @@
 ---
 events:
   -
-    kind: "find-v1"
-    backtrace:
-      - "CMakeLists.txt:60 (find_program)"
-    mode: "program"
-    variable: "CCACHE_EXECUTABLE"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "ccache"
-    candidate_directories:
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/bin/"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/sbin/"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/"
-      - "/usr/local/bin/"
-      - "/opt/local/bin/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/Tools/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/"
-      - "C:/Program Files (x86)/HTML Help Workshop/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
-      - "C:/ProgramData/Oracle/Java/javapath/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files/Docker/Docker/resources/bin/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/nodejs/"
-      - "C:/Program Files/Memurai/"
-      - "C:/yt dlp/"
-      - "C:/ffmpeg/bin/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/Scripts/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Launcher/"
-      - "C:/Users/2006l/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/2006l/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/MinGW64/bin/"
-      - "C:/Users/2006l/AppData/Roaming/npm/"
-      - "C:/Users/2006l/.dotnet/tools/"
-      - "C:/cygwin64/bin/"
-      - "C:/Users/2006l/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-    searched_directories:
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/bin/ccache.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/bin/ccache.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/bin/ccache"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/sbin/ccache.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/sbin/ccache.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/sbin/ccache"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/ccache.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/ccache.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/ccache"
-      - "/usr/local/bin/ccache.com"
-      - "/usr/local/bin/ccache.exe"
-      - "/usr/local/bin/ccache"
-      - "/opt/local/bin/ccache.com"
-      - "/opt/local/bin/ccache.exe"
-      - "/opt/local/bin/ccache"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/ccache.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/ccache.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/ccache"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/ccache.com"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/ccache.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/ccache"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x86/ccache.com"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x86/ccache.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x86/ccache"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/Tools/ccache.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/Tools/ccache.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/Tools/ccache"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/ccache.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/ccache.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/ccache"
-      - "C:/Program Files (x86)/HTML Help Workshop/ccache.com"
-      - "C:/Program Files (x86)/HTML Help Workshop/ccache.exe"
-      - "C:/Program Files (x86)/HTML Help Workshop/ccache"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/ccache.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/ccache.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/ccache"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/ccache.com"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/ccache.exe"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/ccache"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/ccache.com"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/ccache.exe"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/ccache"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/ccache.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/ccache.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/ccache"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/ccache.com"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/ccache.exe"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/ccache"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/ccache.com"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/ccache.exe"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/ccache"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/ccache.com"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/ccache.exe"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/ccache"
-      - "C:/ProgramData/Oracle/Java/javapath/ccache.com"
-      - "C:/ProgramData/Oracle/Java/javapath/ccache.exe"
-      - "C:/ProgramData/Oracle/Java/javapath/ccache"
-      - "C:/Windows/System32/ccache.com"
-      - "C:/Windows/System32/ccache.exe"
-      - "C:/Windows/System32/ccache"
-      - "C:/Windows/ccache.com"
-      - "C:/Windows/ccache.exe"
-      - "C:/Windows/ccache"
-      - "C:/Windows/System32/wbem/ccache.com"
-      - "C:/Windows/System32/wbem/ccache.exe"
-      - "C:/Windows/System32/wbem/ccache"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/ccache.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/ccache.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/ccache"
-      - "C:/Windows/System32/OpenSSH/ccache.com"
-      - "C:/Windows/System32/OpenSSH/ccache.exe"
-      - "C:/Windows/System32/OpenSSH/ccache"
-      - "C:/Program Files/Docker/Docker/resources/bin/ccache.com"
-      - "C:/Program Files/Docker/Docker/resources/bin/ccache.exe"
-      - "C:/Program Files/Docker/Docker/resources/bin/ccache"
-      - "C:/Program Files/Git/cmd/ccache.com"
-      - "C:/Program Files/Git/cmd/ccache.exe"
-      - "C:/Program Files/Git/cmd/ccache"
-      - "C:/ProgramData/chocolatey/bin/ccache.com"
-      - "C:/ProgramData/chocolatey/bin/ccache.exe"
-      - "C:/ProgramData/chocolatey/bin/ccache"
-      - "C:/Program Files/CMake/bin/ccache.com"
-      - "C:/Program Files/CMake/bin/ccache.exe"
-      - "C:/Program Files/CMake/bin/ccache"
-      - "C:/Program Files/nodejs/ccache.com"
-      - "C:/Program Files/nodejs/ccache.exe"
-      - "C:/Program Files/nodejs/ccache"
-      - "C:/Program Files/Memurai/ccache.com"
-      - "C:/Program Files/Memurai/ccache.exe"
-      - "C:/Program Files/Memurai/ccache"
-      - "C:/yt dlp/ccache.com"
-      - "C:/yt dlp/ccache.exe"
-      - "C:/yt dlp/ccache"
-      - "C:/ffmpeg/bin/ccache.com"
-      - "C:/ffmpeg/bin/ccache.exe"
-      - "C:/ffmpeg/bin/ccache"
-      - "C:/Program Files/dotnet/ccache.com"
-      - "C:/Program Files/dotnet/ccache.exe"
-      - "C:/Program Files/dotnet/ccache"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/Scripts/ccache.com"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/Scripts/ccache.exe"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/Scripts/ccache"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/ccache.com"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/ccache.exe"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/ccache"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Launcher/ccache.com"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Launcher/ccache.exe"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Launcher/ccache"
-      - "C:/Users/2006l/AppData/Local/Microsoft/WindowsApps/ccache.com"
-      - "C:/Users/2006l/AppData/Local/Microsoft/WindowsApps/ccache.exe"
-      - "C:/Users/2006l/AppData/Local/Microsoft/WindowsApps/ccache"
-      - "C:/Users/2006l/AppData/Local/Programs/Microsoft VS Code/bin/ccache.com"
-      - "C:/Users/2006l/AppData/Local/Programs/Microsoft VS Code/bin/ccache.exe"
-      - "C:/Users/2006l/AppData/Local/Programs/Microsoft VS Code/bin/ccache"
-      - "C:/MinGW64/bin/ccache.com"
-      - "C:/MinGW64/bin/ccache.exe"
-      - "C:/MinGW64/bin/ccache"
-      - "C:/Users/2006l/AppData/Roaming/npm/ccache.com"
-      - "C:/Users/2006l/AppData/Roaming/npm/ccache.exe"
-      - "C:/Users/2006l/AppData/Roaming/npm/ccache"
-      - "C:/Users/2006l/.dotnet/tools/ccache.com"
-      - "C:/Users/2006l/.dotnet/tools/ccache.exe"
-      - "C:/Users/2006l/.dotnet/tools/ccache"
-      - "C:/cygwin64/bin/ccache.com"
-      - "C:/cygwin64/bin/ccache.exe"
-      - "C:/cygwin64/bin/ccache"
-      - "C:/Users/2006l/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/ccache.com"
-      - "C:/Users/2006l/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/ccache.exe"
-      - "C:/Users/2006l/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/ccache"
-    found: false
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-      ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\tools"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\ide"
-        - "C:\\Program Files (x86)\\HTML Help Workshop"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\.venv\\Scripts"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\Memurai\\"
-        - "C:\\yt dlp"
-        - "C:\\ffmpeg\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Launcher\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\MinGW64\\bin"
-        - "C:\\Users\\2006l\\AppData\\Roaming\\npm"
-        - "C:\\Users\\2006l\\.dotnet\\tools"
-        - "C:\\cygwin64\\bin"
-        - "c:\\Users\\2006l\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-      CMAKE_INSTALL_PREFIX: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-  -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
-      - "CMakeLists.txt:67 (project)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:57 (project)"
     message: |
-      The system is: Windows - 10.0.26100 - AMD64
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:67 (project)"
-    mode: "file"
-    variable: "src_in"
-    description: "Path to a file."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "CMakeCXXCompilerId.cpp.in"
-    candidate_directories:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp/cmake/"
-    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-      ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\tools"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\ide"
-        - "C:\\Program Files (x86)\\HTML Help Workshop"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\.venv\\Scripts"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\Memurai\\"
-        - "C:\\yt dlp"
-        - "C:\\ffmpeg\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Launcher\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\MinGW64\\bin"
-        - "C:\\Users\\2006l\\AppData\\Roaming\\npm"
-        - "C:\\Users\\2006l\\.dotnet\\tools"
-        - "C:\\cygwin64\\bin"
-        - "c:\\Users\\2006l\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-      CMAKE_INSTALL_PREFIX: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-      ENV{INCLUDE}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\include"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Auxiliary\\VS\\include"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Auxiliary\\VS\\UnitTest\\include"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt"
-        - "Include\\um"
+      The system is: Windows - 10.0.26200 - AMD64
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:67 (project)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:57 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler:  
@@ -342,11 +23,11 @@ events:
       
       The output was:
       0
-      Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+      Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
       Copyright (C) Microsoft Corporation. All rights reserved.
       
-      Build started 3/7/2026 4:25:07 PM.
-      Project "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\4.3.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      Build started 2026-04-27 8:07:24 PM.
+      Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Creating directory "Debug\\CompilerIdCXX.tlog\\".
@@ -357,7 +38,7 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\4.3.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -365,13 +46,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Done Building Project "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\4.3.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:02.51
+      Time Elapsed 00:00:00.51
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -379,863 +60,75 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/4.3.0-rc2/CompilerIdCXX/CompilerIdCXX.exe
+        C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/4.0.2/CompilerIdCXX/CompilerIdCXX.exe
       
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:67 (project)"
-    mode: "program"
-    variable: "_CMAKE_TOOL_WITH_PATH"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "link"
-    candidate_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/Tools/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/"
-      - "C:/Program Files (x86)/HTML Help Workshop/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
-      - "C:/ProgramData/Oracle/Java/javapath/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files/Docker/Docker/resources/bin/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/nodejs/"
-      - "C:/Program Files/Memurai/"
-      - "C:/yt dlp/"
-      - "C:/ffmpeg/bin/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/Scripts/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Launcher/"
-      - "C:/Users/2006l/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/2006l/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/MinGW64/bin/"
-      - "C:/Users/2006l/AppData/Roaming/npm/"
-      - "C:/Users/2006l/.dotnet/tools/"
-      - "C:/cygwin64/bin/"
-      - "C:/Users/2006l/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-    searched_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/link.com"
-    found: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/link.exe"
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-      ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\tools"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\ide"
-        - "C:\\Program Files (x86)\\HTML Help Workshop"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\.venv\\Scripts"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\Memurai\\"
-        - "C:\\yt dlp"
-        - "C:\\ffmpeg\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Launcher\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\MinGW64\\bin"
-        - "C:\\Users\\2006l\\AppData\\Roaming\\npm"
-        - "C:\\Users\\2006l\\.dotnet\\tools"
-        - "C:\\cygwin64\\bin"
-        - "c:\\Users\\2006l\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-      CMAKE_INSTALL_PREFIX: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:67 (project)"
-    mode: "program"
-    variable: "_CMAKE_TOOL_WITH_PATH"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "lld-link"
-    candidate_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/Tools/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/"
-      - "C:/Program Files (x86)/HTML Help Workshop/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
-      - "C:/ProgramData/Oracle/Java/javapath/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files/Docker/Docker/resources/bin/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/nodejs/"
-      - "C:/Program Files/Memurai/"
-      - "C:/yt dlp/"
-      - "C:/ffmpeg/bin/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/Scripts/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Launcher/"
-      - "C:/Users/2006l/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/2006l/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/MinGW64/bin/"
-      - "C:/Users/2006l/AppData/Roaming/npm/"
-      - "C:/Users/2006l/.dotnet/tools/"
-      - "C:/cygwin64/bin/"
-      - "C:/Users/2006l/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-    searched_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/lld-link.com"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/lld-link.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/lld-link"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x86/lld-link.com"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x86/lld-link.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x86/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/Tools/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/Tools/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/Tools/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/lld-link"
-      - "C:/Program Files (x86)/HTML Help Workshop/lld-link.com"
-      - "C:/Program Files (x86)/HTML Help Workshop/lld-link.exe"
-      - "C:/Program Files (x86)/HTML Help Workshop/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/lld-link"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.com"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.exe"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.com"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.exe"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/lld-link.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/lld-link.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/lld-link"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.com"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.exe"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.com"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.exe"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
-      - "C:/ProgramData/Oracle/Java/javapath/lld-link.com"
-      - "C:/ProgramData/Oracle/Java/javapath/lld-link.exe"
-      - "C:/ProgramData/Oracle/Java/javapath/lld-link"
-      - "C:/Windows/System32/lld-link.com"
-      - "C:/Windows/System32/lld-link.exe"
-      - "C:/Windows/System32/lld-link"
-      - "C:/Windows/lld-link.com"
-      - "C:/Windows/lld-link.exe"
-      - "C:/Windows/lld-link"
-      - "C:/Windows/System32/wbem/lld-link.com"
-      - "C:/Windows/System32/wbem/lld-link.exe"
-      - "C:/Windows/System32/wbem/lld-link"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
-      - "C:/Windows/System32/OpenSSH/lld-link.com"
-      - "C:/Windows/System32/OpenSSH/lld-link.exe"
-      - "C:/Windows/System32/OpenSSH/lld-link"
-      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.com"
-      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.exe"
-      - "C:/Program Files/Docker/Docker/resources/bin/lld-link"
-      - "C:/Program Files/Git/cmd/lld-link.com"
-      - "C:/Program Files/Git/cmd/lld-link.exe"
-      - "C:/Program Files/Git/cmd/lld-link"
-      - "C:/ProgramData/chocolatey/bin/lld-link.com"
-      - "C:/ProgramData/chocolatey/bin/lld-link.exe"
-      - "C:/ProgramData/chocolatey/bin/lld-link"
-      - "C:/Program Files/CMake/bin/lld-link.com"
-      - "C:/Program Files/CMake/bin/lld-link.exe"
-      - "C:/Program Files/CMake/bin/lld-link"
-      - "C:/Program Files/nodejs/lld-link.com"
-      - "C:/Program Files/nodejs/lld-link.exe"
-      - "C:/Program Files/nodejs/lld-link"
-      - "C:/Program Files/Memurai/lld-link.com"
-      - "C:/Program Files/Memurai/lld-link.exe"
-      - "C:/Program Files/Memurai/lld-link"
-      - "C:/yt dlp/lld-link.com"
-      - "C:/yt dlp/lld-link.exe"
-      - "C:/yt dlp/lld-link"
-      - "C:/ffmpeg/bin/lld-link.com"
-      - "C:/ffmpeg/bin/lld-link.exe"
-      - "C:/ffmpeg/bin/lld-link"
-      - "C:/Program Files/dotnet/lld-link.com"
-      - "C:/Program Files/dotnet/lld-link.exe"
-      - "C:/Program Files/dotnet/lld-link"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/Scripts/lld-link.com"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/Scripts/lld-link.exe"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/Scripts/lld-link"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/lld-link.com"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/lld-link.exe"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/lld-link"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Launcher/lld-link.com"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Launcher/lld-link.exe"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Launcher/lld-link"
-      - "C:/Users/2006l/AppData/Local/Microsoft/WindowsApps/lld-link.com"
-      - "C:/Users/2006l/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
-      - "C:/Users/2006l/AppData/Local/Microsoft/WindowsApps/lld-link"
-      - "C:/Users/2006l/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
-      - "C:/Users/2006l/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
-      - "C:/Users/2006l/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
-      - "C:/MinGW64/bin/lld-link.com"
-      - "C:/MinGW64/bin/lld-link.exe"
-      - "C:/MinGW64/bin/lld-link"
-      - "C:/Users/2006l/AppData/Roaming/npm/lld-link.com"
-      - "C:/Users/2006l/AppData/Roaming/npm/lld-link.exe"
-      - "C:/Users/2006l/AppData/Roaming/npm/lld-link"
-      - "C:/Users/2006l/.dotnet/tools/lld-link.com"
-      - "C:/Users/2006l/.dotnet/tools/lld-link.exe"
-      - "C:/Users/2006l/.dotnet/tools/lld-link"
-      - "C:/cygwin64/bin/lld-link.com"
-      - "C:/cygwin64/bin/lld-link.exe"
-      - "C:/cygwin64/bin/lld-link"
-      - "C:/Users/2006l/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.com"
-      - "C:/Users/2006l/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.exe"
-      - "C:/Users/2006l/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link"
-    found: false
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-      ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\tools"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\ide"
-        - "C:\\Program Files (x86)\\HTML Help Workshop"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\.venv\\Scripts"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\Memurai\\"
-        - "C:\\yt dlp"
-        - "C:\\ffmpeg\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Launcher\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\MinGW64\\bin"
-        - "C:\\Users\\2006l\\AppData\\Roaming\\npm"
-        - "C:\\Users\\2006l\\.dotnet\\tools"
-        - "C:\\cygwin64\\bin"
-        - "c:\\Users\\2006l\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-      CMAKE_INSTALL_PREFIX: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:67 (project)"
-    mode: "program"
-    variable: "CMAKE_LINKER"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "link"
-    candidate_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/Tools/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/"
-      - "C:/Program Files (x86)/HTML Help Workshop/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
-      - "C:/ProgramData/Oracle/Java/javapath/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files/Docker/Docker/resources/bin/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/nodejs/"
-      - "C:/Program Files/Memurai/"
-      - "C:/yt dlp/"
-      - "C:/ffmpeg/bin/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/Scripts/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Launcher/"
-      - "C:/Users/2006l/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/2006l/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/MinGW64/bin/"
-      - "C:/Users/2006l/AppData/Roaming/npm/"
-      - "C:/Users/2006l/.dotnet/tools/"
-      - "C:/cygwin64/bin/"
-      - "C:/Users/2006l/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-    searched_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/link.com"
-    found: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/link.exe"
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-      ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\tools"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\ide"
-        - "C:\\Program Files (x86)\\HTML Help Workshop"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\.venv\\Scripts"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\Memurai\\"
-        - "C:\\yt dlp"
-        - "C:\\ffmpeg\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Launcher\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\MinGW64\\bin"
-        - "C:\\Users\\2006l\\AppData\\Roaming\\npm"
-        - "C:\\Users\\2006l\\.dotnet\\tools"
-        - "C:\\cygwin64\\bin"
-        - "c:\\Users\\2006l\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-      CMAKE_INSTALL_PREFIX: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:67 (project)"
-    mode: "program"
-    variable: "CMAKE_MT"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "mt"
-    candidate_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/Tools/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/"
-      - "C:/Program Files (x86)/HTML Help Workshop/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
-      - "C:/ProgramData/Oracle/Java/javapath/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files/Docker/Docker/resources/bin/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/nodejs/"
-      - "C:/Program Files/Memurai/"
-      - "C:/yt dlp/"
-      - "C:/ffmpeg/bin/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/Scripts/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Launcher/"
-      - "C:/Users/2006l/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/2006l/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/MinGW64/bin/"
-      - "C:/Users/2006l/AppData/Roaming/npm/"
-      - "C:/Users/2006l/.dotnet/tools/"
-      - "C:/cygwin64/bin/"
-      - "C:/Users/2006l/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-    searched_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/mt.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/mt.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/mt"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/mt.com"
-    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/mt.exe"
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-      ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\tools"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\ide"
-        - "C:\\Program Files (x86)\\HTML Help Workshop"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\.venv\\Scripts"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\Memurai\\"
-        - "C:\\yt dlp"
-        - "C:\\ffmpeg\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Launcher\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\MinGW64\\bin"
-        - "C:\\Users\\2006l\\AppData\\Roaming\\npm"
-        - "C:\\Users\\2006l\\.dotnet\\tools"
-        - "C:\\cygwin64\\bin"
-        - "c:\\Users\\2006l\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-      CMAKE_INSTALL_PREFIX: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:67 (project)"
-    mode: "program"
-    variable: "CMAKE_AR"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "lib"
-    candidate_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/Tools/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/"
-      - "C:/Program Files (x86)/HTML Help Workshop/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
-      - "C:/ProgramData/Oracle/Java/javapath/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files/Docker/Docker/resources/bin/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/nodejs/"
-      - "C:/Program Files/Memurai/"
-      - "C:/yt dlp/"
-      - "C:/ffmpeg/bin/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/Scripts/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Launcher/"
-      - "C:/Users/2006l/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/2006l/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/MinGW64/bin/"
-      - "C:/Users/2006l/AppData/Roaming/npm/"
-      - "C:/Users/2006l/.dotnet/tools/"
-      - "C:/cygwin64/bin/"
-      - "C:/Users/2006l/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-    searched_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lib.com"
-    found: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lib.exe"
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-      ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\tools"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\ide"
-        - "C:\\Program Files (x86)\\HTML Help Workshop"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\.venv\\Scripts"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\Memurai\\"
-        - "C:\\yt dlp"
-        - "C:\\ffmpeg\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Launcher\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\MinGW64\\bin"
-        - "C:\\Users\\2006l\\AppData\\Roaming\\npm"
-        - "C:\\Users\\2006l\\.dotnet\\tools"
-        - "C:\\cygwin64\\bin"
-        - "c:\\Users\\2006l\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-      CMAKE_INSTALL_PREFIX: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:583 (enable_language)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:556 (__windows_compiler_msvc_enable_rc)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXInformation.cmake:48 (include)"
-      - "CMakeLists.txt:67 (project)"
-    mode: "program"
-    variable: "CMAKE_RC_COMPILER"
-    description: "RC compiler"
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "rc"
-    candidate_directories:
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/bin/"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/sbin/"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/Tools/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/"
-      - "C:/Program Files (x86)/HTML Help Workshop/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/.venv/Scripts/"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/2006l/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
-      - "C:/ProgramData/Oracle/Java/javapath/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files/Docker/Docker/resources/bin/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/nodejs/"
-      - "C:/Program Files/Memurai/"
-      - "C:/yt dlp/"
-      - "C:/ffmpeg/bin/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/Scripts/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Python39/"
-      - "C:/Users/2006l/AppData/Local/Programs/Python/Launcher/"
-      - "C:/Users/2006l/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/2006l/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/MinGW64/bin/"
-      - "C:/Users/2006l/AppData/Roaming/npm/"
-      - "C:/Users/2006l/.dotnet/tools/"
-      - "C:/cygwin64/bin/"
-      - "C:/Users/2006l/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-      - "C:/Program Files/bin/"
-      - "C:/Program Files/sbin/"
-      - "C:/Program Files/"
-      - "C:/Program Files (x86)/bin/"
-      - "C:/Program Files (x86)/sbin/"
-      - "C:/Program Files (x86)/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/CMake/sbin/"
-      - "C:/Program Files/CMake/"
-    searched_directories:
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/bin/rc.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/bin/rc.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/bin/rc"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/sbin/rc.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/sbin/rc.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/sbin/rc"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/rc.com"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/rc.exe"
-      - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/rc"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/rc.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/rc.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/rc"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/rc.com"
-    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/rc.exe"
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-      ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\tools"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\ide"
-        - "C:\\Program Files (x86)\\HTML Help Workshop"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Current\\Bin"
-        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
-        - "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\.venv\\Scripts"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\2006l\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\Memurai\\"
-        - "C:\\yt dlp"
-        - "C:\\ffmpeg\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Python39\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Python\\Launcher\\"
-        - "C:\\Users\\2006l\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\2006l\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\MinGW64\\bin"
-        - "C:\\Users\\2006l\\AppData\\Roaming\\npm"
-        - "C:\\Users\\2006l\\.dotnet\\tools"
-        - "C:\\cygwin64\\bin"
-        - "c:\\Users\\2006l\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-      CMAKE_INSTALL_PREFIX: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "C:/Program Files/CMake"
-        - "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install"
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:67 (project)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:57 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-ecogdn"
-      binary: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-ecogdn"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-te6mw2"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-te6mw2"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
-      CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp/cmake"
       CMAKE_POSITION_INDEPENDENT_CODE: "ON"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-ecogdn'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-te6mw2'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_44271.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
-        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_52fae.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 3/7/2026 4:25:10 PM.
-        Project "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-ecogdn\\cmTC_44271.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:07:25 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-te6mw2\\cmTC_52fae.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-ecogdn\\Debug\\".
-          Creating directory "cmTC_44271.dir\\Debug\\cmTC_44271.tlog\\".
+          Creating directory "cmTC_52fae.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-te6mw2\\Debug\\".
+          Creating directory "cmTC_52fae.dir\\Debug\\cmTC_52fae.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_44271.dir\\Debug\\cmTC_44271.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_52fae.dir\\Debug\\cmTC_52fae.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_44271.dir\\Debug\\\\" /Fd"cmTC_44271.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_52fae.dir\\Debug\\\\" /Fd"cmTC_52fae.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
           CMakeCXXCompilerABI.cpp
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_44271.dir\\Debug\\\\" /Fd"cmTC_44271.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_52fae.dir\\Debug\\\\" /Fd"cmTC_52fae.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-ecogdn\\Debug\\cmTC_44271.exe" /INCREMENTAL /ILK:"cmTC_44271.dir\\Debug\\cmTC_44271.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-ecogdn/Debug/cmTC_44271.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-ecogdn/Debug/cmTC_44271.lib" /MACHINE:X64  /machine:x64 cmTC_44271.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_44271.vcxproj -> C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-ecogdn\\Debug\\cmTC_44271.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-te6mw2\\Debug\\cmTC_52fae.exe" /INCREMENTAL /ILK:"cmTC_52fae.dir\\Debug\\cmTC_52fae.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-te6mw2/Debug/cmTC_52fae.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-te6mw2/Debug/cmTC_52fae.lib" /MACHINE:X64  /machine:x64 cmTC_52fae.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_52fae.vcxproj -> C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-te6mw2\\Debug\\cmTC_52fae.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_44271.dir\\Debug\\cmTC_44271.tlog\\unsuccessfulbuild".
-          Touching "cmTC_44271.dir\\Debug\\cmTC_44271.tlog\\cmTC_44271.lastbuildstate".
-        Done Building Project "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-ecogdn\\cmTC_44271.vcxproj" (default targets).
+          Deleting file "cmTC_52fae.dir\\Debug\\cmTC_52fae.tlog\\unsuccessfulbuild".
+          Touching "cmTC_52fae.dir\\Debug\\cmTC_52fae.tlog\\cmTC_52fae.lastbuildstate".
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-te6mw2\\cmTC_52fae.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.52
+        Time Elapsed 00:00:00.37
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:67 (project)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:57 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
         linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
         implicit libs: []
         implicit objs: []
@@ -1246,10 +139,10 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:67 (project)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:57 (project)"
     message: |
       Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.29.30159.0
@@ -1257,393 +150,393 @@ events:
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckIncludeFileCXX.cmake:143 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
       - "src/lib_json/CMakeLists.txt:11 (check_include_file_cxx)"
     checks:
       - "Looking for C++ include clocale"
     directories:
-      source: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-b776e7"
-      binary: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-b776e7"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-rpjbid"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-rpjbid"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
-      CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp/cmake"
       CMAKE_POSITION_INDEPENDENT_CODE: "ON"
     buildResult:
       variable: "HAVE_CLOCALE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-b776e7'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-rpjbid'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_06db7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
-        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_44fd6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 3/7/2026 4:25:13 PM.
-        Project "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-b776e7\\cmTC_06db7.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:07:26 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-rpjbid\\cmTC_44fd6.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-b776e7\\Debug\\".
-          Creating directory "cmTC_06db7.dir\\Debug\\cmTC_06db7.tlog\\".
+          Creating directory "cmTC_44fd6.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-rpjbid\\Debug\\".
+          Creating directory "cmTC_44fd6.dir\\Debug\\cmTC_44fd6.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_06db7.dir\\Debug\\cmTC_06db7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_44fd6.dir\\Debug\\cmTC_44fd6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_06db7.dir\\Debug\\\\" /Fd"cmTC_06db7.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-b776e7\\CheckIncludeFile.cxx"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_44fd6.dir\\Debug\\\\" /Fd"cmTC_44fd6.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-rpjbid\\CheckIncludeFile.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
           CheckIncludeFile.cxx
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_06db7.dir\\Debug\\\\" /Fd"cmTC_06db7.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-b776e7\\CheckIncludeFile.cxx"
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_44fd6.dir\\Debug\\\\" /Fd"cmTC_44fd6.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-rpjbid\\CheckIncludeFile.cxx"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-b776e7\\Debug\\cmTC_06db7.exe" /INCREMENTAL /ILK:"cmTC_06db7.dir\\Debug\\cmTC_06db7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-b776e7/Debug/cmTC_06db7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-b776e7/Debug/cmTC_06db7.lib" /MACHINE:X64  /machine:x64 cmTC_06db7.dir\\Debug\\CheckIncludeFile.obj
-          cmTC_06db7.vcxproj -> C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-b776e7\\Debug\\cmTC_06db7.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-rpjbid\\Debug\\cmTC_44fd6.exe" /INCREMENTAL /ILK:"cmTC_44fd6.dir\\Debug\\cmTC_44fd6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-rpjbid/Debug/cmTC_44fd6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-rpjbid/Debug/cmTC_44fd6.lib" /MACHINE:X64  /machine:x64 cmTC_44fd6.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_44fd6.vcxproj -> C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-rpjbid\\Debug\\cmTC_44fd6.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_06db7.dir\\Debug\\cmTC_06db7.tlog\\unsuccessfulbuild".
-          Touching "cmTC_06db7.dir\\Debug\\cmTC_06db7.tlog\\cmTC_06db7.lastbuildstate".
-        Done Building Project "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-b776e7\\cmTC_06db7.vcxproj" (default targets).
+          Deleting file "cmTC_44fd6.dir\\Debug\\cmTC_44fd6.tlog\\unsuccessfulbuild".
+          Touching "cmTC_44fd6.dir\\Debug\\cmTC_44fd6.tlog\\cmTC_44fd6.lastbuildstate".
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-rpjbid\\cmTC_44fd6.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.28
+        Time Elapsed 00:00:00.37
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckSymbolExists.cmake:193 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckCXXSymbolExists.cmake:105 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckSymbolExists.cmake:160 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCXXSymbolExists.cmake:74 (__CHECK_SYMBOL_EXISTS_IMPL)"
       - "src/lib_json/CMakeLists.txt:12 (check_cxx_symbol_exists)"
     checks:
       - "Looking for localeconv"
     directories:
-      source: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-0974u1"
-      binary: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-0974u1"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-rb92sc"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-rb92sc"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
-      CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp/cmake"
       CMAKE_POSITION_INDEPENDENT_CODE: "ON"
     buildResult:
       variable: "HAVE_LOCALECONV"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-0974u1'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-rb92sc'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_0029d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
-        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_0116c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 3/7/2026 4:25:15 PM.
-        Project "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-0974u1\\cmTC_0029d.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:07:26 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-rb92sc\\cmTC_0116c.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-0974u1\\Debug\\".
-          Creating directory "cmTC_0029d.dir\\Debug\\cmTC_0029d.tlog\\".
+          Creating directory "cmTC_0116c.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-rb92sc\\Debug\\".
+          Creating directory "cmTC_0116c.dir\\Debug\\cmTC_0116c.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_0029d.dir\\Debug\\cmTC_0029d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_0116c.dir\\Debug\\cmTC_0116c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_0029d.dir\\Debug\\\\" /Fd"cmTC_0029d.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-0974u1\\CheckSymbolExists.cxx"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0116c.dir\\Debug\\\\" /Fd"cmTC_0116c.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-rb92sc\\CheckSymbolExists.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
           CheckSymbolExists.cxx
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_0029d.dir\\Debug\\\\" /Fd"cmTC_0029d.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-0974u1\\CheckSymbolExists.cxx"
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0116c.dir\\Debug\\\\" /Fd"cmTC_0116c.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-rb92sc\\CheckSymbolExists.cxx"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-0974u1\\Debug\\cmTC_0029d.exe" /INCREMENTAL /ILK:"cmTC_0029d.dir\\Debug\\cmTC_0029d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-0974u1/Debug/cmTC_0029d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-0974u1/Debug/cmTC_0029d.lib" /MACHINE:X64  /machine:x64 cmTC_0029d.dir\\Debug\\CheckSymbolExists.obj
-          cmTC_0029d.vcxproj -> C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-0974u1\\Debug\\cmTC_0029d.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-rb92sc\\Debug\\cmTC_0116c.exe" /INCREMENTAL /ILK:"cmTC_0116c.dir\\Debug\\cmTC_0116c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-rb92sc/Debug/cmTC_0116c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-rb92sc/Debug/cmTC_0116c.lib" /MACHINE:X64  /machine:x64 cmTC_0116c.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_0116c.vcxproj -> C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-rb92sc\\Debug\\cmTC_0116c.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_0029d.dir\\Debug\\cmTC_0029d.tlog\\unsuccessfulbuild".
-          Touching "cmTC_0029d.dir\\Debug\\cmTC_0029d.tlog\\cmTC_0029d.lastbuildstate".
-        Done Building Project "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-0974u1\\cmTC_0029d.vcxproj" (default targets).
+          Deleting file "cmTC_0116c.dir\\Debug\\cmTC_0116c.tlog\\unsuccessfulbuild".
+          Touching "cmTC_0116c.dir\\Debug\\cmTC_0116c.tlog\\cmTC_0116c.lastbuildstate".
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-rb92sc\\cmTC_0116c.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.29
+        Time Elapsed 00:00:00.39
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckIncludeFileCXX.cmake:143 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckTypeSize.cmake:466 (check_include_file_cxx)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckTypeSize.cmake:322 (check_include_file_cxx)"
       - "src/lib_json/CMakeLists.txt:15 (check_type_size)"
     checks:
       - "Looking for C++ include sys/types.h"
     directories:
-      source: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-lrddln"
-      binary: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-lrddln"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-i7wrzi"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-i7wrzi"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
-      CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp/cmake"
       CMAKE_POSITION_INDEPENDENT_CODE: "ON"
     buildResult:
       variable: "HAVE_SYS_TYPES_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-lrddln'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-i7wrzi'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_cdd0a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
-        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_e8a42.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 3/7/2026 4:25:17 PM.
-        Project "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-lrddln\\cmTC_cdd0a.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:07:27 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-i7wrzi\\cmTC_e8a42.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-lrddln\\Debug\\".
-          Creating directory "cmTC_cdd0a.dir\\Debug\\cmTC_cdd0a.tlog\\".
+          Creating directory "cmTC_e8a42.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-i7wrzi\\Debug\\".
+          Creating directory "cmTC_e8a42.dir\\Debug\\cmTC_e8a42.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_cdd0a.dir\\Debug\\cmTC_cdd0a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_e8a42.dir\\Debug\\cmTC_e8a42.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_cdd0a.dir\\Debug\\\\" /Fd"cmTC_cdd0a.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-lrddln\\CheckIncludeFile.cxx"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e8a42.dir\\Debug\\\\" /Fd"cmTC_e8a42.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-i7wrzi\\CheckIncludeFile.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
           CheckIncludeFile.cxx
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_cdd0a.dir\\Debug\\\\" /Fd"cmTC_cdd0a.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-lrddln\\CheckIncludeFile.cxx"
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e8a42.dir\\Debug\\\\" /Fd"cmTC_e8a42.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-i7wrzi\\CheckIncludeFile.cxx"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-lrddln\\Debug\\cmTC_cdd0a.exe" /INCREMENTAL /ILK:"cmTC_cdd0a.dir\\Debug\\cmTC_cdd0a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-lrddln/Debug/cmTC_cdd0a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-lrddln/Debug/cmTC_cdd0a.lib" /MACHINE:X64  /machine:x64 cmTC_cdd0a.dir\\Debug\\CheckIncludeFile.obj
-          cmTC_cdd0a.vcxproj -> C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-lrddln\\Debug\\cmTC_cdd0a.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-i7wrzi\\Debug\\cmTC_e8a42.exe" /INCREMENTAL /ILK:"cmTC_e8a42.dir\\Debug\\cmTC_e8a42.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-i7wrzi/Debug/cmTC_e8a42.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-i7wrzi/Debug/cmTC_e8a42.lib" /MACHINE:X64  /machine:x64 cmTC_e8a42.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_e8a42.vcxproj -> C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-i7wrzi\\Debug\\cmTC_e8a42.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_cdd0a.dir\\Debug\\cmTC_cdd0a.tlog\\unsuccessfulbuild".
-          Touching "cmTC_cdd0a.dir\\Debug\\cmTC_cdd0a.tlog\\cmTC_cdd0a.lastbuildstate".
-        Done Building Project "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-lrddln\\cmTC_cdd0a.vcxproj" (default targets).
+          Deleting file "cmTC_e8a42.dir\\Debug\\cmTC_e8a42.tlog\\unsuccessfulbuild".
+          Touching "cmTC_e8a42.dir\\Debug\\cmTC_e8a42.tlog\\cmTC_e8a42.lastbuildstate".
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-i7wrzi\\cmTC_e8a42.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.46
+        Time Elapsed 00:00:00.40
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckIncludeFileCXX.cmake:143 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckTypeSize.cmake:471 (check_include_file_cxx)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckTypeSize.cmake:327 (check_include_file_cxx)"
       - "src/lib_json/CMakeLists.txt:15 (check_type_size)"
     checks:
       - "Looking for C++ include stdint.h"
     directories:
-      source: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-xcnldf"
-      binary: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-xcnldf"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-9i6d8b"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-9i6d8b"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
-      CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp/cmake"
       CMAKE_POSITION_INDEPENDENT_CODE: "ON"
     buildResult:
       variable: "HAVE_STDINT_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-xcnldf'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-9i6d8b'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_349ff.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
-        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_f43f9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 3/7/2026 4:25:20 PM.
-        Project "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-xcnldf\\cmTC_349ff.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:07:28 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-9i6d8b\\cmTC_f43f9.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-xcnldf\\Debug\\".
-          Creating directory "cmTC_349ff.dir\\Debug\\cmTC_349ff.tlog\\".
+          Creating directory "cmTC_f43f9.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-9i6d8b\\Debug\\".
+          Creating directory "cmTC_f43f9.dir\\Debug\\cmTC_f43f9.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_349ff.dir\\Debug\\cmTC_349ff.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_f43f9.dir\\Debug\\cmTC_f43f9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_349ff.dir\\Debug\\\\" /Fd"cmTC_349ff.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-xcnldf\\CheckIncludeFile.cxx"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f43f9.dir\\Debug\\\\" /Fd"cmTC_f43f9.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-9i6d8b\\CheckIncludeFile.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
           CheckIncludeFile.cxx
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_349ff.dir\\Debug\\\\" /Fd"cmTC_349ff.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-xcnldf\\CheckIncludeFile.cxx"
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f43f9.dir\\Debug\\\\" /Fd"cmTC_f43f9.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-9i6d8b\\CheckIncludeFile.cxx"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-xcnldf\\Debug\\cmTC_349ff.exe" /INCREMENTAL /ILK:"cmTC_349ff.dir\\Debug\\cmTC_349ff.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-xcnldf/Debug/cmTC_349ff.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-xcnldf/Debug/cmTC_349ff.lib" /MACHINE:X64  /machine:x64 cmTC_349ff.dir\\Debug\\CheckIncludeFile.obj
-          cmTC_349ff.vcxproj -> C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-xcnldf\\Debug\\cmTC_349ff.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-9i6d8b\\Debug\\cmTC_f43f9.exe" /INCREMENTAL /ILK:"cmTC_f43f9.dir\\Debug\\cmTC_f43f9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-9i6d8b/Debug/cmTC_f43f9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-9i6d8b/Debug/cmTC_f43f9.lib" /MACHINE:X64  /machine:x64 cmTC_f43f9.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_f43f9.vcxproj -> C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-9i6d8b\\Debug\\cmTC_f43f9.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_349ff.dir\\Debug\\cmTC_349ff.tlog\\unsuccessfulbuild".
-          Touching "cmTC_349ff.dir\\Debug\\cmTC_349ff.tlog\\cmTC_349ff.lastbuildstate".
-        Done Building Project "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-xcnldf\\cmTC_349ff.vcxproj" (default targets).
+          Deleting file "cmTC_f43f9.dir\\Debug\\cmTC_f43f9.tlog\\unsuccessfulbuild".
+          Touching "cmTC_f43f9.dir\\Debug\\cmTC_f43f9.tlog\\cmTC_f43f9.lastbuildstate".
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-9i6d8b\\cmTC_f43f9.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.77
+        Time Elapsed 00:00:00.38
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckIncludeFileCXX.cmake:143 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckTypeSize.cmake:472 (check_include_file_cxx)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckTypeSize.cmake:328 (check_include_file_cxx)"
       - "src/lib_json/CMakeLists.txt:15 (check_type_size)"
     checks:
       - "Looking for C++ include stddef.h"
     directories:
-      source: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-0z2cpm"
-      binary: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-0z2cpm"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-kj92k8"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-kj92k8"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
-      CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp/cmake"
       CMAKE_POSITION_INDEPENDENT_CODE: "ON"
     buildResult:
       variable: "HAVE_STDDEF_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-0z2cpm'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-kj92k8'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_b48f6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
-        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_bbec9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 3/7/2026 4:25:22 PM.
-        Project "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-0z2cpm\\cmTC_b48f6.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:07:29 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-kj92k8\\cmTC_bbec9.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-0z2cpm\\Debug\\".
-          Creating directory "cmTC_b48f6.dir\\Debug\\cmTC_b48f6.tlog\\".
+          Creating directory "cmTC_bbec9.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-kj92k8\\Debug\\".
+          Creating directory "cmTC_bbec9.dir\\Debug\\cmTC_bbec9.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_b48f6.dir\\Debug\\cmTC_b48f6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_bbec9.dir\\Debug\\cmTC_bbec9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_b48f6.dir\\Debug\\\\" /Fd"cmTC_b48f6.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-0z2cpm\\CheckIncludeFile.cxx"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bbec9.dir\\Debug\\\\" /Fd"cmTC_bbec9.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-kj92k8\\CheckIncludeFile.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
           CheckIncludeFile.cxx
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_b48f6.dir\\Debug\\\\" /Fd"cmTC_b48f6.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-0z2cpm\\CheckIncludeFile.cxx"
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bbec9.dir\\Debug\\\\" /Fd"cmTC_bbec9.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-kj92k8\\CheckIncludeFile.cxx"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-0z2cpm\\Debug\\cmTC_b48f6.exe" /INCREMENTAL /ILK:"cmTC_b48f6.dir\\Debug\\cmTC_b48f6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-0z2cpm/Debug/cmTC_b48f6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-0z2cpm/Debug/cmTC_b48f6.lib" /MACHINE:X64  /machine:x64 cmTC_b48f6.dir\\Debug\\CheckIncludeFile.obj
-          cmTC_b48f6.vcxproj -> C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-0z2cpm\\Debug\\cmTC_b48f6.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-kj92k8\\Debug\\cmTC_bbec9.exe" /INCREMENTAL /ILK:"cmTC_bbec9.dir\\Debug\\cmTC_bbec9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-kj92k8/Debug/cmTC_bbec9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-kj92k8/Debug/cmTC_bbec9.lib" /MACHINE:X64  /machine:x64 cmTC_bbec9.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_bbec9.vcxproj -> C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-kj92k8\\Debug\\cmTC_bbec9.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_b48f6.dir\\Debug\\cmTC_b48f6.tlog\\unsuccessfulbuild".
-          Touching "cmTC_b48f6.dir\\Debug\\cmTC_b48f6.tlog\\cmTC_b48f6.lastbuildstate".
-        Done Building Project "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-0z2cpm\\cmTC_b48f6.vcxproj" (default targets).
+          Deleting file "cmTC_bbec9.dir\\Debug\\cmTC_bbec9.tlog\\unsuccessfulbuild".
+          Touching "cmTC_bbec9.dir\\Debug\\cmTC_bbec9.tlog\\cmTC_bbec9.lastbuildstate".
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-kj92k8\\cmTC_bbec9.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.84
+        Time Elapsed 00:00:00.38
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckTypeSize.cmake:348 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckTypeSize.cmake:481 (__check_type_size_impl)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckTypeSize.cmake:212 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckTypeSize.cmake:339 (__check_type_size_impl)"
       - "src/lib_json/CMakeLists.txt:15 (check_type_size)"
     checks:
       - "Check size of lconv"
     directories:
-      source: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-bqe1y9"
-      binary: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-bqe1y9"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-47gnq5"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-47gnq5"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
-      CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp/cmake"
       CMAKE_POSITION_INDEPENDENT_CODE: "ON"
     buildResult:
       variable: "HAVE_LCONV_SIZE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-bqe1y9'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-47gnq5'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_ba927.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
-        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_3dbfc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 3/7/2026 4:25:24 PM.
-        Project "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-bqe1y9\\cmTC_ba927.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:07:29 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-47gnq5\\cmTC_3dbfc.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-bqe1y9\\Debug\\".
-          Creating directory "cmTC_ba927.dir\\Debug\\cmTC_ba927.tlog\\".
+          Creating directory "cmTC_3dbfc.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-47gnq5\\Debug\\".
+          Creating directory "cmTC_3dbfc.dir\\Debug\\cmTC_3dbfc.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_ba927.dir\\Debug\\cmTC_ba927.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_3dbfc.dir\\Debug\\cmTC_3dbfc.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_ba927.dir\\Debug\\\\" /Fd"cmTC_ba927.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-bqe1y9\\LCONV_SIZE.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3dbfc.dir\\Debug\\\\" /Fd"cmTC_3dbfc.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-47gnq5\\LCONV_SIZE.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
           LCONV_SIZE.cpp
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_ba927.dir\\Debug\\\\" /Fd"cmTC_ba927.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-bqe1y9\\LCONV_SIZE.cpp"
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3dbfc.dir\\Debug\\\\" /Fd"cmTC_3dbfc.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-47gnq5\\LCONV_SIZE.cpp"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-bqe1y9\\Debug\\cmTC_ba927.exe" /INCREMENTAL /ILK:"cmTC_ba927.dir\\Debug\\cmTC_ba927.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-bqe1y9/Debug/cmTC_ba927.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-bqe1y9/Debug/cmTC_ba927.lib" /MACHINE:X64  /machine:x64 cmTC_ba927.dir\\Debug\\LCONV_SIZE.obj
-          cmTC_ba927.vcxproj -> C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-bqe1y9\\Debug\\cmTC_ba927.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-47gnq5\\Debug\\cmTC_3dbfc.exe" /INCREMENTAL /ILK:"cmTC_3dbfc.dir\\Debug\\cmTC_3dbfc.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-47gnq5/Debug/cmTC_3dbfc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-47gnq5/Debug/cmTC_3dbfc.lib" /MACHINE:X64  /machine:x64 cmTC_3dbfc.dir\\Debug\\LCONV_SIZE.obj
+          cmTC_3dbfc.vcxproj -> C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-47gnq5\\Debug\\cmTC_3dbfc.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_ba927.dir\\Debug\\cmTC_ba927.tlog\\unsuccessfulbuild".
-          Touching "cmTC_ba927.dir\\Debug\\cmTC_ba927.tlog\\cmTC_ba927.lastbuildstate".
-        Done Building Project "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-bqe1y9\\cmTC_ba927.vcxproj" (default targets).
+          Deleting file "cmTC_3dbfc.dir\\Debug\\cmTC_3dbfc.tlog\\unsuccessfulbuild".
+          Touching "cmTC_3dbfc.dir\\Debug\\cmTC_3dbfc.tlog\\cmTC_3dbfc.lastbuildstate".
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-47gnq5\\cmTC_3dbfc.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.83
+        Time Elapsed 00:00:00.39
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckSourceCompiles.cmake:205 (cmake_check_source_compiles)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckStructHasMember.cmake:163 (check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckSourceCompiles.cmake:89 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckStructHasMember.cmake:87 (check_source_compiles)"
       - "src/lib_json/CMakeLists.txt:17 (check_struct_has_member)"
     checks:
       - "Performing Test HAVE_DECIMAL_POINT"
     directories:
-      source: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-o4616g"
-      binary: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-o4616g"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-6r20p0"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-6r20p0"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
-      CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp/cmake"
+      CMAKE_MODULE_PATH: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp/cmake"
       CMAKE_POSITION_INDEPENDENT_CODE: "ON"
     buildResult:
       variable: "HAVE_DECIMAL_POINT"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-o4616g'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-6r20p0'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_52b51.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
-        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_b500b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 3/7/2026 4:25:25 PM.
-        Project "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-o4616g\\cmTC_52b51.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:07:30 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-6r20p0\\cmTC_b500b.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-o4616g\\Debug\\".
-          Creating directory "cmTC_52b51.dir\\Debug\\cmTC_52b51.tlog\\".
+          Creating directory "cmTC_b500b.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-6r20p0\\Debug\\".
+          Creating directory "cmTC_b500b.dir\\Debug\\cmTC_b500b.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_52b51.dir\\Debug\\cmTC_52b51.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_b500b.dir\\Debug\\cmTC_b500b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_DECIMAL_POINT /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_52b51.dir\\Debug\\\\" /Fd"cmTC_52b51.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-o4616g\\src.cxx"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_DECIMAL_POINT /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b500b.dir\\Debug\\\\" /Fd"cmTC_b500b.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-6r20p0\\src.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
           src.cxx
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_DECIMAL_POINT /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_52b51.dir\\Debug\\\\" /Fd"cmTC_52b51.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-o4616g\\src.cxx"
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_DECIMAL_POINT /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b500b.dir\\Debug\\\\" /Fd"cmTC_b500b.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-6r20p0\\src.cxx"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-o4616g\\Debug\\cmTC_52b51.exe" /INCREMENTAL /ILK:"cmTC_52b51.dir\\Debug\\cmTC_52b51.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-o4616g/Debug/cmTC_52b51.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-o4616g/Debug/cmTC_52b51.lib" /MACHINE:X64  /machine:x64 cmTC_52b51.dir\\Debug\\src.obj
-          cmTC_52b51.vcxproj -> C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-o4616g\\Debug\\cmTC_52b51.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-6r20p0\\Debug\\cmTC_b500b.exe" /INCREMENTAL /ILK:"cmTC_b500b.dir\\Debug\\cmTC_b500b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-6r20p0/Debug/cmTC_b500b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/jsoncpp/jsoncpp/src/jsoncpp-build/CMakeFiles/CMakeScratch/TryCompile-6r20p0/Debug/cmTC_b500b.lib" /MACHINE:X64  /machine:x64 cmTC_b500b.dir\\Debug\\src.obj
+          cmTC_b500b.vcxproj -> C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-6r20p0\\Debug\\cmTC_b500b.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_52b51.dir\\Debug\\cmTC_52b51.tlog\\unsuccessfulbuild".
-          Touching "cmTC_52b51.dir\\Debug\\cmTC_52b51.tlog\\cmTC_52b51.lastbuildstate".
-        Done Building Project "C:\\Users\\2006l\\OneDrive\\Desktop\\SUAV\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-o4616g\\cmTC_52b51.vcxproj" (default targets).
+          Deleting file "cmTC_b500b.dir\\Debug\\cmTC_b500b.tlog\\unsuccessfulbuild".
+          Touching "cmTC_b500b.dir\\Debug\\cmTC_b500b.tlog\\cmTC_b500b.lastbuildstate".
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\jsoncpp\\jsoncpp\\src\\jsoncpp-build\\CMakeFiles\\CMakeScratch\\TryCompile-6r20p0\\cmTC_b500b.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.01
+        Time Elapsed 00:00:00.38
         
       exitCode: 0
 ...

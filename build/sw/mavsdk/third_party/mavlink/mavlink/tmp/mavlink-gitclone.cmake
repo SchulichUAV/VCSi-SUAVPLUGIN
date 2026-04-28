@@ -3,11 +3,11 @@
 
 cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 
-if(EXISTS "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/mavlink/src/mavlink-stamp/mavlink-gitclone-lastrun.txt" AND EXISTS "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/mavlink/src/mavlink-stamp/mavlink-gitinfo.txt" AND
-  "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/mavlink/src/mavlink-stamp/mavlink-gitclone-lastrun.txt" IS_NEWER_THAN "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/mavlink/src/mavlink-stamp/mavlink-gitinfo.txt")
+if(EXISTS "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/mavlink/src/mavlink-stamp/mavlink-gitclone-lastrun.txt" AND EXISTS "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/mavlink/src/mavlink-stamp/mavlink-gitinfo.txt" AND
+  "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/mavlink/src/mavlink-stamp/mavlink-gitclone-lastrun.txt" IS_NEWER_THAN "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/mavlink/src/mavlink-stamp/mavlink-gitinfo.txt")
   message(VERBOSE
     "Avoiding repeated git clone, stamp file is up to date: "
-    "'C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/mavlink/src/mavlink-stamp/mavlink-gitclone-lastrun.txt'"
+    "'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/mavlink/src/mavlink-stamp/mavlink-gitclone-lastrun.txt'"
   )
   return()
 endif()
@@ -22,12 +22,12 @@ else()
 endif()
 
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E rm -rf "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/mavlink/src/mavlink"
+  COMMAND ${CMAKE_COMMAND} -E rm -rf "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/mavlink/src/mavlink"
   RESULT_VARIABLE error_code
   ${maybe_show_command}
 )
 if(error_code)
-  message(FATAL_ERROR "Failed to remove directory: 'C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/mavlink/src/mavlink'")
+  message(FATAL_ERROR "Failed to remove directory: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/mavlink/src/mavlink'")
 endif()
 
 # try the clone 3 times in case there is an odd git clone issue
@@ -37,7 +37,7 @@ while(error_code AND number_of_tries LESS 3)
   execute_process(
     COMMAND "C:/Program Files/Git/cmd/git.exe"
             clone --no-checkout --config "advice.detachedHead=false" "https://github.com/mavlink/mavlink" "mavlink"
-    WORKING_DIRECTORY "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/mavlink/src"
+    WORKING_DIRECTORY "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/mavlink/src"
     RESULT_VARIABLE error_code
     ${maybe_show_command}
   )
@@ -52,13 +52,13 @@ endif()
 
 execute_process(
   COMMAND "C:/Program Files/Git/cmd/git.exe"
-          checkout "5e3a42b8f3f53038f2779f9f69bd64767b913bb8" --
-  WORKING_DIRECTORY "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/mavlink/src/mavlink"
+          checkout "d6a7eeaf43319ce6da19a1973ca40180a4210643" --
+  WORKING_DIRECTORY "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/mavlink/src/mavlink"
   RESULT_VARIABLE error_code
   ${maybe_show_command}
 )
 if(error_code)
-  message(FATAL_ERROR "Failed to checkout tag: '5e3a42b8f3f53038f2779f9f69bd64767b913bb8'")
+  message(FATAL_ERROR "Failed to checkout tag: 'd6a7eeaf43319ce6da19a1973ca40180a4210643'")
 endif()
 
 set(init_submodules TRUE)
@@ -66,22 +66,22 @@ if(init_submodules)
   execute_process(
     COMMAND "C:/Program Files/Git/cmd/git.exe" 
             submodule update --recursive --init 
-    WORKING_DIRECTORY "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/mavlink/src/mavlink"
+    WORKING_DIRECTORY "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/mavlink/src/mavlink"
     RESULT_VARIABLE error_code
     ${maybe_show_command}
   )
 endif()
 if(error_code)
-  message(FATAL_ERROR "Failed to update submodules in: 'C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/mavlink/src/mavlink'")
+  message(FATAL_ERROR "Failed to update submodules in: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/mavlink/src/mavlink'")
 endif()
 
 # Complete success, update the script-last-run stamp file:
 #
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E copy "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/mavlink/src/mavlink-stamp/mavlink-gitinfo.txt" "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/mavlink/src/mavlink-stamp/mavlink-gitclone-lastrun.txt"
+  COMMAND ${CMAKE_COMMAND} -E copy "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/mavlink/src/mavlink-stamp/mavlink-gitinfo.txt" "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/mavlink/src/mavlink-stamp/mavlink-gitclone-lastrun.txt"
   RESULT_VARIABLE error_code
   ${maybe_show_command}
 )
 if(error_code)
-  message(FATAL_ERROR "Failed to copy script-last-run stamp file: 'C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/mavlink/src/mavlink-stamp/mavlink-gitclone-lastrun.txt'")
+  message(FATAL_ERROR "Failed to copy script-last-run stamp file: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/mavlink/mavlink/src/mavlink-stamp/mavlink-gitclone-lastrun.txt'")
 endif()

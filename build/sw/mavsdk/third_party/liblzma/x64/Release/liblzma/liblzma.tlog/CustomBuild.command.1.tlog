@@ -1,8 +1,8 @@
-^C:\USERS\2006L\ONEDRIVE\DESKTOP\SUAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\LIBLZMA\CMAKEFILES\C56BAB50EACEB195E82C4B9E475DDAC2\LIBLZMA-MKDIR.RULE
+^C:\USERS\THOMA\WORK\UAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\LIBLZMA\CMAKEFILES\F6DE9A79859E88316E3DCBB9CDC7521A\LIBLZMA-MKDIR.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Release -P C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/tmp/liblzma-mkdirs.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Release -P C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/tmp/liblzma-mkdirs.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-stamp/Release/liblzma-mkdir
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-stamp/Release/liblzma-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -10,19 +10,19 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\2006L\ONEDRIVE\DESKTOP\SUAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\LIBLZMA\CMAKEFILES\C56BAB50EACEB195E82C4B9E475DDAC2\LIBLZMA-DOWNLOAD.RULE
+^C:\USERS\THOMA\WORK\UAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\LIBLZMA\CMAKEFILES\F6DE9A79859E88316E3DCBB9CDC7521A\LIBLZMA-DOWNLOAD.RULE
 setlocal
-cd C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\liblzma\liblzma-prefix\src
+cd C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\liblzma\liblzma-prefix\src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-stamp/download-liblzma.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-stamp/download-liblzma.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-stamp/verify-liblzma.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-stamp/verify-liblzma.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-stamp/extract-liblzma.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-stamp/extract-liblzma.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-stamp/Release/liblzma-download
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-stamp/Release/liblzma-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -30,11 +30,11 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\2006L\ONEDRIVE\DESKTOP\SUAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\LIBLZMA\CMAKEFILES\C56BAB50EACEB195E82C4B9E475DDAC2\LIBLZMA-UPDATE.RULE
+^C:\USERS\THOMA\WORK\UAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\LIBLZMA\CMAKEFILES\F6DE9A79859E88316E3DCBB9CDC7521A\LIBLZMA-UPDATE.RULE
 setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-stamp/Release/liblzma-update
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-stamp/Release/liblzma-update
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -42,11 +42,11 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\2006L\ONEDRIVE\DESKTOP\SUAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\LIBLZMA\CMAKEFILES\C56BAB50EACEB195E82C4B9E475DDAC2\LIBLZMA-PATCH.RULE
+^C:\USERS\THOMA\WORK\UAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\LIBLZMA\CMAKEFILES\F6DE9A79859E88316E3DCBB9CDC7521A\LIBLZMA-PATCH.RULE
 setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-stamp/Release/liblzma-patch
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-stamp/Release/liblzma-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -54,15 +54,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\2006L\ONEDRIVE\DESKTOP\SUAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\LIBLZMA\CMAKEFILES\C56BAB50EACEB195E82C4B9E475DDAC2\LIBLZMA-CONFIGURE.RULE
+^C:\USERS\THOMA\WORK\UAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\LIBLZMA\CMAKEFILES\F6DE9A79859E88316E3DCBB9CDC7521A\LIBLZMA-CONFIGURE.RULE
 setlocal
-cd C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\liblzma\liblzma-prefix\src\liblzma-build
+cd C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\liblzma\liblzma-prefix\src\liblzma-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_PREFIX_PATH:PATH=C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install -DCMAKE_INSTALL_PREFIX:PATH=C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install -DCMAKE_TOOLCHAIN_FILE:PATH= -DCMAKE_POSITION_INDEPENDENT_CODE=ON -DCMAKE_BUILD_TYPE=Release -DBUILD_SHARED_LIBS=OFF -DCMAKE_CFG_INTDIR=Release -DCMAKE_DEBUG_POSTFIX=d -DCMAKE_TRY_COMPILE_CONFIGURATION= "-GVisual Studio 16 2019" -Ax64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools" -S C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma -B C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_PREFIX_PATH:PATH=C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install -DCMAKE_INSTALL_PREFIX:PATH=C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install -DCMAKE_TOOLCHAIN_FILE:PATH= -DCMAKE_POSITION_INDEPENDENT_CODE=ON -DCMAKE_BUILD_TYPE=Release -DBUILD_SHARED_LIBS=OFF -DCMAKE_CFG_INTDIR=Release -DCMAKE_DEBUG_POSTFIX=d -DCMAKE_TRY_COMPILE_CONFIGURATION= "-GVisual Studio 16 2019" -Ax64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools" -S C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma -B C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-stamp/Release/liblzma-configure
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-stamp/Release/liblzma-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -70,15 +70,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\2006L\ONEDRIVE\DESKTOP\SUAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\LIBLZMA\CMAKEFILES\C56BAB50EACEB195E82C4B9E475DDAC2\LIBLZMA-BUILD.RULE
+^C:\USERS\THOMA\WORK\UAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\LIBLZMA\CMAKEFILES\F6DE9A79859E88316E3DCBB9CDC7521A\LIBLZMA-BUILD.RULE
 setlocal
-cd C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\liblzma\liblzma-prefix\src\liblzma-build
+cd C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\liblzma\liblzma-prefix\src\liblzma-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config Release
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-stamp/Release/liblzma-build
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-stamp/Release/liblzma-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -86,15 +86,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\2006L\ONEDRIVE\DESKTOP\SUAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\LIBLZMA\CMAKEFILES\C56BAB50EACEB195E82C4B9E475DDAC2\LIBLZMA-INSTALL.RULE
+^C:\USERS\THOMA\WORK\UAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\LIBLZMA\CMAKEFILES\F6DE9A79859E88316E3DCBB9CDC7521A\LIBLZMA-INSTALL.RULE
 setlocal
-cd C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\liblzma\liblzma-prefix\src\liblzma-build
+cd C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\liblzma\liblzma-prefix\src\liblzma-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config Release --target install
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-stamp/Release/liblzma-install
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-stamp/Release/liblzma-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -102,13 +102,13 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\2006L\ONEDRIVE\DESKTOP\SUAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\LIBLZMA\CMAKEFILES\94AA62DE18FE9522F803064D93321E71\LIBLZMA-COMPLETE.RULE
+^C:\USERS\THOMA\WORK\UAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\LIBLZMA\CMAKEFILES\F34E86E6BA9FE6FE9D2AB49DCA0E24D5\LIBLZMA-COMPLETE.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/CMakeFiles/Release
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/CMakeFiles/Release
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/CMakeFiles/Release/liblzma-complete
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/CMakeFiles/Release/liblzma-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-stamp/Release/liblzma-done
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-stamp/Release/liblzma-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -116,7 +116,7 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\2006L\ONEDRIVE\DESKTOP\SUAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\LIBLZMA\CMAKEFILES\D5832383690F7D074759B896E7D3ED66\LIBLZMA.RULE
+^C:\USERS\THOMA\WORK\UAV\VCSI-SUAVPLUGIN\BUILD\SW\MAVSDK\THIRD_PARTY\LIBLZMA\CMAKEFILES\133B1CCE0CE3FD056CE4268DDEA996E3\LIBLZMA.RULE
 setlocal
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -124,9 +124,9 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\2006L\ONEDRIVE\DESKTOP\SUAV\VCSI-SUAVPLUGIN\SW\MAVSDK\THIRD_PARTY\LIBLZMA\CMAKELISTS.TXT
+^C:\USERS\THOMA\WORK\UAV\VCSI-SUAVPLUGIN\SW\MAVSDK\THIRD_PARTY\LIBLZMA\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/sw/mavsdk/third_party/liblzma -BC:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma --check-stamp-file C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/sw/mavsdk/third_party/liblzma -BC:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma --check-stamp-file C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

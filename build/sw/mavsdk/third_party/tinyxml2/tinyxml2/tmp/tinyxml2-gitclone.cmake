@@ -3,11 +3,11 @@
 
 cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 
-if(EXISTS "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2-stamp/tinyxml2-gitclone-lastrun.txt" AND EXISTS "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2-stamp/tinyxml2-gitinfo.txt" AND
-  "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2-stamp/tinyxml2-gitclone-lastrun.txt" IS_NEWER_THAN "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2-stamp/tinyxml2-gitinfo.txt")
+if(EXISTS "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2-stamp/tinyxml2-gitclone-lastrun.txt" AND EXISTS "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2-stamp/tinyxml2-gitinfo.txt" AND
+  "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2-stamp/tinyxml2-gitclone-lastrun.txt" IS_NEWER_THAN "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2-stamp/tinyxml2-gitinfo.txt")
   message(VERBOSE
     "Avoiding repeated git clone, stamp file is up to date: "
-    "'C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2-stamp/tinyxml2-gitclone-lastrun.txt'"
+    "'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2-stamp/tinyxml2-gitclone-lastrun.txt'"
   )
   return()
 endif()
@@ -22,12 +22,12 @@ else()
 endif()
 
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E rm -rf "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2"
+  COMMAND ${CMAKE_COMMAND} -E rm -rf "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2"
   RESULT_VARIABLE error_code
   ${maybe_show_command}
 )
 if(error_code)
-  message(FATAL_ERROR "Failed to remove directory: 'C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2'")
+  message(FATAL_ERROR "Failed to remove directory: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2'")
 endif()
 
 # try the clone 3 times in case there is an odd git clone issue
@@ -37,7 +37,7 @@ while(error_code AND number_of_tries LESS 3)
   execute_process(
     COMMAND "C:/Program Files/Git/cmd/git.exe"
             clone --no-checkout --config "advice.detachedHead=false" "https://github.com/leethomason/tinyxml2" "tinyxml2"
-    WORKING_DIRECTORY "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src"
+    WORKING_DIRECTORY "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src"
     RESULT_VARIABLE error_code
     ${maybe_show_command}
   )
@@ -52,13 +52,13 @@ endif()
 
 execute_process(
   COMMAND "C:/Program Files/Git/cmd/git.exe"
-          checkout "9.0.0" --
-  WORKING_DIRECTORY "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2"
+          checkout "11.0.0" --
+  WORKING_DIRECTORY "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2"
   RESULT_VARIABLE error_code
   ${maybe_show_command}
 )
 if(error_code)
-  message(FATAL_ERROR "Failed to checkout tag: '9.0.0'")
+  message(FATAL_ERROR "Failed to checkout tag: '11.0.0'")
 endif()
 
 set(init_submodules TRUE)
@@ -66,22 +66,22 @@ if(init_submodules)
   execute_process(
     COMMAND "C:/Program Files/Git/cmd/git.exe" 
             submodule update --recursive --init 
-    WORKING_DIRECTORY "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2"
+    WORKING_DIRECTORY "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2"
     RESULT_VARIABLE error_code
     ${maybe_show_command}
   )
 endif()
 if(error_code)
-  message(FATAL_ERROR "Failed to update submodules in: 'C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2'")
+  message(FATAL_ERROR "Failed to update submodules in: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2'")
 endif()
 
 # Complete success, update the script-last-run stamp file:
 #
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E copy "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2-stamp/tinyxml2-gitinfo.txt" "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2-stamp/tinyxml2-gitclone-lastrun.txt"
+  COMMAND ${CMAKE_COMMAND} -E copy "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2-stamp/tinyxml2-gitinfo.txt" "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2-stamp/tinyxml2-gitclone-lastrun.txt"
   RESULT_VARIABLE error_code
   ${maybe_show_command}
 )
 if(error_code)
-  message(FATAL_ERROR "Failed to copy script-last-run stamp file: 'C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2-stamp/tinyxml2-gitclone-lastrun.txt'")
+  message(FATAL_ERROR "Failed to copy script-last-run stamp file: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/tinyxml2/tinyxml2/src/tinyxml2-stamp/tinyxml2-gitclone-lastrun.txt'")
 endif()

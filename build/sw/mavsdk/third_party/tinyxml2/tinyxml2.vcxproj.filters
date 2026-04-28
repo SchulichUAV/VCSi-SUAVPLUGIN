@@ -1,41 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\tinyxml2\CMakeFiles\246bc85be089600f195d0b5d62967995\tinyxml2-mkdir.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\tinyxml2\CMakeFiles\d8b4cf088ab75f86affc70aae23263bb\tinyxml2-mkdir.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\tinyxml2\CMakeFiles\246bc85be089600f195d0b5d62967995\tinyxml2-download.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\tinyxml2\CMakeFiles\d8b4cf088ab75f86affc70aae23263bb\tinyxml2-download.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\tinyxml2\CMakeFiles\246bc85be089600f195d0b5d62967995\tinyxml2-update.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\tinyxml2\CMakeFiles\d8b4cf088ab75f86affc70aae23263bb\tinyxml2-update.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\tinyxml2\CMakeFiles\246bc85be089600f195d0b5d62967995\tinyxml2-patch.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\tinyxml2\CMakeFiles\d8b4cf088ab75f86affc70aae23263bb\tinyxml2-patch.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\tinyxml2\CMakeFiles\246bc85be089600f195d0b5d62967995\tinyxml2-configure.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\tinyxml2\CMakeFiles\d8b4cf088ab75f86affc70aae23263bb\tinyxml2-configure.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\tinyxml2\CMakeFiles\246bc85be089600f195d0b5d62967995\tinyxml2-build.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\tinyxml2\CMakeFiles\d8b4cf088ab75f86affc70aae23263bb\tinyxml2-build.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\tinyxml2\CMakeFiles\246bc85be089600f195d0b5d62967995\tinyxml2-install.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\tinyxml2\CMakeFiles\d8b4cf088ab75f86affc70aae23263bb\tinyxml2-install.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\tinyxml2\CMakeFiles\b23f965a26b588291c3e3e55970b8dda\tinyxml2-complete.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\tinyxml2\CMakeFiles\1cc55f82baccef449558409959337f86\tinyxml2-complete.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\tinyxml2\CMakeFiles\205dad821126597adcf666abcfb7c6bd\tinyxml2.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\tinyxml2\CMakeFiles\7a67e1b11fe8f9114ab47e273a59a2d1\tinyxml2.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\mavsdk\third_party\tinyxml2\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\mavsdk\third_party\tinyxml2\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\tinyxml2\CMakeFiles\tinyxml2" />
+    <None Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\mavsdk\third_party\tinyxml2\CMakeFiles\tinyxml2" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{E14F1FF7-015B-3E28-9A44-201E3A9CAED3}</UniqueIdentifier>
+      <UniqueIdentifier>{42FB82F1-8ADD-3337-ABDD-2BDC15936A51}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

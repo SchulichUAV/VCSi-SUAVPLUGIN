@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/CMakeFiles/libevents"
+			"file" : "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/CMakeFiles/libevents"
 		},
 		{
-			"file" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/CMakeFiles/8286f214826acbc978b4e6fde7dcda52/libevents.rule"
+			"file" : "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/CMakeFiles/1bae1b76912ff4be91ab1d53bfd17915/libevents.rule"
 		},
 		{
-			"file" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/CMakeFiles/15c3e2f2cc16abb6606f5605a7cf9381/libevents-complete.rule"
+			"file" : "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/CMakeFiles/0b9b53d3fafa72816be081a70adcdc79/libevents-complete.rule"
 		},
 		{
-			"file" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/CMakeFiles/a2406bcb899cfafbe7382fa0af9437d1/libevents-build.rule"
+			"file" : "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/CMakeFiles/79323d2c29472c307069d230e03612df/libevents-build.rule"
 		},
 		{
-			"file" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/CMakeFiles/a2406bcb899cfafbe7382fa0af9437d1/libevents-configure.rule"
+			"file" : "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/CMakeFiles/79323d2c29472c307069d230e03612df/libevents-configure.rule"
 		},
 		{
-			"file" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/CMakeFiles/a2406bcb899cfafbe7382fa0af9437d1/libevents-download.rule"
+			"file" : "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/CMakeFiles/79323d2c29472c307069d230e03612df/libevents-download.rule"
 		},
 		{
-			"file" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/CMakeFiles/a2406bcb899cfafbe7382fa0af9437d1/libevents-install.rule"
+			"file" : "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/CMakeFiles/79323d2c29472c307069d230e03612df/libevents-install.rule"
 		},
 		{
-			"file" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/CMakeFiles/a2406bcb899cfafbe7382fa0af9437d1/libevents-mkdir.rule"
+			"file" : "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/CMakeFiles/79323d2c29472c307069d230e03612df/libevents-mkdir.rule"
 		},
 		{
-			"file" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/CMakeFiles/a2406bcb899cfafbe7382fa0af9437d1/libevents-patch.rule"
+			"file" : "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/CMakeFiles/79323d2c29472c307069d230e03612df/libevents-patch.rule"
 		},
 		{
-			"file" : "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/CMakeFiles/a2406bcb899cfafbe7382fa0af9437d1/libevents-update.rule"
+			"file" : "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/libevents/CMakeFiles/79323d2c29472c307069d230e03612df/libevents-update.rule"
 		}
 	],
 	"target" : 

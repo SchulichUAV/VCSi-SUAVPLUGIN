@@ -1,140 +1,141 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\SuavPlugin_autogen\mocs_compilation_Debug.cpp">
+    <ClCompile Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\SuavPlugin_autogen\mocs_compilation_Debug.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\RTK\RtkConverter.cxx">
+    <ClCompile Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\RTK\RtkConverter.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\RTK\RtkModule.cxx">
+    <ClCompile Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\RTK\RtkModule.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\RTK\RtkReciever.cxx">
+    <ClCompile Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\RTK\RtkReciever.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\SuavPlugin.cxx">
+    <ClCompile Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\SuavPlugin.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\SuavPluginContent.cxx">
+    <ClCompile Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\SuavPluginContent.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\SuavView.cxx">
+    <ClCompile Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\SuavView.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\casino\CasinoModule.cxx">
+    <ClCompile Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\casino\CasinoModule.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\casino\CasinoView.cxx">
+    <ClCompile Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\casino\CasinoView.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\messaging\MavlinkConnection.cxx">
+    <ClCompile Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\messaging\MavlinkConnection.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\parameters\ParameterModule.cxx">
+    <ClCompile Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\parameters\ParameterModule.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\parameters\param_utils.cxx">
+    <ClCompile Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\parameters\param_utils.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\parameters\parameter.cxx">
+    <ClCompile Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\parameters\parameter.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\parameters\parameter_filter_proxy.cxx">
+    <ClCompile Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\parameters\parameter_filter_proxy.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\parameters\parameter_item_model.cxx">
+    <ClCompile Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\parameters\parameter_item_model.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\vehicle\Vehicle.cxx">
+    <ClCompile Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\vehicle\Vehicle.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\SuavPlugin_autogen\EWIEGA46WW\qrc_Suav.cpp">
+    <ClCompile Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\SuavPlugin_autogen\EWIEGA46WW\qrc_Suav.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\SuavPlugin_autogen\mocs_compilation_Release.cpp">
+    <ClCompile Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\SuavPlugin_autogen\mocs_compilation_Release.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\SuavPlugin_autogen\mocs_compilation_MinSizeRel.cpp">
+    <ClCompile Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\SuavPlugin_autogen\mocs_compilation_MinSizeRel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\sw\SuavPlugin_autogen\mocs_compilation_RelWithDebInfo.cpp">
+    <ClCompile Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\sw\SuavPlugin_autogen\mocs_compilation_RelWithDebInfo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\RTK\RtkConverter.h">
+    <ClInclude Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\RTK\RtkConverter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\RTK\RtkModule.h">
+    <ClInclude Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\RTK\RtkModule.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\RTK\RtkReciever.h">
+    <ClInclude Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\RTK\RtkReciever.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\SuavCrashDiag.h">
+    <ClInclude Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\SuavCrashDiag.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\SuavPlugin.h">
+    <ClInclude Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\SuavPlugin.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\SuavPluginContent.h">
+    <ClInclude Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\SuavPluginContent.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\SuavView.h">
+    <ClInclude Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\SuavView.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\casino\CasinoModule.h">
+    <ClInclude Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\casino\CasinoModule.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\casino\CasinoView.h">
+    <ClInclude Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\casino\CasinoView.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\messaging\MavlinkConnection.h">
+    <ClInclude Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\messaging\MavlinkConnection.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\parameters\ParameterModule.h">
+    <ClInclude Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\parameters\ParameterModule.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\parameters\param_utils.h">
+    <ClInclude Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\parameters\param_utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\parameters\parameter.h">
+    <ClInclude Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\parameters\parameter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\parameters\parameter_filter_proxy.h">
+    <ClInclude Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\parameters\parameter_filter_proxy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\parameters\parameter_item_model.h">
+    <ClInclude Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\parameters\parameter_item_model.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\parameters\parameter_type.h">
+    <ClInclude Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\parameters\parameter_type.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\vehicle\Vehicle.h">
+    <ClInclude Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\vehicle\Vehicle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\build\CMakeFiles\b0884ad8217f6c8168ee53ff298bce20\qrc_Suav.cpp.rule">
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\build\CMakeFiles\337eaf6d9233008636e525d44c8b45c2\qrc_Suav.cpp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\Suav.qrc" />
-    <None Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\SuavWindow.qml" />
-    <None Include="C:\Users\2006l\OneDrive\Desktop\SUAV\VCSi-SUAVPLUGIN\sw\casino\Casino.qml" />
+    <None Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\Suav.qrc" />
+    <None Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\SuavWindow.qml" />
+    <None Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\casino\Casino.qml" />
+    <None Include="C:\Users\thoma\work\uav\VCSi-SUAVPLUGIN\sw\parameters\parameter_item_model.qml" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{8081663F-28F9-37B5-928B-7F94CF445D5E}</UniqueIdentifier>
+      <UniqueIdentifier>{D5BE000C-CCD2-3578-BE95-8C0C750DDB88}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{F7A6606E-73EC-323F-BAC5-20C6D417FE6B}</UniqueIdentifier>
+      <UniqueIdentifier>{951C9333-C93A-3BF5-9336-0EF1530E5B8D}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{942B73F3-EC57-30D8-90F6-A0D6210A7CB1}</UniqueIdentifier>
+      <UniqueIdentifier>{D76742ED-436C-3CCA-AF8D-7B75EF2F21E0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

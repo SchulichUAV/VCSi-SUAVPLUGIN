@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 
 # Make file names absolute:
 #
-get_filename_component(filename "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/xz-5.4.5.tar.gz" ABSOLUTE)
-get_filename_component(directory "C:/Users/2006l/OneDrive/Desktop/SUAV/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma" ABSOLUTE)
+get_filename_component(filename "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/xz-5.4.5.tar.gz" ABSOLUTE)
+get_filename_component(directory "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma" ABSOLUTE)
 
 message(VERBOSE "extracting...
      src='${filename}'
@@ -28,8 +28,8 @@ file(MAKE_DIRECTORY "${ut_dir}")
 
 # Extract it:
 #
-message(VERBOSE "extracting... [tar xf]")
-execute_process(COMMAND ${CMAKE_COMMAND} -E tar xf ${filename} 
+message(VERBOSE "extracting... [tar xfz]")
+execute_process(COMMAND ${CMAKE_COMMAND} -E tar xfz ${filename} 
   WORKING_DIRECTORY ${ut_dir}
   RESULT_VARIABLE rv
 )
