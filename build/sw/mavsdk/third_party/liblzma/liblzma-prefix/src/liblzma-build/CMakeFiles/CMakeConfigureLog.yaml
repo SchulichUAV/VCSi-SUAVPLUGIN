@@ -26,7 +26,7 @@ events:
       Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
       Copyright (C) Microsoft Corporation. All rights reserved.
       
-      Build started 2026-04-27 8:07:40 PM.
+      Build started 2026-04-27 8:16:34 PM.
       Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
@@ -71,8 +71,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-yj1b3s"
-      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-yj1b3s"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-qsu3nv"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-qsu3nv"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -82,39 +82,39 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-yj1b3s'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-qsu3nv'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_52340.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_9d06b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 2026-04-27 8:07:41 PM.
-        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-yj1b3s\\cmTC_52340.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:16:35 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-qsu3nv\\cmTC_9d06b.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_52340.dir\\Debug\\".
-          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-yj1b3s\\Debug\\".
-          Creating directory "cmTC_52340.dir\\Debug\\cmTC_52340.tlog\\".
+          Creating directory "cmTC_9d06b.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-qsu3nv\\Debug\\".
+          Creating directory "cmTC_9d06b.dir\\Debug\\cmTC_9d06b.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_52340.dir\\Debug\\cmTC_52340.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_9d06b.dir\\Debug\\cmTC_9d06b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_52340.dir\\Debug\\\\" /Fd"cmTC_52340.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9d06b.dir\\Debug\\\\" /Fd"cmTC_9d06b.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
           CMakeCCompilerABI.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_52340.dir\\Debug\\\\" /Fd"cmTC_52340.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9d06b.dir\\Debug\\\\" /Fd"cmTC_9d06b.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-yj1b3s\\Debug\\cmTC_52340.exe" /INCREMENTAL /ILK:"cmTC_52340.dir\\Debug\\cmTC_52340.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-yj1b3s/Debug/cmTC_52340.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-yj1b3s/Debug/cmTC_52340.lib" /MACHINE:X64  /machine:x64 cmTC_52340.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_52340.vcxproj -> C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-yj1b3s\\Debug\\cmTC_52340.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-qsu3nv\\Debug\\cmTC_9d06b.exe" /INCREMENTAL /ILK:"cmTC_9d06b.dir\\Debug\\cmTC_9d06b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-qsu3nv/Debug/cmTC_9d06b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-qsu3nv/Debug/cmTC_9d06b.lib" /MACHINE:X64  /machine:x64 cmTC_9d06b.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_9d06b.vcxproj -> C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-qsu3nv\\Debug\\cmTC_9d06b.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_52340.dir\\Debug\\cmTC_52340.tlog\\unsuccessfulbuild".
-          Touching "cmTC_52340.dir\\Debug\\cmTC_52340.tlog\\cmTC_52340.lastbuildstate".
-        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-yj1b3s\\cmTC_52340.vcxproj" (default targets).
+          Deleting file "cmTC_9d06b.dir\\Debug\\cmTC_9d06b.tlog\\unsuccessfulbuild".
+          Touching "cmTC_9d06b.dir\\Debug\\cmTC_9d06b.tlog\\cmTC_9d06b.lastbuildstate".
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-qsu3nv\\cmTC_9d06b.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.42
+        Time Elapsed 00:00:00.37
         
       exitCode: 0
   -
@@ -155,8 +155,8 @@ events:
     checks:
       - "Performing Test HAVE___BUILTIN_BSWAPXX"
     directories:
-      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-ra2n2d"
-      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-ra2n2d"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-mltya7"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-mltya7"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -166,47 +166,47 @@ events:
       variable: "HAVE___BUILTIN_BSWAPXX"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-ra2n2d'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-mltya7'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_bcf00.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_6da26.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 2026-04-27 8:07:42 PM.
-        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-ra2n2d\\cmTC_bcf00.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:16:35 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-mltya7\\cmTC_6da26.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_bcf00.dir\\Debug\\".
-          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-ra2n2d\\Debug\\".
-          Creating directory "cmTC_bcf00.dir\\Debug\\cmTC_bcf00.tlog\\".
+          Creating directory "cmTC_6da26.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-mltya7\\Debug\\".
+          Creating directory "cmTC_6da26.dir\\Debug\\cmTC_6da26.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_bcf00.dir\\Debug\\cmTC_bcf00.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_6da26.dir\\Debug\\cmTC_6da26.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE___BUILTIN_BSWAPXX /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bcf00.dir\\Debug\\\\" /Fd"cmTC_bcf00.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-ra2n2d\\src.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE___BUILTIN_BSWAPXX /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6da26.dir\\Debug\\\\" /Fd"cmTC_6da26.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-mltya7\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
           src.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE___BUILTIN_BSWAPXX /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bcf00.dir\\Debug\\\\" /Fd"cmTC_bcf00.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-ra2n2d\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE___BUILTIN_BSWAPXX /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6da26.dir\\Debug\\\\" /Fd"cmTC_6da26.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-mltya7\\src.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-ra2n2d\\Debug\\cmTC_bcf00.exe" /INCREMENTAL /ILK:"cmTC_bcf00.dir\\Debug\\cmTC_bcf00.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-ra2n2d/Debug/cmTC_bcf00.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-ra2n2d/Debug/cmTC_bcf00.lib" /MACHINE:X64  /machine:x64 cmTC_bcf00.dir\\Debug\\src.obj
-        src.obj : error LNK2019: unresolved external symbol __builtin_bswap16 referenced in function main [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-ra2n2d\\cmTC_bcf00.vcxproj]
-        src.obj : error LNK2019: unresolved external symbol __builtin_bswap32 referenced in function main [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-ra2n2d\\cmTC_bcf00.vcxproj]
-        src.obj : error LNK2019: unresolved external symbol __builtin_bswap64 referenced in function main [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-ra2n2d\\cmTC_bcf00.vcxproj]
-        C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-ra2n2d\\Debug\\cmTC_bcf00.exe : fatal error LNK1120: 3 unresolved externals [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-ra2n2d\\cmTC_bcf00.vcxproj]
-        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-ra2n2d\\cmTC_bcf00.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-mltya7\\Debug\\cmTC_6da26.exe" /INCREMENTAL /ILK:"cmTC_6da26.dir\\Debug\\cmTC_6da26.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-mltya7/Debug/cmTC_6da26.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-mltya7/Debug/cmTC_6da26.lib" /MACHINE:X64  /machine:x64 cmTC_6da26.dir\\Debug\\src.obj
+        src.obj : error LNK2019: unresolved external symbol __builtin_bswap16 referenced in function main [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-mltya7\\cmTC_6da26.vcxproj]
+        src.obj : error LNK2019: unresolved external symbol __builtin_bswap32 referenced in function main [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-mltya7\\cmTC_6da26.vcxproj]
+        src.obj : error LNK2019: unresolved external symbol __builtin_bswap64 referenced in function main [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-mltya7\\cmTC_6da26.vcxproj]
+        C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-mltya7\\Debug\\cmTC_6da26.exe : fatal error LNK1120: 3 unresolved externals [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-mltya7\\cmTC_6da26.vcxproj]
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-mltya7\\cmTC_6da26.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-ra2n2d\\cmTC_bcf00.vcxproj" (default target) (1) ->
+        "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-mltya7\\cmTC_6da26.vcxproj" (default target) (1) ->
         (Link target) -> 
-          src.obj : error LNK2019: unresolved external symbol __builtin_bswap16 referenced in function main [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-ra2n2d\\cmTC_bcf00.vcxproj]
-          src.obj : error LNK2019: unresolved external symbol __builtin_bswap32 referenced in function main [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-ra2n2d\\cmTC_bcf00.vcxproj]
-          src.obj : error LNK2019: unresolved external symbol __builtin_bswap64 referenced in function main [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-ra2n2d\\cmTC_bcf00.vcxproj]
-          C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-ra2n2d\\Debug\\cmTC_bcf00.exe : fatal error LNK1120: 3 unresolved externals [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-ra2n2d\\cmTC_bcf00.vcxproj]
+          src.obj : error LNK2019: unresolved external symbol __builtin_bswap16 referenced in function main [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-mltya7\\cmTC_6da26.vcxproj]
+          src.obj : error LNK2019: unresolved external symbol __builtin_bswap32 referenced in function main [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-mltya7\\cmTC_6da26.vcxproj]
+          src.obj : error LNK2019: unresolved external symbol __builtin_bswap64 referenced in function main [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-mltya7\\cmTC_6da26.vcxproj]
+          C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-mltya7\\Debug\\cmTC_6da26.exe : fatal error LNK1120: 3 unresolved externals [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-mltya7\\cmTC_6da26.vcxproj]
         
             0 Warning(s)
             4 Error(s)
         
-        Time Elapsed 00:00:00.35
+        Time Elapsed 00:00:00.37
         
       exitCode: 1
   -
@@ -218,8 +218,8 @@ events:
     checks:
       - "Looking for byteswap.h"
     directories:
-      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-e0bm8a"
-      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-e0bm8a"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-bgobtn"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-bgobtn"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -229,39 +229,39 @@ events:
       variable: "HAVE_BYTESWAP_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-e0bm8a'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-bgobtn'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_93f08.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_aea92.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 2026-04-27 8:07:42 PM.
-        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-e0bm8a\\cmTC_93f08.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:16:36 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-bgobtn\\cmTC_aea92.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_93f08.dir\\Debug\\".
-          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-e0bm8a\\Debug\\".
-          Creating directory "cmTC_93f08.dir\\Debug\\cmTC_93f08.tlog\\".
+          Creating directory "cmTC_aea92.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-bgobtn\\Debug\\".
+          Creating directory "cmTC_aea92.dir\\Debug\\cmTC_aea92.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_93f08.dir\\Debug\\cmTC_93f08.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_aea92.dir\\Debug\\cmTC_aea92.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_93f08.dir\\Debug\\\\" /Fd"cmTC_93f08.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-e0bm8a\\CheckIncludeFile.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aea92.dir\\Debug\\\\" /Fd"cmTC_aea92.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-bgobtn\\CheckIncludeFile.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
           CheckIncludeFile.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_93f08.dir\\Debug\\\\" /Fd"cmTC_93f08.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-e0bm8a\\CheckIncludeFile.c"
-        C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-e0bm8a\\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'byteswap.h': No such file or directory [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-e0bm8a\\cmTC_93f08.vcxproj]
-        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-e0bm8a\\cmTC_93f08.vcxproj" (default targets) -- FAILED.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aea92.dir\\Debug\\\\" /Fd"cmTC_aea92.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-bgobtn\\CheckIncludeFile.c"
+        C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-bgobtn\\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'byteswap.h': No such file or directory [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-bgobtn\\cmTC_aea92.vcxproj]
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-bgobtn\\cmTC_aea92.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-e0bm8a\\cmTC_93f08.vcxproj" (default target) (1) ->
+        "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-bgobtn\\cmTC_aea92.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-e0bm8a\\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'byteswap.h': No such file or directory [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-e0bm8a\\cmTC_93f08.vcxproj]
+          C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-bgobtn\\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'byteswap.h': No such file or directory [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-bgobtn\\cmTC_aea92.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.30
+        Time Elapsed 00:00:00.29
         
       exitCode: 1
   -
@@ -273,8 +273,8 @@ events:
     checks:
       - "Looking for sys/endian.h"
     directories:
-      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-wigpqn"
-      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-wigpqn"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-2k2blm"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-2k2blm"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -284,39 +284,39 @@ events:
       variable: "HAVE_SYS_ENDIAN_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-wigpqn'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-2k2blm'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_c2131.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_5a710.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 2026-04-27 8:07:43 PM.
-        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-wigpqn\\cmTC_c2131.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:16:37 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-2k2blm\\cmTC_5a710.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_c2131.dir\\Debug\\".
-          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-wigpqn\\Debug\\".
-          Creating directory "cmTC_c2131.dir\\Debug\\cmTC_c2131.tlog\\".
+          Creating directory "cmTC_5a710.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-2k2blm\\Debug\\".
+          Creating directory "cmTC_5a710.dir\\Debug\\cmTC_5a710.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_c2131.dir\\Debug\\cmTC_c2131.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_5a710.dir\\Debug\\cmTC_5a710.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c2131.dir\\Debug\\\\" /Fd"cmTC_c2131.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-wigpqn\\CheckIncludeFile.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5a710.dir\\Debug\\\\" /Fd"cmTC_5a710.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-2k2blm\\CheckIncludeFile.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
           CheckIncludeFile.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c2131.dir\\Debug\\\\" /Fd"cmTC_c2131.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-wigpqn\\CheckIncludeFile.c"
-        C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-wigpqn\\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'sys/endian.h': No such file or directory [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-wigpqn\\cmTC_c2131.vcxproj]
-        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-wigpqn\\cmTC_c2131.vcxproj" (default targets) -- FAILED.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5a710.dir\\Debug\\\\" /Fd"cmTC_5a710.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-2k2blm\\CheckIncludeFile.c"
+        C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-2k2blm\\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'sys/endian.h': No such file or directory [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-2k2blm\\cmTC_5a710.vcxproj]
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-2k2blm\\cmTC_5a710.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-wigpqn\\cmTC_c2131.vcxproj" (default target) (1) ->
+        "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-2k2blm\\cmTC_5a710.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-wigpqn\\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'sys/endian.h': No such file or directory [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-wigpqn\\cmTC_c2131.vcxproj]
+          C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-2k2blm\\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'sys/endian.h': No such file or directory [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-2k2blm\\cmTC_5a710.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.25
+        Time Elapsed 00:00:00.34
         
       exitCode: 1
   -
@@ -328,8 +328,8 @@ events:
     checks:
       - "Looking for sys/byteorder.h"
     directories:
-      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-s62wtl"
-      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-s62wtl"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-v0s7xo"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-v0s7xo"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -339,34 +339,34 @@ events:
       variable: "HAVE_SYS_BYTEORDER_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-s62wtl'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-v0s7xo'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_0c07d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_0ddac.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 2026-04-27 8:07:44 PM.
-        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-s62wtl\\cmTC_0c07d.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:16:37 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-v0s7xo\\cmTC_0ddac.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_0c07d.dir\\Debug\\".
-          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-s62wtl\\Debug\\".
-          Creating directory "cmTC_0c07d.dir\\Debug\\cmTC_0c07d.tlog\\".
+          Creating directory "cmTC_0ddac.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-v0s7xo\\Debug\\".
+          Creating directory "cmTC_0ddac.dir\\Debug\\cmTC_0ddac.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_0c07d.dir\\Debug\\cmTC_0c07d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_0ddac.dir\\Debug\\cmTC_0ddac.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0c07d.dir\\Debug\\\\" /Fd"cmTC_0c07d.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-s62wtl\\CheckIncludeFile.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0ddac.dir\\Debug\\\\" /Fd"cmTC_0ddac.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-v0s7xo\\CheckIncludeFile.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
           CheckIncludeFile.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0c07d.dir\\Debug\\\\" /Fd"cmTC_0c07d.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-s62wtl\\CheckIncludeFile.c"
-        C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-s62wtl\\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'sys/byteorder.h': No such file or directory [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-s62wtl\\cmTC_0c07d.vcxproj]
-        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-s62wtl\\cmTC_0c07d.vcxproj" (default targets) -- FAILED.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0ddac.dir\\Debug\\\\" /Fd"cmTC_0ddac.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-v0s7xo\\CheckIncludeFile.c"
+        C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-v0s7xo\\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'sys/byteorder.h': No such file or directory [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-v0s7xo\\cmTC_0ddac.vcxproj]
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-v0s7xo\\cmTC_0ddac.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-s62wtl\\cmTC_0c07d.vcxproj" (default target) (1) ->
+        "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-v0s7xo\\cmTC_0ddac.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-s62wtl\\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'sys/byteorder.h': No such file or directory [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-s62wtl\\cmTC_0c07d.vcxproj]
+          C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-v0s7xo\\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'sys/byteorder.h': No such file or directory [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-v0s7xo\\cmTC_0ddac.vcxproj]
         
             0 Warning(s)
             1 Error(s)
@@ -384,8 +384,8 @@ events:
     checks:
       - "Performing Test HAVE___BUILTIN_ASSUME_ALIGNED"
     directories:
-      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-791n9s"
-      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-791n9s"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-hfnwmo"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-hfnwmo"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -395,39 +395,39 @@ events:
       variable: "HAVE___BUILTIN_ASSUME_ALIGNED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-791n9s'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-hfnwmo'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_e2e98.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_a8568.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 2026-04-27 8:07:44 PM.
-        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-791n9s\\cmTC_e2e98.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:16:38 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-hfnwmo\\cmTC_a8568.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_e2e98.dir\\Debug\\".
-          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-791n9s\\Debug\\".
-          Creating directory "cmTC_e2e98.dir\\Debug\\cmTC_e2e98.tlog\\".
+          Creating directory "cmTC_a8568.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-hfnwmo\\Debug\\".
+          Creating directory "cmTC_a8568.dir\\Debug\\cmTC_a8568.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_e2e98.dir\\Debug\\cmTC_e2e98.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_a8568.dir\\Debug\\cmTC_a8568.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE___BUILTIN_ASSUME_ALIGNED /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e2e98.dir\\Debug\\\\" /Fd"cmTC_e2e98.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-791n9s\\src.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE___BUILTIN_ASSUME_ALIGNED /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a8568.dir\\Debug\\\\" /Fd"cmTC_a8568.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-hfnwmo\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
           src.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE___BUILTIN_ASSUME_ALIGNED /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e2e98.dir\\Debug\\\\" /Fd"cmTC_e2e98.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-791n9s\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE___BUILTIN_ASSUME_ALIGNED /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a8568.dir\\Debug\\\\" /Fd"cmTC_a8568.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-hfnwmo\\src.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-791n9s\\Debug\\cmTC_e2e98.exe" /INCREMENTAL /ILK:"cmTC_e2e98.dir\\Debug\\cmTC_e2e98.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-791n9s/Debug/cmTC_e2e98.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-791n9s/Debug/cmTC_e2e98.lib" /MACHINE:X64  /machine:x64 cmTC_e2e98.dir\\Debug\\src.obj
-          cmTC_e2e98.vcxproj -> C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-791n9s\\Debug\\cmTC_e2e98.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-hfnwmo\\Debug\\cmTC_a8568.exe" /INCREMENTAL /ILK:"cmTC_a8568.dir\\Debug\\cmTC_a8568.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-hfnwmo/Debug/cmTC_a8568.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-hfnwmo/Debug/cmTC_a8568.lib" /MACHINE:X64  /machine:x64 cmTC_a8568.dir\\Debug\\src.obj
+          cmTC_a8568.vcxproj -> C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-hfnwmo\\Debug\\cmTC_a8568.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_e2e98.dir\\Debug\\cmTC_e2e98.tlog\\unsuccessfulbuild".
-          Touching "cmTC_e2e98.dir\\Debug\\cmTC_e2e98.tlog\\cmTC_e2e98.lastbuildstate".
-        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-791n9s\\cmTC_e2e98.vcxproj" (default targets).
+          Deleting file "cmTC_a8568.dir\\Debug\\cmTC_a8568.tlog\\unsuccessfulbuild".
+          Touching "cmTC_a8568.dir\\Debug\\cmTC_a8568.tlog\\cmTC_a8568.lastbuildstate".
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-hfnwmo\\cmTC_a8568.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.37
+        Time Elapsed 00:00:00.38
         
       exitCode: 0
   -
@@ -441,8 +441,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-uu4qvl"
-      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-uu4qvl"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-lskboq"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-lskboq"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -452,34 +452,34 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-uu4qvl'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-lskboq'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_760e2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_2ab8b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 2026-04-27 8:07:45 PM.
-        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-uu4qvl\\cmTC_760e2.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:16:38 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lskboq\\cmTC_2ab8b.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_760e2.dir\\Debug\\".
-          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-uu4qvl\\Debug\\".
-          Creating directory "cmTC_760e2.dir\\Debug\\cmTC_760e2.tlog\\".
+          Creating directory "cmTC_2ab8b.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lskboq\\Debug\\".
+          Creating directory "cmTC_2ab8b.dir\\Debug\\cmTC_2ab8b.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_760e2.dir\\Debug\\cmTC_760e2.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_2ab8b.dir\\Debug\\cmTC_2ab8b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_760e2.dir\\Debug\\\\" /Fd"cmTC_760e2.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-uu4qvl\\src.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2ab8b.dir\\Debug\\\\" /Fd"cmTC_2ab8b.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lskboq\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
           src.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_760e2.dir\\Debug\\\\" /Fd"cmTC_760e2.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-uu4qvl\\src.c"
-        C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-uu4qvl\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-uu4qvl\\cmTC_760e2.vcxproj]
-        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-uu4qvl\\cmTC_760e2.vcxproj" (default targets) -- FAILED.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2ab8b.dir\\Debug\\\\" /Fd"cmTC_2ab8b.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lskboq\\src.c"
+        C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lskboq\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lskboq\\cmTC_2ab8b.vcxproj]
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lskboq\\cmTC_2ab8b.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-uu4qvl\\cmTC_760e2.vcxproj" (default target) (1) ->
+        "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lskboq\\cmTC_2ab8b.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-uu4qvl\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-uu4qvl\\cmTC_760e2.vcxproj]
+          C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lskboq\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lskboq\\cmTC_2ab8b.vcxproj]
         
             0 Warning(s)
             1 Error(s)
@@ -497,8 +497,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-gw6pvx"
-      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-gw6pvx"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-lw3h1r"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-lw3h1r"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -508,41 +508,41 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-gw6pvx'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-lw3h1r'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_68843.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_66e1d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 2026-04-27 8:07:45 PM.
-        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-gw6pvx\\cmTC_68843.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:16:39 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lw3h1r\\cmTC_66e1d.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_68843.dir\\Debug\\".
-          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-gw6pvx\\Debug\\".
-          Creating directory "cmTC_68843.dir\\Debug\\cmTC_68843.tlog\\".
+          Creating directory "cmTC_66e1d.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lw3h1r\\Debug\\".
+          Creating directory "cmTC_66e1d.dir\\Debug\\cmTC_66e1d.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_68843.dir\\Debug\\cmTC_68843.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_66e1d.dir\\Debug\\cmTC_66e1d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_68843.dir\\Debug\\\\" /Fd"cmTC_68843.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-gw6pvx\\CheckFunctionExists.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_66e1d.dir\\Debug\\\\" /Fd"cmTC_66e1d.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lw3h1r\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
           CheckFunctionExists.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_68843.dir\\Debug\\\\" /Fd"cmTC_68843.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-gw6pvx\\CheckFunctionExists.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_66e1d.dir\\Debug\\\\" /Fd"cmTC_66e1d.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lw3h1r\\CheckFunctionExists.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-gw6pvx\\Debug\\cmTC_68843.exe" /INCREMENTAL /ILK:"cmTC_68843.dir\\Debug\\cmTC_68843.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-gw6pvx/Debug/cmTC_68843.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-gw6pvx/Debug/cmTC_68843.lib" /MACHINE:X64  /machine:x64 cmTC_68843.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-gw6pvx\\cmTC_68843.vcxproj]
-        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-gw6pvx\\cmTC_68843.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lw3h1r\\Debug\\cmTC_66e1d.exe" /INCREMENTAL /ILK:"cmTC_66e1d.dir\\Debug\\cmTC_66e1d.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-lw3h1r/Debug/cmTC_66e1d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-lw3h1r/Debug/cmTC_66e1d.lib" /MACHINE:X64  /machine:x64 cmTC_66e1d.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lw3h1r\\cmTC_66e1d.vcxproj]
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lw3h1r\\cmTC_66e1d.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-gw6pvx\\cmTC_68843.vcxproj" (default target) (1) ->
+        "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lw3h1r\\cmTC_66e1d.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-gw6pvx\\cmTC_68843.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lw3h1r\\cmTC_66e1d.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.35
+        Time Elapsed 00:00:00.32
         
       exitCode: 1
   -
@@ -555,8 +555,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-r6fr3f"
-      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-r6fr3f"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-bjk9u2"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-bjk9u2"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -566,41 +566,41 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-r6fr3f'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-bjk9u2'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_32deb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_bab70.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 2026-04-27 8:07:46 PM.
-        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-r6fr3f\\cmTC_32deb.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:16:40 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-bjk9u2\\cmTC_bab70.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_32deb.dir\\Debug\\".
-          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-r6fr3f\\Debug\\".
-          Creating directory "cmTC_32deb.dir\\Debug\\cmTC_32deb.tlog\\".
+          Creating directory "cmTC_bab70.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-bjk9u2\\Debug\\".
+          Creating directory "cmTC_bab70.dir\\Debug\\cmTC_bab70.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_32deb.dir\\Debug\\cmTC_32deb.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_bab70.dir\\Debug\\cmTC_bab70.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_32deb.dir\\Debug\\\\" /Fd"cmTC_32deb.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-r6fr3f\\CheckFunctionExists.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bab70.dir\\Debug\\\\" /Fd"cmTC_bab70.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-bjk9u2\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
           CheckFunctionExists.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_32deb.dir\\Debug\\\\" /Fd"cmTC_32deb.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-r6fr3f\\CheckFunctionExists.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bab70.dir\\Debug\\\\" /Fd"cmTC_bab70.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-bjk9u2\\CheckFunctionExists.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-r6fr3f\\Debug\\cmTC_32deb.exe" /INCREMENTAL /ILK:"cmTC_32deb.dir\\Debug\\cmTC_32deb.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-r6fr3f/Debug/cmTC_32deb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-r6fr3f/Debug/cmTC_32deb.lib" /MACHINE:X64  /machine:x64 cmTC_32deb.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-r6fr3f\\cmTC_32deb.vcxproj]
-        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-r6fr3f\\cmTC_32deb.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-bjk9u2\\Debug\\cmTC_bab70.exe" /INCREMENTAL /ILK:"cmTC_bab70.dir\\Debug\\cmTC_bab70.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-bjk9u2/Debug/cmTC_bab70.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-bjk9u2/Debug/cmTC_bab70.lib" /MACHINE:X64  /machine:x64 cmTC_bab70.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-bjk9u2\\cmTC_bab70.vcxproj]
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-bjk9u2\\cmTC_bab70.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-r6fr3f\\cmTC_32deb.vcxproj" (default target) (1) ->
+        "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-bjk9u2\\cmTC_bab70.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-r6fr3f\\cmTC_32deb.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-bjk9u2\\cmTC_bab70.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.33
+        Time Elapsed 00:00:00.32
         
       exitCode: 1
   -
@@ -612,8 +612,8 @@ events:
     checks:
       - "Performing Test HAVE_FUNC_ATTRIBUTE_CONSTRUCTOR"
     directories:
-      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-bj4b4r"
-      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-bj4b4r"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-a6a1vd"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-a6a1vd"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -623,33 +623,33 @@ events:
       variable: "HAVE_FUNC_ATTRIBUTE_CONSTRUCTOR"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-bj4b4r'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-a6a1vd'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_29b1f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_86345.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 2026-04-27 8:07:47 PM.
-        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-bj4b4r\\cmTC_29b1f.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:16:40 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-a6a1vd\\cmTC_86345.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_29b1f.dir\\Debug\\".
-          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-bj4b4r\\Debug\\".
-          Creating directory "cmTC_29b1f.dir\\Debug\\cmTC_29b1f.tlog\\".
+          Creating directory "cmTC_86345.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-a6a1vd\\Debug\\".
+          Creating directory "cmTC_86345.dir\\Debug\\cmTC_86345.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_29b1f.dir\\Debug\\cmTC_29b1f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_86345.dir\\Debug\\cmTC_86345.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_FUNC_ATTRIBUTE_CONSTRUCTOR /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_29b1f.dir\\Debug\\\\" /Fd"cmTC_29b1f.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue  -Werror "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-bj4b4r\\src.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_FUNC_ATTRIBUTE_CONSTRUCTOR /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_86345.dir\\Debug\\\\" /Fd"cmTC_86345.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue  -Werror "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-a6a1vd\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_FUNC_ATTRIBUTE_CONSTRUCTOR /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_29b1f.dir\\Debug\\\\" /Fd"cmTC_29b1f.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue  -Werror "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-bj4b4r\\src.c"
-        cl : command line error D8021: invalid numeric argument '/Werror' [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-bj4b4r\\cmTC_29b1f.vcxproj]
-        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-bj4b4r\\cmTC_29b1f.vcxproj" (default targets) -- FAILED.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_FUNC_ATTRIBUTE_CONSTRUCTOR /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_86345.dir\\Debug\\\\" /Fd"cmTC_86345.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue  -Werror "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-a6a1vd\\src.c"
+        cl : command line error D8021: invalid numeric argument '/Werror' [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-a6a1vd\\cmTC_86345.vcxproj]
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-a6a1vd\\cmTC_86345.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-bj4b4r\\cmTC_29b1f.vcxproj" (default target) (1) ->
+        "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-a6a1vd\\cmTC_86345.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          cl : command line error D8021: invalid numeric argument '/Werror' [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-bj4b4r\\cmTC_29b1f.vcxproj]
+          cl : command line error D8021: invalid numeric argument '/Werror' [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-a6a1vd\\cmTC_86345.vcxproj]
         
             0 Warning(s)
             1 Error(s)
@@ -665,8 +665,8 @@ events:
     checks:
       - "Looking for cpuid.h"
     directories:
-      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-lodoqn"
-      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-lodoqn"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-b386ss"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-b386ss"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -676,39 +676,39 @@ events:
       variable: "HAVE_CPUID_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-lodoqn'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-b386ss'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_943c2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_284c6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 2026-04-27 8:07:47 PM.
-        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lodoqn\\cmTC_943c2.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:16:41 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-b386ss\\cmTC_284c6.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_943c2.dir\\Debug\\".
-          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lodoqn\\Debug\\".
-          Creating directory "cmTC_943c2.dir\\Debug\\cmTC_943c2.tlog\\".
+          Creating directory "cmTC_284c6.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-b386ss\\Debug\\".
+          Creating directory "cmTC_284c6.dir\\Debug\\cmTC_284c6.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_943c2.dir\\Debug\\cmTC_943c2.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_284c6.dir\\Debug\\cmTC_284c6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_943c2.dir\\Debug\\\\" /Fd"cmTC_943c2.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lodoqn\\CheckIncludeFile.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_284c6.dir\\Debug\\\\" /Fd"cmTC_284c6.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-b386ss\\CheckIncludeFile.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
           CheckIncludeFile.c
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_943c2.dir\\Debug\\\\" /Fd"cmTC_943c2.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lodoqn\\CheckIncludeFile.c"
-        C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lodoqn\\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'cpuid.h': No such file or directory [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lodoqn\\cmTC_943c2.vcxproj]
-        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lodoqn\\cmTC_943c2.vcxproj" (default targets) -- FAILED.
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_284c6.dir\\Debug\\\\" /Fd"cmTC_284c6.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-b386ss\\CheckIncludeFile.c"
+        C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-b386ss\\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'cpuid.h': No such file or directory [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-b386ss\\cmTC_284c6.vcxproj]
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-b386ss\\cmTC_284c6.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lodoqn\\cmTC_943c2.vcxproj" (default target) (1) ->
+        "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-b386ss\\cmTC_284c6.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lodoqn\\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'cpuid.h': No such file or directory [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lodoqn\\cmTC_943c2.vcxproj]
+          C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-b386ss\\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'cpuid.h': No such file or directory [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-b386ss\\cmTC_284c6.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.28
+        Time Elapsed 00:00:00.29
         
       exitCode: 1
   -
@@ -719,8 +719,8 @@ events:
     checks:
       - "Looking for immintrin.h"
     directories:
-      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-2la3n5"
-      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-2la3n5"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-2vvbnb"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-2vvbnb"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -730,39 +730,39 @@ events:
       variable: "HAVE_IMMINTRIN_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-2la3n5'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-2vvbnb'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_da51d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_b44e0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 2026-04-27 8:07:48 PM.
-        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-2la3n5\\cmTC_da51d.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:16:41 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-2vvbnb\\cmTC_b44e0.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_da51d.dir\\Debug\\".
-          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-2la3n5\\Debug\\".
-          Creating directory "cmTC_da51d.dir\\Debug\\cmTC_da51d.tlog\\".
+          Creating directory "cmTC_b44e0.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-2vvbnb\\Debug\\".
+          Creating directory "cmTC_b44e0.dir\\Debug\\cmTC_b44e0.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_da51d.dir\\Debug\\cmTC_da51d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_b44e0.dir\\Debug\\cmTC_b44e0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_da51d.dir\\Debug\\\\" /Fd"cmTC_da51d.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-2la3n5\\CheckIncludeFile.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b44e0.dir\\Debug\\\\" /Fd"cmTC_b44e0.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-2vvbnb\\CheckIncludeFile.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
           CheckIncludeFile.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_da51d.dir\\Debug\\\\" /Fd"cmTC_da51d.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-2la3n5\\CheckIncludeFile.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b44e0.dir\\Debug\\\\" /Fd"cmTC_b44e0.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-2vvbnb\\CheckIncludeFile.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-2la3n5\\Debug\\cmTC_da51d.exe" /INCREMENTAL /ILK:"cmTC_da51d.dir\\Debug\\cmTC_da51d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-2la3n5/Debug/cmTC_da51d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-2la3n5/Debug/cmTC_da51d.lib" /MACHINE:X64  /machine:x64 cmTC_da51d.dir\\Debug\\CheckIncludeFile.obj
-          cmTC_da51d.vcxproj -> C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-2la3n5\\Debug\\cmTC_da51d.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-2vvbnb\\Debug\\cmTC_b44e0.exe" /INCREMENTAL /ILK:"cmTC_b44e0.dir\\Debug\\cmTC_b44e0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-2vvbnb/Debug/cmTC_b44e0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-2vvbnb/Debug/cmTC_b44e0.lib" /MACHINE:X64  /machine:x64 cmTC_b44e0.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_b44e0.vcxproj -> C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-2vvbnb\\Debug\\cmTC_b44e0.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_da51d.dir\\Debug\\cmTC_da51d.tlog\\unsuccessfulbuild".
-          Touching "cmTC_da51d.dir\\Debug\\cmTC_da51d.tlog\\cmTC_da51d.lastbuildstate".
-        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-2la3n5\\cmTC_da51d.vcxproj" (default targets).
+          Deleting file "cmTC_b44e0.dir\\Debug\\cmTC_b44e0.tlog\\unsuccessfulbuild".
+          Touching "cmTC_b44e0.dir\\Debug\\cmTC_b44e0.tlog\\cmTC_b44e0.lastbuildstate".
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-2vvbnb\\cmTC_b44e0.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.46
+        Time Elapsed 00:00:00.45
         
       exitCode: 0
   -
@@ -774,8 +774,8 @@ events:
     checks:
       - "Performing Test HAVE__MM_MOVEMASK_EPI8"
     directories:
-      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-ki57q5"
-      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-ki57q5"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-lgcvp8"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-lgcvp8"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -785,39 +785,39 @@ events:
       variable: "HAVE__MM_MOVEMASK_EPI8"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-ki57q5'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-lgcvp8'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_c111f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_f149c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 2026-04-27 8:07:49 PM.
-        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-ki57q5\\cmTC_c111f.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:16:42 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lgcvp8\\cmTC_f149c.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_c111f.dir\\Debug\\".
-          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-ki57q5\\Debug\\".
-          Creating directory "cmTC_c111f.dir\\Debug\\cmTC_c111f.tlog\\".
+          Creating directory "cmTC_f149c.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lgcvp8\\Debug\\".
+          Creating directory "cmTC_f149c.dir\\Debug\\cmTC_f149c.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_c111f.dir\\Debug\\cmTC_c111f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_f149c.dir\\Debug\\cmTC_f149c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE__MM_MOVEMASK_EPI8 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c111f.dir\\Debug\\\\" /Fd"cmTC_c111f.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-ki57q5\\src.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE__MM_MOVEMASK_EPI8 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f149c.dir\\Debug\\\\" /Fd"cmTC_f149c.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lgcvp8\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
           src.c
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE__MM_MOVEMASK_EPI8 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c111f.dir\\Debug\\\\" /Fd"cmTC_c111f.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-ki57q5\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE__MM_MOVEMASK_EPI8 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f149c.dir\\Debug\\\\" /Fd"cmTC_f149c.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lgcvp8\\src.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-ki57q5\\Debug\\cmTC_c111f.exe" /INCREMENTAL /ILK:"cmTC_c111f.dir\\Debug\\cmTC_c111f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-ki57q5/Debug/cmTC_c111f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-ki57q5/Debug/cmTC_c111f.lib" /MACHINE:X64  /machine:x64 cmTC_c111f.dir\\Debug\\src.obj
-          cmTC_c111f.vcxproj -> C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-ki57q5\\Debug\\cmTC_c111f.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lgcvp8\\Debug\\cmTC_f149c.exe" /INCREMENTAL /ILK:"cmTC_f149c.dir\\Debug\\cmTC_f149c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-lgcvp8/Debug/cmTC_f149c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-lgcvp8/Debug/cmTC_f149c.lib" /MACHINE:X64  /machine:x64 cmTC_f149c.dir\\Debug\\src.obj
+          cmTC_f149c.vcxproj -> C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lgcvp8\\Debug\\cmTC_f149c.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_c111f.dir\\Debug\\cmTC_c111f.tlog\\unsuccessfulbuild".
-          Touching "cmTC_c111f.dir\\Debug\\cmTC_c111f.tlog\\cmTC_c111f.lastbuildstate".
-        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-ki57q5\\cmTC_c111f.vcxproj" (default targets).
+          Deleting file "cmTC_f149c.dir\\Debug\\cmTC_f149c.tlog\\unsuccessfulbuild".
+          Touching "cmTC_f149c.dir\\Debug\\cmTC_f149c.tlog\\cmTC_f149c.lastbuildstate".
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-lgcvp8\\cmTC_f149c.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.41
+        Time Elapsed 00:00:00.43
         
       exitCode: 0
   -
@@ -829,8 +829,8 @@ events:
     checks:
       - "Performing Test HAVE_USABLE_CLMUL"
     directories:
-      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-4fle1t"
-      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-4fle1t"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-hzh7rw"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-hzh7rw"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -840,39 +840,39 @@ events:
       variable: "HAVE_USABLE_CLMUL"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-4fle1t'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-hzh7rw'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_f1201.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_ff9ff.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 2026-04-27 8:07:49 PM.
-        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-4fle1t\\cmTC_f1201.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:16:43 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-hzh7rw\\cmTC_ff9ff.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_f1201.dir\\Debug\\".
-          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-4fle1t\\Debug\\".
-          Creating directory "cmTC_f1201.dir\\Debug\\cmTC_f1201.tlog\\".
+          Creating directory "cmTC_ff9ff.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-hzh7rw\\Debug\\".
+          Creating directory "cmTC_ff9ff.dir\\Debug\\cmTC_ff9ff.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_f1201.dir\\Debug\\cmTC_f1201.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_ff9ff.dir\\Debug\\cmTC_ff9ff.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_USABLE_CLMUL /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f1201.dir\\Debug\\\\" /Fd"cmTC_f1201.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-4fle1t\\src.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_USABLE_CLMUL /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ff9ff.dir\\Debug\\\\" /Fd"cmTC_ff9ff.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-hzh7rw\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
           src.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_USABLE_CLMUL /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f1201.dir\\Debug\\\\" /Fd"cmTC_f1201.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-4fle1t\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_USABLE_CLMUL /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ff9ff.dir\\Debug\\\\" /Fd"cmTC_ff9ff.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-hzh7rw\\src.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-4fle1t\\Debug\\cmTC_f1201.exe" /INCREMENTAL /ILK:"cmTC_f1201.dir\\Debug\\cmTC_f1201.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-4fle1t/Debug/cmTC_f1201.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-4fle1t/Debug/cmTC_f1201.lib" /MACHINE:X64  /machine:x64 cmTC_f1201.dir\\Debug\\src.obj
-          cmTC_f1201.vcxproj -> C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-4fle1t\\Debug\\cmTC_f1201.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-hzh7rw\\Debug\\cmTC_ff9ff.exe" /INCREMENTAL /ILK:"cmTC_ff9ff.dir\\Debug\\cmTC_ff9ff.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-hzh7rw/Debug/cmTC_ff9ff.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-hzh7rw/Debug/cmTC_ff9ff.lib" /MACHINE:X64  /machine:x64 cmTC_ff9ff.dir\\Debug\\src.obj
+          cmTC_ff9ff.vcxproj -> C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-hzh7rw\\Debug\\cmTC_ff9ff.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_f1201.dir\\Debug\\cmTC_f1201.tlog\\unsuccessfulbuild".
-          Touching "cmTC_f1201.dir\\Debug\\cmTC_f1201.tlog\\cmTC_f1201.lastbuildstate".
-        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-4fle1t\\cmTC_f1201.vcxproj" (default targets).
+          Deleting file "cmTC_ff9ff.dir\\Debug\\cmTC_ff9ff.tlog\\unsuccessfulbuild".
+          Touching "cmTC_ff9ff.dir\\Debug\\cmTC_ff9ff.tlog\\cmTC_ff9ff.lastbuildstate".
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-hzh7rw\\cmTC_ff9ff.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.42
+        Time Elapsed 00:00:00.38
         
       exitCode: 0
   -
@@ -884,8 +884,8 @@ events:
     checks:
       - "Looking for getopt_long"
     directories:
-      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-yrcdzf"
-      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-yrcdzf"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-z28925"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-z28925"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -895,39 +895,39 @@ events:
       variable: "HAVE_GETOPT_LONG"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-yrcdzf'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/liblzma/liblzma-prefix/src/liblzma-build/CMakeFiles/CMakeScratch/TryCompile-z28925'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_537e1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_c918b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 2026-04-27 8:07:50 PM.
-        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-yrcdzf\\cmTC_537e1.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:16:43 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-z28925\\cmTC_c918b.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_537e1.dir\\Debug\\".
-          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-yrcdzf\\Debug\\".
-          Creating directory "cmTC_537e1.dir\\Debug\\cmTC_537e1.tlog\\".
+          Creating directory "cmTC_c918b.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-z28925\\Debug\\".
+          Creating directory "cmTC_c918b.dir\\Debug\\cmTC_c918b.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_537e1.dir\\Debug\\cmTC_537e1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_c918b.dir\\Debug\\cmTC_c918b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_537e1.dir\\Debug\\\\" /Fd"cmTC_537e1.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-yrcdzf\\CheckSymbolExists.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c918b.dir\\Debug\\\\" /Fd"cmTC_c918b.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-z28925\\CheckSymbolExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
           CheckSymbolExists.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_537e1.dir\\Debug\\\\" /Fd"cmTC_537e1.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-yrcdzf\\CheckSymbolExists.c"
-        C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-yrcdzf\\CheckSymbolExists.c(2,10): fatal error C1083: Cannot open include file: 'getopt.h': No such file or directory [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-yrcdzf\\cmTC_537e1.vcxproj]
-        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-yrcdzf\\cmTC_537e1.vcxproj" (default targets) -- FAILED.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c918b.dir\\Debug\\\\" /Fd"cmTC_c918b.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-z28925\\CheckSymbolExists.c"
+        C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-z28925\\CheckSymbolExists.c(2,10): fatal error C1083: Cannot open include file: 'getopt.h': No such file or directory [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-z28925\\cmTC_c918b.vcxproj]
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-z28925\\cmTC_c918b.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-yrcdzf\\cmTC_537e1.vcxproj" (default target) (1) ->
+        "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-z28925\\cmTC_c918b.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-yrcdzf\\CheckSymbolExists.c(2,10): fatal error C1083: Cannot open include file: 'getopt.h': No such file or directory [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-yrcdzf\\cmTC_537e1.vcxproj]
+          C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-z28925\\CheckSymbolExists.c(2,10): fatal error C1083: Cannot open include file: 'getopt.h': No such file or directory [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\liblzma\\liblzma-prefix\\src\\liblzma-build\\CMakeFiles\\CMakeScratch\\TryCompile-z28925\\cmTC_c918b.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.30
+        Time Elapsed 00:00:00.28
         
       exitCode: 1
 ...

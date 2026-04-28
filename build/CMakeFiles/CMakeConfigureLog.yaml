@@ -26,7 +26,7 @@ events:
       Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
       Copyright (C) Microsoft Corporation. All rights reserved.
       
-      Build started 2026-04-27 8:05:31 PM.
+      Build started 2026-04-27 8:14:34 PM.
       Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
@@ -52,7 +52,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.67
+      Time Elapsed 00:00:00.50
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -71,8 +71,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-pdwzg8"
-      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-pdwzg8"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-g0mg0h"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-g0mg0h"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -82,39 +82,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-pdwzg8'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-g0mg0h'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_4970c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_cc70e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 2026-04-27 8:05:32 PM.
-        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pdwzg8\\cmTC_4970c.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:14:35 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g0mg0h\\cmTC_cc70e.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_4970c.dir\\Debug\\".
-          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pdwzg8\\Debug\\".
-          Creating directory "cmTC_4970c.dir\\Debug\\cmTC_4970c.tlog\\".
+          Creating directory "cmTC_cc70e.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g0mg0h\\Debug\\".
+          Creating directory "cmTC_cc70e.dir\\Debug\\cmTC_cc70e.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_4970c.dir\\Debug\\cmTC_4970c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_cc70e.dir\\Debug\\cmTC_cc70e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4970c.dir\\Debug\\\\" /Fd"cmTC_4970c.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cc70e.dir\\Debug\\\\" /Fd"cmTC_cc70e.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
           CMakeCXXCompilerABI.cpp
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4970c.dir\\Debug\\\\" /Fd"cmTC_4970c.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cc70e.dir\\Debug\\\\" /Fd"cmTC_cc70e.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pdwzg8\\Debug\\cmTC_4970c.exe" /INCREMENTAL /ILK:"cmTC_4970c.dir\\Debug\\cmTC_4970c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-pdwzg8/Debug/cmTC_4970c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-pdwzg8/Debug/cmTC_4970c.lib" /MACHINE:X64  /machine:x64 cmTC_4970c.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_4970c.vcxproj -> C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pdwzg8\\Debug\\cmTC_4970c.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g0mg0h\\Debug\\cmTC_cc70e.exe" /INCREMENTAL /ILK:"cmTC_cc70e.dir\\Debug\\cmTC_cc70e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-g0mg0h/Debug/cmTC_cc70e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-g0mg0h/Debug/cmTC_cc70e.lib" /MACHINE:X64  /machine:x64 cmTC_cc70e.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_cc70e.vcxproj -> C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g0mg0h\\Debug\\cmTC_cc70e.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_4970c.dir\\Debug\\cmTC_4970c.tlog\\unsuccessfulbuild".
-          Touching "cmTC_4970c.dir\\Debug\\cmTC_4970c.tlog\\cmTC_4970c.lastbuildstate".
-        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pdwzg8\\cmTC_4970c.vcxproj" (default targets).
+          Deleting file "cmTC_cc70e.dir\\Debug\\cmTC_cc70e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_cc70e.dir\\Debug\\cmTC_cc70e.tlog\\cmTC_cc70e.lastbuildstate".
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g0mg0h\\cmTC_cc70e.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.42
+        Time Elapsed 00:00:00.37
         
       exitCode: 0
   -
@@ -160,8 +160,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-2qg0x5"
-      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-2qg0x5"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-cwpy4x"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-cwpy4x"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -171,39 +171,39 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-2qg0x5'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-cwpy4x'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_59965.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_2523f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 2026-04-27 8:05:33 PM.
-        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2qg0x5\\cmTC_59965.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:14:36 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cwpy4x\\cmTC_2523f.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_59965.dir\\Debug\\".
-          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2qg0x5\\Debug\\".
-          Creating directory "cmTC_59965.dir\\Debug\\cmTC_59965.tlog\\".
+          Creating directory "cmTC_2523f.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cwpy4x\\Debug\\".
+          Creating directory "cmTC_2523f.dir\\Debug\\cmTC_2523f.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_59965.dir\\Debug\\cmTC_59965.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_2523f.dir\\Debug\\cmTC_2523f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_59965.dir\\Debug\\\\" /Fd"cmTC_59965.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2qg0x5\\src.cxx"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_2523f.dir\\Debug\\\\" /Fd"cmTC_2523f.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cwpy4x\\src.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
           src.cxx
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_59965.dir\\Debug\\\\" /Fd"cmTC_59965.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2qg0x5\\src.cxx"
-        C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2qg0x5\\src.cxx(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2qg0x5\\cmTC_59965.vcxproj]
-        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2qg0x5\\cmTC_59965.vcxproj" (default targets) -- FAILED.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_2523f.dir\\Debug\\\\" /Fd"cmTC_2523f.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cwpy4x\\src.cxx"
+        C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cwpy4x\\src.cxx(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cwpy4x\\cmTC_2523f.vcxproj]
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cwpy4x\\cmTC_2523f.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2qg0x5\\cmTC_59965.vcxproj" (default target) (1) ->
+        "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cwpy4x\\cmTC_2523f.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2qg0x5\\src.cxx(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2qg0x5\\cmTC_59965.vcxproj]
+          C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cwpy4x\\src.cxx(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cwpy4x\\cmTC_2523f.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.27
+        Time Elapsed 00:00:00.28
         
       exitCode: 1
   -
@@ -220,8 +220,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-qukug2"
-      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-qukug2"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-855f5d"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-855f5d"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -231,41 +231,41 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-qukug2'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-855f5d'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_047a2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_9ca25.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 2026-04-27 8:05:34 PM.
-        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qukug2\\cmTC_047a2.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:14:37 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-855f5d\\cmTC_9ca25.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_047a2.dir\\Debug\\".
-          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qukug2\\Debug\\".
-          Creating directory "cmTC_047a2.dir\\Debug\\cmTC_047a2.tlog\\".
+          Creating directory "cmTC_9ca25.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-855f5d\\Debug\\".
+          Creating directory "cmTC_9ca25.dir\\Debug\\cmTC_9ca25.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_047a2.dir\\Debug\\cmTC_047a2.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_9ca25.dir\\Debug\\cmTC_9ca25.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_047a2.dir\\Debug\\\\" /Fd"cmTC_047a2.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qukug2\\CheckFunctionExists.cxx"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_9ca25.dir\\Debug\\\\" /Fd"cmTC_9ca25.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-855f5d\\CheckFunctionExists.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
-          CheckFunctionExists.cxx
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_047a2.dir\\Debug\\\\" /Fd"cmTC_047a2.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qukug2\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_9ca25.dir\\Debug\\\\" /Fd"cmTC_9ca25.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-855f5d\\CheckFunctionExists.cxx"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qukug2\\Debug\\cmTC_047a2.exe" /INCREMENTAL /ILK:"cmTC_047a2.dir\\Debug\\cmTC_047a2.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-qukug2/Debug/cmTC_047a2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-qukug2/Debug/cmTC_047a2.lib" /MACHINE:X64  /machine:x64 cmTC_047a2.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qukug2\\cmTC_047a2.vcxproj]
-        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qukug2\\cmTC_047a2.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-855f5d\\Debug\\cmTC_9ca25.exe" /INCREMENTAL /ILK:"cmTC_9ca25.dir\\Debug\\cmTC_9ca25.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-855f5d/Debug/cmTC_9ca25.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-855f5d/Debug/cmTC_9ca25.lib" /MACHINE:X64  /machine:x64 cmTC_9ca25.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-855f5d\\cmTC_9ca25.vcxproj]
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-855f5d\\cmTC_9ca25.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qukug2\\cmTC_047a2.vcxproj" (default target) (1) ->
+        "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-855f5d\\cmTC_9ca25.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qukug2\\cmTC_047a2.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-855f5d\\cmTC_9ca25.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.31
+        Time Elapsed 00:00:00.32
         
       exitCode: 1
   -
@@ -282,8 +282,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-hl1x34"
-      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-hl1x34"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-yi8mkv"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-yi8mkv"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -293,41 +293,41 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-hl1x34'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-yi8mkv'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_b7137.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_8b0ba.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 2026-04-27 8:05:34 PM.
-        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hl1x34\\cmTC_b7137.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:14:37 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yi8mkv\\cmTC_8b0ba.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_b7137.dir\\Debug\\".
-          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hl1x34\\Debug\\".
-          Creating directory "cmTC_b7137.dir\\Debug\\cmTC_b7137.tlog\\".
+          Creating directory "cmTC_8b0ba.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yi8mkv\\Debug\\".
+          Creating directory "cmTC_8b0ba.dir\\Debug\\cmTC_8b0ba.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_b7137.dir\\Debug\\cmTC_b7137.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_8b0ba.dir\\Debug\\cmTC_8b0ba.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_b7137.dir\\Debug\\\\" /Fd"cmTC_b7137.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hl1x34\\CheckFunctionExists.cxx"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_8b0ba.dir\\Debug\\\\" /Fd"cmTC_8b0ba.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yi8mkv\\CheckFunctionExists.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
-          CheckFunctionExists.cxx
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_b7137.dir\\Debug\\\\" /Fd"cmTC_b7137.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hl1x34\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_8b0ba.dir\\Debug\\\\" /Fd"cmTC_8b0ba.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yi8mkv\\CheckFunctionExists.cxx"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hl1x34\\Debug\\cmTC_b7137.exe" /INCREMENTAL /ILK:"cmTC_b7137.dir\\Debug\\cmTC_b7137.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-hl1x34/Debug/cmTC_b7137.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-hl1x34/Debug/cmTC_b7137.lib" /MACHINE:X64  /machine:x64 cmTC_b7137.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hl1x34\\cmTC_b7137.vcxproj]
-        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hl1x34\\cmTC_b7137.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yi8mkv\\Debug\\cmTC_8b0ba.exe" /INCREMENTAL /ILK:"cmTC_8b0ba.dir\\Debug\\cmTC_8b0ba.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-yi8mkv/Debug/cmTC_8b0ba.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-yi8mkv/Debug/cmTC_8b0ba.lib" /MACHINE:X64  /machine:x64 cmTC_8b0ba.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yi8mkv\\cmTC_8b0ba.vcxproj]
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yi8mkv\\cmTC_8b0ba.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hl1x34\\cmTC_b7137.vcxproj" (default target) (1) ->
+        "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yi8mkv\\cmTC_8b0ba.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hl1x34\\cmTC_b7137.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yi8mkv\\cmTC_8b0ba.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.30
+        Time Elapsed 00:00:00.32
         
       exitCode: 1
   -
@@ -345,8 +345,8 @@ events:
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-epiwjl"
-      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-epiwjl"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-ihpt2i"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-ihpt2i"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -356,39 +356,39 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-epiwjl'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-ihpt2i'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_ac063.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_f9823.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 2026-04-27 8:05:35 PM.
-        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epiwjl\\cmTC_ac063.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:14:38 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ihpt2i\\cmTC_f9823.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_ac063.dir\\Debug\\".
-          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epiwjl\\Debug\\".
-          Creating directory "cmTC_ac063.dir\\Debug\\cmTC_ac063.tlog\\".
+          Creating directory "cmTC_f9823.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ihpt2i\\Debug\\".
+          Creating directory "cmTC_f9823.dir\\Debug\\cmTC_f9823.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_ac063.dir\\Debug\\cmTC_ac063.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_f9823.dir\\Debug\\cmTC_f9823.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STDATOMIC /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_ac063.dir\\Debug\\\\" /Fd"cmTC_ac063.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epiwjl\\src.cxx"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STDATOMIC /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_f9823.dir\\Debug\\\\" /Fd"cmTC_f9823.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ihpt2i\\src.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
           src.cxx
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STDATOMIC /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_ac063.dir\\Debug\\\\" /Fd"cmTC_ac063.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epiwjl\\src.cxx"
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STDATOMIC /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_f9823.dir\\Debug\\\\" /Fd"cmTC_f9823.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ihpt2i\\src.cxx"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epiwjl\\Debug\\cmTC_ac063.exe" /INCREMENTAL /ILK:"cmTC_ac063.dir\\Debug\\cmTC_ac063.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-epiwjl/Debug/cmTC_ac063.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-epiwjl/Debug/cmTC_ac063.lib" /MACHINE:X64  /machine:x64 cmTC_ac063.dir\\Debug\\src.obj
-          cmTC_ac063.vcxproj -> C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epiwjl\\Debug\\cmTC_ac063.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ihpt2i\\Debug\\cmTC_f9823.exe" /INCREMENTAL /ILK:"cmTC_f9823.dir\\Debug\\cmTC_f9823.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-ihpt2i/Debug/cmTC_f9823.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-ihpt2i/Debug/cmTC_f9823.lib" /MACHINE:X64  /machine:x64 cmTC_f9823.dir\\Debug\\src.obj
+          cmTC_f9823.vcxproj -> C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ihpt2i\\Debug\\cmTC_f9823.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_ac063.dir\\Debug\\cmTC_ac063.tlog\\unsuccessfulbuild".
-          Touching "cmTC_ac063.dir\\Debug\\cmTC_ac063.tlog\\cmTC_ac063.lastbuildstate".
-        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epiwjl\\cmTC_ac063.vcxproj" (default targets).
+          Deleting file "cmTC_f9823.dir\\Debug\\cmTC_f9823.tlog\\unsuccessfulbuild".
+          Touching "cmTC_f9823.dir\\Debug\\cmTC_f9823.tlog\\cmTC_f9823.lastbuildstate".
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ihpt2i\\cmTC_f9823.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.40
+        Time Elapsed 00:00:00.41
         
       exitCode: 0
   -
@@ -409,7 +409,7 @@ events:
       Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
       Copyright (C) Microsoft Corporation. All rights reserved.
       
-      Build started 2026-04-27 8:05:40 PM.
+      Build started 2026-04-27 8:14:39 PM.
       Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
@@ -435,7 +435,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.41
+      Time Elapsed 00:00:00.39
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -454,8 +454,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-dglku6"
-      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-dglku6"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-wpi9vl"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-wpi9vl"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -465,39 +465,39 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-dglku6'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-wpi9vl'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_c3d97.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_771ef.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 2026-04-27 8:05:41 PM.
-        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dglku6\\cmTC_c3d97.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:14:40 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wpi9vl\\cmTC_771ef.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_c3d97.dir\\Debug\\".
-          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dglku6\\Debug\\".
-          Creating directory "cmTC_c3d97.dir\\Debug\\cmTC_c3d97.tlog\\".
+          Creating directory "cmTC_771ef.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wpi9vl\\Debug\\".
+          Creating directory "cmTC_771ef.dir\\Debug\\cmTC_771ef.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_c3d97.dir\\Debug\\cmTC_c3d97.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_771ef.dir\\Debug\\cmTC_771ef.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c3d97.dir\\Debug\\\\" /Fd"cmTC_c3d97.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_771ef.dir\\Debug\\\\" /Fd"cmTC_771ef.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
           CMakeCCompilerABI.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c3d97.dir\\Debug\\\\" /Fd"cmTC_c3d97.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_771ef.dir\\Debug\\\\" /Fd"cmTC_771ef.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dglku6\\Debug\\cmTC_c3d97.exe" /INCREMENTAL /ILK:"cmTC_c3d97.dir\\Debug\\cmTC_c3d97.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-dglku6/Debug/cmTC_c3d97.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-dglku6/Debug/cmTC_c3d97.lib" /MACHINE:X64  /machine:x64 cmTC_c3d97.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_c3d97.vcxproj -> C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dglku6\\Debug\\cmTC_c3d97.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wpi9vl\\Debug\\cmTC_771ef.exe" /INCREMENTAL /ILK:"cmTC_771ef.dir\\Debug\\cmTC_771ef.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-wpi9vl/Debug/cmTC_771ef.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-wpi9vl/Debug/cmTC_771ef.lib" /MACHINE:X64  /machine:x64 cmTC_771ef.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_771ef.vcxproj -> C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wpi9vl\\Debug\\cmTC_771ef.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_c3d97.dir\\Debug\\cmTC_c3d97.tlog\\unsuccessfulbuild".
-          Touching "cmTC_c3d97.dir\\Debug\\cmTC_c3d97.tlog\\cmTC_c3d97.lastbuildstate".
-        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dglku6\\cmTC_c3d97.vcxproj" (default targets).
+          Deleting file "cmTC_771ef.dir\\Debug\\cmTC_771ef.tlog\\unsuccessfulbuild".
+          Touching "cmTC_771ef.dir\\Debug\\cmTC_771ef.tlog\\cmTC_771ef.lastbuildstate".
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wpi9vl\\cmTC_771ef.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.36
+        Time Elapsed 00:00:00.37
         
       exitCode: 0
   -
@@ -537,8 +537,8 @@ events:
     checks:
       - "Looking for lzma_auto_decoder in C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/lib/liblzma.lib"
     directories:
-      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-spbolq"
-      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-spbolq"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-tha5fi"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-tha5fi"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -549,45 +549,45 @@ events:
       variable: "LIBLZMA_HAS_AUTO_DECODER"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-spbolq'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-tha5fi'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_788b3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_7616a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 2026-04-27 8:08:34 PM.
-        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-spbolq\\cmTC_788b3.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:17:25 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tha5fi\\cmTC_7616a.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_788b3.dir\\Debug\\".
-          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-spbolq\\Debug\\".
-          Creating directory "cmTC_788b3.dir\\Debug\\cmTC_788b3.tlog\\".
+          Creating directory "cmTC_7616a.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tha5fi\\Debug\\".
+          Creating directory "cmTC_7616a.dir\\Debug\\cmTC_7616a.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_788b3.dir\\Debug\\cmTC_788b3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_7616a.dir\\Debug\\cmTC_7616a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=lzma_auto_decoder /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_788b3.dir\\Debug\\\\" /Fd"cmTC_788b3.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-spbolq\\CheckFunctionExists.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=lzma_auto_decoder /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7616a.dir\\Debug\\\\" /Fd"cmTC_7616a.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tha5fi\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
           CheckFunctionExists.c
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=lzma_auto_decoder /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_788b3.dir\\Debug\\\\" /Fd"cmTC_788b3.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-spbolq\\CheckFunctionExists.c"
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=lzma_auto_decoder /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7616a.dir\\Debug\\\\" /Fd"cmTC_7616a.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tha5fi\\CheckFunctionExists.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-spbolq\\Debug\\cmTC_788b3.exe" /INCREMENTAL /ILK:"cmTC_788b3.dir\\Debug\\cmTC_788b3.ilk" /NOLOGO "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\install\\lib\\liblzma.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-spbolq/Debug/cmTC_788b3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-spbolq/Debug/cmTC_788b3.lib" /MACHINE:X64  /machine:x64 cmTC_788b3.dir\\Debug\\CheckFunctionExists.obj
-        LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-spbolq\\cmTC_788b3.vcxproj]
-          cmTC_788b3.vcxproj -> C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-spbolq\\Debug\\cmTC_788b3.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tha5fi\\Debug\\cmTC_7616a.exe" /INCREMENTAL /ILK:"cmTC_7616a.dir\\Debug\\cmTC_7616a.ilk" /NOLOGO "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\install\\lib\\liblzma.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-tha5fi/Debug/cmTC_7616a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-tha5fi/Debug/cmTC_7616a.lib" /MACHINE:X64  /machine:x64 cmTC_7616a.dir\\Debug\\CheckFunctionExists.obj
+        LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tha5fi\\cmTC_7616a.vcxproj]
+          cmTC_7616a.vcxproj -> C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tha5fi\\Debug\\cmTC_7616a.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_788b3.dir\\Debug\\cmTC_788b3.tlog\\unsuccessfulbuild".
-          Touching "cmTC_788b3.dir\\Debug\\cmTC_788b3.tlog\\cmTC_788b3.lastbuildstate".
-        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-spbolq\\cmTC_788b3.vcxproj" (default targets).
+          Deleting file "cmTC_7616a.dir\\Debug\\cmTC_7616a.tlog\\unsuccessfulbuild".
+          Touching "cmTC_7616a.dir\\Debug\\cmTC_7616a.tlog\\cmTC_7616a.lastbuildstate".
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tha5fi\\cmTC_7616a.vcxproj" (default targets).
         
         Build succeeded.
         
-        "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-spbolq\\cmTC_788b3.vcxproj" (default target) (1) ->
+        "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tha5fi\\cmTC_7616a.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-spbolq\\cmTC_788b3.vcxproj]
+          LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tha5fi\\cmTC_7616a.vcxproj]
         
             1 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.38
+        Time Elapsed 00:00:00.43
         
       exitCode: 0
   -
@@ -599,8 +599,8 @@ events:
     checks:
       - "Looking for lzma_easy_encoder in C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/lib/liblzma.lib"
     directories:
-      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-w0t0a3"
-      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-w0t0a3"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-6p53uo"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-6p53uo"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -611,45 +611,45 @@ events:
       variable: "LIBLZMA_HAS_EASY_ENCODER"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-w0t0a3'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-6p53uo'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_51618.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_f05ea.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 2026-04-27 8:08:35 PM.
-        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w0t0a3\\cmTC_51618.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:17:26 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6p53uo\\cmTC_f05ea.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_51618.dir\\Debug\\".
-          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w0t0a3\\Debug\\".
-          Creating directory "cmTC_51618.dir\\Debug\\cmTC_51618.tlog\\".
+          Creating directory "cmTC_f05ea.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6p53uo\\Debug\\".
+          Creating directory "cmTC_f05ea.dir\\Debug\\cmTC_f05ea.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_51618.dir\\Debug\\cmTC_51618.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_f05ea.dir\\Debug\\cmTC_f05ea.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=lzma_easy_encoder /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_51618.dir\\Debug\\\\" /Fd"cmTC_51618.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w0t0a3\\CheckFunctionExists.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=lzma_easy_encoder /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f05ea.dir\\Debug\\\\" /Fd"cmTC_f05ea.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6p53uo\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
           CheckFunctionExists.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=lzma_easy_encoder /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_51618.dir\\Debug\\\\" /Fd"cmTC_51618.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w0t0a3\\CheckFunctionExists.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=lzma_easy_encoder /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f05ea.dir\\Debug\\\\" /Fd"cmTC_f05ea.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6p53uo\\CheckFunctionExists.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w0t0a3\\Debug\\cmTC_51618.exe" /INCREMENTAL /ILK:"cmTC_51618.dir\\Debug\\cmTC_51618.ilk" /NOLOGO "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\install\\lib\\liblzma.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-w0t0a3/Debug/cmTC_51618.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-w0t0a3/Debug/cmTC_51618.lib" /MACHINE:X64  /machine:x64 cmTC_51618.dir\\Debug\\CheckFunctionExists.obj
-        LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w0t0a3\\cmTC_51618.vcxproj]
-          cmTC_51618.vcxproj -> C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w0t0a3\\Debug\\cmTC_51618.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6p53uo\\Debug\\cmTC_f05ea.exe" /INCREMENTAL /ILK:"cmTC_f05ea.dir\\Debug\\cmTC_f05ea.ilk" /NOLOGO "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\install\\lib\\liblzma.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-6p53uo/Debug/cmTC_f05ea.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-6p53uo/Debug/cmTC_f05ea.lib" /MACHINE:X64  /machine:x64 cmTC_f05ea.dir\\Debug\\CheckFunctionExists.obj
+        LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6p53uo\\cmTC_f05ea.vcxproj]
+          cmTC_f05ea.vcxproj -> C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6p53uo\\Debug\\cmTC_f05ea.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_51618.dir\\Debug\\cmTC_51618.tlog\\unsuccessfulbuild".
-          Touching "cmTC_51618.dir\\Debug\\cmTC_51618.tlog\\cmTC_51618.lastbuildstate".
-        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w0t0a3\\cmTC_51618.vcxproj" (default targets).
+          Deleting file "cmTC_f05ea.dir\\Debug\\cmTC_f05ea.tlog\\unsuccessfulbuild".
+          Touching "cmTC_f05ea.dir\\Debug\\cmTC_f05ea.tlog\\cmTC_f05ea.lastbuildstate".
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6p53uo\\cmTC_f05ea.vcxproj" (default targets).
         
         Build succeeded.
         
-        "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w0t0a3\\cmTC_51618.vcxproj" (default target) (1) ->
+        "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6p53uo\\cmTC_f05ea.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w0t0a3\\cmTC_51618.vcxproj]
+          LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6p53uo\\cmTC_f05ea.vcxproj]
         
             1 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.39
+        Time Elapsed 00:00:00.43
         
       exitCode: 0
   -
@@ -661,8 +661,8 @@ events:
     checks:
       - "Looking for lzma_lzma_preset in C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/sw/mavsdk/third_party/install/lib/liblzma.lib"
     directories:
-      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-ew58b4"
-      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-ew58b4"
+      source: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-20uj3c"
+      binary: "C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-20uj3c"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -673,45 +673,45 @@ events:
       variable: "LIBLZMA_HAS_LZMA_PRESET"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-ew58b4'
+        Change Dir: 'C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-20uj3c'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_efebe.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_03094.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 2026-04-27 8:08:36 PM.
-        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ew58b4\\cmTC_efebe.vcxproj" on node 1 (default targets).
+        Build started 2026-04-27 8:17:27 PM.
+        Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-20uj3c\\cmTC_03094.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_efebe.dir\\Debug\\".
-          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ew58b4\\Debug\\".
-          Creating directory "cmTC_efebe.dir\\Debug\\cmTC_efebe.tlog\\".
+          Creating directory "cmTC_03094.dir\\Debug\\".
+          Creating directory "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-20uj3c\\Debug\\".
+          Creating directory "cmTC_03094.dir\\Debug\\cmTC_03094.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_efebe.dir\\Debug\\cmTC_efebe.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_03094.dir\\Debug\\cmTC_03094.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=lzma_lzma_preset /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_efebe.dir\\Debug\\\\" /Fd"cmTC_efebe.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ew58b4\\CheckFunctionExists.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=lzma_lzma_preset /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_03094.dir\\Debug\\\\" /Fd"cmTC_03094.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-20uj3c\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
           CheckFunctionExists.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=lzma_lzma_preset /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_efebe.dir\\Debug\\\\" /Fd"cmTC_efebe.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ew58b4\\CheckFunctionExists.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=lzma_lzma_preset /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_03094.dir\\Debug\\\\" /Fd"cmTC_03094.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-20uj3c\\CheckFunctionExists.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ew58b4\\Debug\\cmTC_efebe.exe" /INCREMENTAL /ILK:"cmTC_efebe.dir\\Debug\\cmTC_efebe.ilk" /NOLOGO "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\install\\lib\\liblzma.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-ew58b4/Debug/cmTC_efebe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-ew58b4/Debug/cmTC_efebe.lib" /MACHINE:X64  /machine:x64 cmTC_efebe.dir\\Debug\\CheckFunctionExists.obj
-        LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ew58b4\\cmTC_efebe.vcxproj]
-          cmTC_efebe.vcxproj -> C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ew58b4\\Debug\\cmTC_efebe.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-20uj3c\\Debug\\cmTC_03094.exe" /INCREMENTAL /ILK:"cmTC_03094.dir\\Debug\\cmTC_03094.ilk" /NOLOGO "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\sw\\mavsdk\\third_party\\install\\lib\\liblzma.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-20uj3c/Debug/cmTC_03094.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/thoma/work/uav/VCSi-SUAVPLUGIN/build/CMakeFiles/CMakeScratch/TryCompile-20uj3c/Debug/cmTC_03094.lib" /MACHINE:X64  /machine:x64 cmTC_03094.dir\\Debug\\CheckFunctionExists.obj
+        LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-20uj3c\\cmTC_03094.vcxproj]
+          cmTC_03094.vcxproj -> C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-20uj3c\\Debug\\cmTC_03094.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_efebe.dir\\Debug\\cmTC_efebe.tlog\\unsuccessfulbuild".
-          Touching "cmTC_efebe.dir\\Debug\\cmTC_efebe.tlog\\cmTC_efebe.lastbuildstate".
-        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ew58b4\\cmTC_efebe.vcxproj" (default targets).
+          Deleting file "cmTC_03094.dir\\Debug\\cmTC_03094.tlog\\unsuccessfulbuild".
+          Touching "cmTC_03094.dir\\Debug\\cmTC_03094.tlog\\cmTC_03094.lastbuildstate".
+        Done Building Project "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-20uj3c\\cmTC_03094.vcxproj" (default targets).
         
         Build succeeded.
         
-        "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ew58b4\\cmTC_efebe.vcxproj" (default target) (1) ->
+        "C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-20uj3c\\cmTC_03094.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ew58b4\\cmTC_efebe.vcxproj]
+          LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library [C:\\Users\\thoma\\work\\uav\\VCSi-SUAVPLUGIN\\build\\CMakeFiles\\CMakeScratch\\TryCompile-20uj3c\\cmTC_03094.vcxproj]
         
             1 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.37
+        Time Elapsed 00:00:00.41
         
       exitCode: 0
 ...

@@ -5,7 +5,7 @@ includedir=C:/Program Files/SuavPlugin/include
 
 Name: MAVSDK
 Description: API and library for MAVLink compatible systems written in C++17
-Version: 0.0.0.0.0.0.0.0.0
+Version: 3.14.0
 Requires.private: libcurl jsoncpp tinyxml2
 Libs: -L"${libdir}" -lmavsdk
 Cflags: -I"${includedir}" -I"${includedir}/mavsdk"
