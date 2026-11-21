@@ -85,7 +85,9 @@ target_link_libraries(SuavPlugin PRIVATE
 
 set(PLUGIN_DIR "${LMCDL_ROOT}/bin/plugins/vcsi" CACHE PATH "Destination for the built plugin DLL")
 
-add_custom_command(TARGET SuavPlugin POST_BUILD
+add_custom_target(InstallSuavPlugin
     COMMAND ${CMAKE_COMMAND} -E make_directory "${PLUGIN_DIR}"
     COMMAND ${CMAKE_COMMAND} -E copy_if_different $<TARGET_FILE:SuavPlugin> "${PLUGIN_DIR}/$<TARGET_FILE_NAME:SuavPlugin>"
+    DEPENDS SuavPlugin
+    VERBATIM
 )
