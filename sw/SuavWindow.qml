@@ -63,15 +63,6 @@ ApplicationWindow {
                 }
             }
         }
-        TextField {
-                id: parameterSearch
-                Layout.fillWidth: true
-                Layout.preferredHeight: 40
-                placeholderText: "Search by ID or display name..."
-                color: "white"
-                text: parameterModule.parameterFilter
-                onTextChanged: parameterModule.parameterFilter = text
-            }
         RowLayout {
             spacing: 8
 
@@ -109,6 +100,15 @@ ApplicationWindow {
             
             }
         }
+        TextField {
+                id: parameterSearch
+                Layout.fillWidth: true
+                Layout.preferredHeight: 40
+                placeholderText: "Search by ID or display name..."
+                color: "white"
+                text: parameterModule.parameterFilter
+                onTextChanged: parameterModule.parameterFilter = text
+            }
         ListView {
                 id: paramsList
                 Layout.fillWidth: true
