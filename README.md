@@ -42,6 +42,8 @@ git submodule update --init --recursive
 
 The script builds the Release plugin and copies the DLL into the VCSi plugin directory. It expects Qt 6.5.3 for MSVC 2019 x64 at `C:\Qt\6.5.3\msvc2019_64`. If Qt is installed elsewhere, update the Qt paths in the script.
 
+Keep `build/` between runs so CMake can reuse its configuration and compiled dependencies. Run `.\install.bat --configure` after adding or removing source files, updating the MAVSDK submodule, or changing Qt paths. This refreshes the project files while keeping the existing build output.
+
 ### Testing with SITL (Software In The Loop)
 
 To test the plugin without a physical drone, use ArduPilot SITL.
