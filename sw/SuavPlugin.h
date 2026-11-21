@@ -11,6 +11,7 @@ namespace LmCdl
 {
     class I_QmlApi;
     class I_VehicleCollectionApi;
+    class I_VcsiApplicationApi;
 }
 
 class SuavPlugin : public QObject, public LmCdl::I_Plugin
@@ -35,6 +36,7 @@ private:
 private:
     LmCdl::I_VehicleCollectionApi* collectionApi_;
     LmCdl::I_QmlApi* qmlApi_;
+    LmCdl::I_VcsiApplicationApi* vcsiApplicationApi_;
 
     std::unique_ptr<SuavPluginContent> content_; 
 };

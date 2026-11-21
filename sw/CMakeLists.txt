@@ -20,9 +20,7 @@ find_package(Qt6 6.5.3 REQUIRED COMPONENTS Core Widgets Gui Qml QuickWidgets Qui
 # --- MAVSDK CONFIGURATION ---
 set(BUILD_SHARED_LIBS OFF CACHE BOOL "Build static libs" FORCE)
 set(BUILD_MAVSDK_SERVER OFF CACHE BOOL "Disable server" FORCE)
-set(MAVSDK_BUILD_TESTS OFF CACHE BOOL "Disable tests" FORCE)
-set(MAVSDK_BUILD_EXAMPLES OFF CACHE BOOL "Disable examples" FORCE)
-set(MAVSDK_BUILD_INTEGRATION_TESTS OFF CACHE BOOL "Disable integration tests" FORCE)
+option(BUILD_TESTING "Build MAVSDK tests" OFF)
 set(BUILD_WITHOUT_CURL ON CACHE BOOL "Disable HTTP/S (OpenSSL) deps" FORCE)
 
 # Build MAVSDK
@@ -85,7 +83,7 @@ target_link_libraries(SuavPlugin PRIVATE
     mavsdk
 )
 
-set(PLUGIN_DIR "${LMCDL_ROOT}/bin/plugins/vcsi")
+set(PLUGIN_DIR "${LMCDL_ROOT}/bin/plugins/vcsi" CACHE PATH "Destination for the built plugin DLL")
 
 add_custom_command(TARGET SuavPlugin POST_BUILD
     COMMAND ${CMAKE_COMMAND} -E make_directory "${PLUGIN_DIR}"
