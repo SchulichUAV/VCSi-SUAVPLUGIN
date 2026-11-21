@@ -33,13 +33,19 @@ The VCSi plugin explicitly requires **Qt 6.5.3**, which in turn requires **MSVC 
 
 ## 2. Primary Setup & Build
 
-We now build MAVSDK from source directly within the project. Follow these steps carefully.
+The plugin builds MAVSDK from source. After cloning the repository or switching to this branch, initialize the pinned dependencies:
+
+```powershell
+git submodule update --init --recursive
+```
 
 ### Run as Administrator
 
 Open your terminal (PowerShell or Command Prompt) as **Administrator**. 
 
 Why? The build script attempts to automatically copy the compiled DLL into C:\Program Files\LMCDL\, which requires elevated permissions.
+
+For a local build without installing the plugin into VCSi, set `-DPLUGIN_DIR=build/plugin` at configure time.
 
 ### Build Configuration
 
