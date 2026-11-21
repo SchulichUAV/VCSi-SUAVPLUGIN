@@ -31,36 +31,16 @@ The VCSi plugin explicitly requires **Qt 6.5.3**, which in turn requires **MSVC 
 
 ---
 
-## 2. Primary Setup & Build
+## 2. Build and Install
 
-The plugin builds MAVSDK from source. After cloning the repository or switching to this branch, initialize the pinned dependencies:
+Open PowerShell as Administrator in the repository root. Save your work in VCSi before running [install.bat](install.bat), since the script closes any running VCSi instance.
 
 ```powershell
 git submodule update --init --recursive
+.\install.bat
 ```
 
-### Run as Administrator
-
-Open your terminal (PowerShell or Command Prompt) as **Administrator**. 
-
-Why? The build script attempts to automatically copy the compiled DLL into C:\Program Files\LMCDL\, which requires elevated permissions.
-
-For a local build without installing the plugin into VCSi, set `-DPLUGIN_DIR=build/plugin` at configure time.
-
-### Build Configuration
-
-1. Navigate to the top-level directory of the project VCSi-SUAVPLUGIN).
-2. Clean any old build artifacts (if rebuilding):
-   rmdir /s /q build
-3. Configure the build:
-   cmake -B build -S . -G "Visual Studio 16 2019" -A x64 ^
-    -DQt6_DIR="C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6" ^
-    -DQt6GuiTools_DIR="C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6GuiTools" ^
-    -DQt6Qml_DIR="C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6Qml" ^
-    -DQt6QmlTools_DIR="C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6QmlTools" ^
-    -DQt6WidgetsTools_DIR="C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6WidgetsTools"
-4. Build the project:
-   cmake --build build --config Release
+The script builds the Release plugin and copies the DLL into the VCSi plugin directory. It expects Qt 6.5.3 for MSVC 2019 x64 at `C:\Qt\6.5.3\msvc2019_64`. If Qt is installed elsewhere, update the Qt paths in the script.
 
 ### Testing with SITL (Software In The Loop)
 
