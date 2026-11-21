@@ -26,6 +26,7 @@ if /I "%~1"=="--configure" goto configure
 if not exist "%BUILD_DIR%\CMakeCache.txt" goto configure
 if not exist "%BUILD_DIR%\SuavPlugin.sln" goto configure
 if not exist "%BUILD_DIR%\sw\SuavPlugin.vcxproj" goto configure
+if not exist "%BUILD_DIR%\sw\InstallSuavPlugin.vcxproj" goto configure
 echo Reusing the CMake configuration in %BUILD_DIR%.
 goto build
 
@@ -45,12 +46,12 @@ if errorlevel 1 (
 
 :build
 taskkill /F /IM vcsi.exe
-echo Building SuavPlugin (%CONFIG%)...
-cmake --build "%BUILD_DIR%" --config %CONFIG% --target SuavPlugin --parallel
+echo Building and installing SuavPlugin (%CONFIG%)...
+cmake --build "%BUILD_DIR%" --config %CONFIG% --target InstallSuavPlugin --parallel
 
 if errorlevel 1 (
     echo.
-    echo Build failed.
+    echo Build or installation failed.
     popd
     exit /b 1
 )

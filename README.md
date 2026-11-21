@@ -44,6 +44,8 @@ The script builds the Release plugin and copies the DLL into the VCSi plugin dir
 
 Keep `build/` between runs so CMake can reuse its configuration and compiled dependencies. Run `.\install.bat --configure` after adding or removing source files, updating the MAVSDK submodule, or changing Qt paths. This refreshes the project files while keeping the existing build output.
 
+The installer copies the Release DLL into VCSi even when the build is already up to date. To share a prebuilt plugin, attach the DLL built from the release tag (`build/sw/Release/SuavPlugin.dll`) to the matching GitHub Release.
+
 ### Testing with SITL (Software In The Loop)
 
 To test the plugin without a physical drone, use ArduPilot SITL.
