@@ -24,7 +24,7 @@ ApplicationWindow {
 
             TextField {
                 id: connectionUrlInput
-                text: "udpin://127.0.0.1:14550"
+                text: "udpin://0.0.0.0:14550"
                 color: "#E8EAFF"
                 placeholderText: "udpin://x.x.x.x:xxxx"
                 placeholderTextColor: "#6B7299"
@@ -41,9 +41,13 @@ ApplicationWindow {
 
             Button {
                 id: connectMavlinkButton
-                property bool connected: false
                 Layout.fillWidth: true
-                text: "Connect to Vehicle"
+                text: mavlinkConnection.vehicleConnected
+                    ? "Vehicle Connected"
+                    : mavlinkConnection.connectionStatus === "Not connected"
+                        || mavlinkConnection.connectionStatus.startsWith("Connection failed")
+                        ? "Connect to Vehicle"
+                        : "Listening for Vehicle"
 
                 contentItem: Text {
                     text: connectMavlinkButton.text
@@ -53,16 +57,39 @@ ApplicationWindow {
                 }
 
                 background: Rectangle {
-                    color: connectMavlinkButton.connected ? "#22C55E" : "#EF4444"
+                    color: mavlinkConnection.vehicleConnected
+                        ? "#22C55E"
+                        : mavlinkConnection.connectionStatus.startsWith("Waiting")
+                            || mavlinkConnection.connectionStatus.startsWith("Starting")
+                            ? "#D97706"
+                            : "#EF4444"
                     radius: 12
                 }
 
                 onClicked: {
                     mavlinkConnection.connectAsync(connectionUrlInput.text)
-                    connected = true
                 }
             }
         }
+        Text {
+            Layout.fillWidth: true
+            text: mavlinkConnection.connectionStatus
+            color: mavlinkConnection.vehicleConnected
+                ? "#22C55E"
+                : mavlinkConnection.connectionStatus.startsWith("Waiting")
+                    || mavlinkConnection.connectionStatus.startsWith("Starting")
+                    ? "#D97706"
+                    : "#EF4444"
+        }
+        TextField {
+                id: parameterSearch
+                Layout.fillWidth: true
+                Layout.preferredHeight: 40
+                placeholderText: "Search by ID or display name..."
+                color: "white"
+                text: parameterModule.parameterFilter
+                onTextChanged: parameterModule.parameterFilter = text
+            }
         RowLayout {
             spacing: 8
 
@@ -73,7 +100,7 @@ ApplicationWindow {
                 Button {
                     id: startRtkButton
                     text: "Connect to RTK server"
-                    enabled: connectMavlinkButton.connected
+                    enabled: mavlinkConnection.vehicleConnected
                     property bool startServer: false
 
                     contentItem: Text {
